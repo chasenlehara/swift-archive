@@ -22,6 +22,157 @@
 
 	
 	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/26/my-comment-about.html" class="u-url"><time class="dt-published" datetime="2024-09-26 21:59:43 -0700">Sep 26, 2024</time></a>
+
+		<div class="e-content">
+			 <p>My comment about no <code>===</code> in Swift was incorrect, thanks Matt!</p>
+<p>I should know that a beginner course isn’t going to immediately explain referential equality, that won’t make sense yet.</p>
+<p><a href="https://mastodon.social/@mattiem/113203444245305184">https://mastodon.social/@mattiem/113203444245305184</a></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/25/no-in-swift.html" class="u-url"><time class="dt-published" datetime="2024-09-25 19:57:05 -0700">Sep 25, 2024</time></a>
+
+		<div class="e-content">
+			 <p>No <code>===</code> in Swift (just <code>==</code>) is nice!</p>
+<p>Enums being comparable is pretty cool too.</p>
+<p>And <code>switch</code> statements… is this the day I confess that I tend not to use them in JavaScript? Swift’s <code>fallthrough</code> syntax seems much safer than JS needing a <code>break</code> for each <code>case</code>.</p>
+<p>Day 5 done! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/24/this-is-really.html" class="u-url"><time class="dt-published" datetime="2024-09-24 18:31:20 -0700">Sep 24, 2024</time></a>
+
+		<div class="e-content">
+			 <p>This is really interesting:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">let</span> name: String
+<span style="color:#75715e">// …</span>
+name = <span style="color:#e6db74">&#34;Chasen&#34;</span>
+<span style="color:#75715e">// Allowed once</span>
+</code></pre></div><p>In JavaScript, the “equivalent” (using <code>const</code>) <em>requires</em> an initial value and doesn’t let you reassign it later. I like that Swift allows it be undefined and assigned just once.</p>
+<p>Day 4 done! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/23/coming-from-js.html" class="u-url"><time class="dt-published" datetime="2024-09-23 19:00:39 -0700">Sep 23, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Coming from JS, there are some small differences in array and dictionary syntax. This really stood out to me (as nice and explicit):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">let</span> olympics = [
+    <span style="color:#ae81ff">2016</span>: <span style="color:#e6db74">&#34;Rio de Janeiro&#34;</span>,
+    <span style="color:#ae81ff">2021</span>: <span style="color:#e6db74">&#34;Tokyo&#34;</span>,
+    <span style="color:#ae81ff">2024</span>: <span style="color:#e6db74">&#34;Paris&#34;</span>
+]
+
+print(olympics[<span style="color:#ae81ff">2020</span>, <span style="color:#66d9ef">default</span>: <span style="color:#e6db74">&#34;Unknown&#34;</span>])
+</code></pre></div><p>Day 3 in the books! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/22/this-has-a.html" class="u-url"><time class="dt-published" datetime="2024-09-22 20:32:56 -0700">Sep 22, 2024</time></a>
+
+		<div class="e-content">
+			 <p>This has a bug… can you spot it?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">let</span> temperature = <span style="color:#ae81ff">29</span>
+<span style="color:#66d9ef">let</span> converted = (temperature <span style="color:#f92672">*</span> <span style="color:#ae81ff">9</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">5</span>) <span style="color:#f92672">+</span> <span style="color:#ae81ff">32</span>
+print(<span style="color:#e6db74">&#34;Celsius: </span><span style="color:#e6db74">\(</span>temperature<span style="color:#e6db74">)</span><span style="color:#e6db74">&#34;</span>)
+print(<span style="color:#e6db74">&#34;Fahrenheit: </span><span style="color:#e6db74">\(</span>converted<span style="color:#e6db74">)</span><span style="color:#e6db74">&#34;</span>)
+</code></pre></div><p>I thought the compiler might warn when losing precision like this, but I guess not!</p>
+<p>Day 2 in the books! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/22/the-verges-article.html" class="u-url"><time class="dt-published" datetime="2024-09-22 11:34:16 -0700">Sep 22, 2024</time></a>
+
+		<div class="e-content">
+			 <p>The Verge’s article on the iPhone 16 Pro made me realize that the “rich contrast” photographic style is where it’s at on my 15 Pro. <a href="https://www.theverge.com/24247538/apple-iphone-16-pro-review">www.theverge.com/24247538/&hellip;</a></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/22/it-feels-like.html" class="u-url"><time class="dt-published" datetime="2024-09-22 10:31:49 -0700">Sep 22, 2024</time></a>
+
+		<div class="e-content">
+			 <p>It feels like some apps (like Passwords) get a lot of love and attention at Apple, while others languish. I wonder if the difference is in management, developer care, director priorities, or something else. <a href="https://hachyderm.io/@rmondello/113181667296070884">hachyderm.io/@rmondell&hellip;</a></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/21/im-going-to.html" class="u-url"><time class="dt-published" datetime="2024-09-21 21:30:48 -0700">Sep 21, 2024</time></a>
+
+		<div class="e-content">
+			 <p>I’m going to compare Swift to JavaScript <em>a lot</em> as I get up to speed.</p>
+<p>Seems like Swift’s var == let (in JS) and let == const. I’m sure that won’t trip me up…</p>
+<p>Interesting that <code>1_00__00___00____00</code> is valid in Swift (JS only allows one separator per digit, not multiple).</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/21/is-it-cheating.html" class="u-url"><time class="dt-published" datetime="2024-09-21 21:30:10 -0700">Sep 21, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Is it cheating to do Day 1 on the same day as Day 0? 🙈 #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/21/cute-that-theres.html" class="u-url"><time class="dt-published" datetime="2024-09-21 20:44:31 -0700">Sep 21, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Cute that there’s a Day 0 to kick things off, with this as reading material: <a href="https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer">www.hackingwithswift.com/articles/&hellip;</a></p>
+<p>I’m not trying to get a job as an iOS dev and I have a ton of dev experience; learning SwiftUI is a little hobby for me.</p>
+<p>#100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/21/im-stoked-to.html" class="u-url"><time class="dt-published" datetime="2024-09-21 20:33:40 -0700">Sep 21, 2024</time></a>
+
+		<div class="e-content">
+			 <p>I’m stoked to start my Swift journey by following the 100 Days of Swift UI course: <a href="https://www.hackingwithswift.com/100/swiftui">www.hackingwithswift.com/100/swift&hellip;</a> #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
 
 </div>
 
