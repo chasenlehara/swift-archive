@@ -2,9 +2,97 @@
 	"version": "https://jsonfeed.org/version/1",
 	"title": "Chasen",
 	"icon": "https://micro.blog/chasen/avatar.jpg",
-	"home_page_url": "https://chasen.micro.blog/",
-	"feed_url": "https://chasen.micro.blog/feed.json",
+	"home_page_url": "https://swift.chasen.dev/",
+	"feed_url": "https://swift.chasen.dev/feed.json",
 	"items": [
 		
+			{
+				"id": "http://chasen.micro.blog/2024/09/26/my-comment-about.html",
+				
+				"content_html": "<p>My comment about no <code>===</code> in Swift was incorrect, thanks Matt!</p>\n<p>I should know that a beginner course isn’t going to immediately explain referential equality, that won’t make sense yet.</p>\n<p><a href=\"https://mastodon.social/@mattiem/113203444245305184\">https://mastodon.social/@mattiem/113203444245305184</a></p>\n",
+				"content_text": "My comment about no `===` in Swift was incorrect, thanks Matt!\n\nI should know that a beginner course isn’t going to immediately explain referential equality, that won’t make sense yet.\n\nhttps://mastodon.social/@mattiem/113203444245305184\n",
+				"date_published": "2024-09-26T21:59:43-07:00",
+				"url": "https://swift.chasen.dev/2024/09/26/my-comment-about.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/25/no-in-swift.html",
+				
+				"content_html": "<p>No <code>===</code> in Swift (just <code>==</code>) is nice!</p>\n<p>Enums being comparable is pretty cool too.</p>\n<p>And <code>switch</code> statements… is this the day I confess that I tend not to use them in JavaScript? Swift’s <code>fallthrough</code> syntax seems much safer than JS needing a <code>break</code> for each <code>case</code>.</p>\n<p>Day 5 done! #100DaysOfSwiftUI</p>\n",
+				"content_text": "No `===` in Swift (just `==`) is nice!\n\nEnums being comparable is pretty cool too.\n\nAnd `switch` statements… is this the day I confess that I tend not to use them in JavaScript? Swift’s `fallthrough` syntax seems much safer than JS needing a `break` for each `case`.\n\nDay 5 done! #100DaysOfSwiftUI\n",
+				"date_published": "2024-09-25T19:57:05-07:00",
+				"url": "https://swift.chasen.dev/2024/09/25/no-in-swift.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/24/this-is-really.html",
+				
+				"content_html": "<p>This is really interesting:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"color:#66d9ef\">let</span> name: String\n<span style=\"color:#75715e\">// …</span>\nname = <span style=\"color:#e6db74\">&#34;Chasen&#34;</span>\n<span style=\"color:#75715e\">// Allowed once</span>\n</code></pre></div><p>In JavaScript, the “equivalent” (using <code>const</code>) <em>requires</em> an initial value and doesn’t let you reassign it later. I like that Swift allows it be undefined and assigned just once.</p>\n<p>Day 4 done! #100DaysOfSwiftUI</p>\n",
+				"content_text": "This is really interesting:\n\n```swift\nlet name: String\n// …\nname = \"Chasen\"\n// Allowed once\n```\n\nIn JavaScript, the “equivalent” (using `const`) _requires_ an initial value and doesn’t let you reassign it later. I like that Swift allows it be undefined and assigned just once.\n\nDay 4 done! #100DaysOfSwiftUI\n",
+				"date_published": "2024-09-24T18:31:20-07:00",
+				"url": "https://swift.chasen.dev/2024/09/24/this-is-really.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/23/coming-from-js.html",
+				
+				"content_html": "<p>Coming from JS, there are some small differences in array and dictionary syntax. This really stood out to me (as nice and explicit):</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"color:#66d9ef\">let</span> olympics = [\n    <span style=\"color:#ae81ff\">2016</span>: <span style=\"color:#e6db74\">&#34;Rio de Janeiro&#34;</span>,\n    <span style=\"color:#ae81ff\">2021</span>: <span style=\"color:#e6db74\">&#34;Tokyo&#34;</span>,\n    <span style=\"color:#ae81ff\">2024</span>: <span style=\"color:#e6db74\">&#34;Paris&#34;</span>\n]\n\nprint(olympics[<span style=\"color:#ae81ff\">2020</span>, <span style=\"color:#66d9ef\">default</span>: <span style=\"color:#e6db74\">&#34;Unknown&#34;</span>])\n</code></pre></div><p>Day 3 in the books! #100DaysOfSwiftUI</p>\n",
+				"content_text": "Coming from JS, there are some small differences in array and dictionary syntax. This really stood out to me (as nice and explicit):\n\n```swift\nlet olympics = [\n    2016: \"Rio de Janeiro\",\n    2021: \"Tokyo\",\n    2024: \"Paris\"\n]\n\nprint(olympics[2020, default: \"Unknown\"])\n```\n\nDay 3 in the books! #100DaysOfSwiftUI\n",
+				"date_published": "2024-09-23T19:00:39-07:00",
+				"url": "https://swift.chasen.dev/2024/09/23/coming-from-js.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/22/this-has-a.html",
+				
+				"content_html": "<p>This has a bug… can you spot it?</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"color:#66d9ef\">let</span> temperature = <span style=\"color:#ae81ff\">29</span>\n<span style=\"color:#66d9ef\">let</span> converted = (temperature <span style=\"color:#f92672\">*</span> <span style=\"color:#ae81ff\">9</span> <span style=\"color:#f92672\">/</span> <span style=\"color:#ae81ff\">5</span>) <span style=\"color:#f92672\">+</span> <span style=\"color:#ae81ff\">32</span>\nprint(<span style=\"color:#e6db74\">&#34;Celsius: </span><span style=\"color:#e6db74\">\\(</span>temperature<span style=\"color:#e6db74\">)</span><span style=\"color:#e6db74\">&#34;</span>)\nprint(<span style=\"color:#e6db74\">&#34;Fahrenheit: </span><span style=\"color:#e6db74\">\\(</span>converted<span style=\"color:#e6db74\">)</span><span style=\"color:#e6db74\">&#34;</span>)\n</code></pre></div><p>I thought the compiler might warn when losing precision like this, but I guess not!</p>\n<p>Day 2 in the books! #100DaysOfSwiftUI</p>\n",
+				"content_text": "This has a bug… can you spot it?\n\n```swift\nlet temperature = 29\nlet converted = (temperature * 9 / 5) + 32\nprint(\"Celsius: \\(temperature)\")\nprint(\"Fahrenheit: \\(converted)\")\n```\n\nI thought the compiler might warn when losing precision like this, but I guess not!\n\nDay 2 in the books! #100DaysOfSwiftUI\n",
+				"date_published": "2024-09-22T20:32:56-07:00",
+				"url": "https://swift.chasen.dev/2024/09/22/this-has-a.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/22/the-verges-article.html",
+				
+				"content_html": "<p>The Verge’s article on the iPhone 16 Pro made me realize that the “rich contrast” photographic style is where it’s at on my 15 Pro. <a href=\"https://www.theverge.com/24247538/apple-iphone-16-pro-review\">www.theverge.com/24247538/&hellip;</a></p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "The Verge’s article on the iPhone 16 Pro made me realize that the “rich contrast” photographic style is where it’s at on my 15 Pro. [www.theverge.com/24247538/...](https://www.theverge.com/24247538/apple-iphone-16-pro-review)\n\n<img src=\"uploads/2024/image.jpg\" width=\"499\" height=\"600\" alt=\"\"><img src=\"uploads/2024/269a779080.jpg\" width=\"431\" height=\"600\" alt=\"\">\n",
+				"date_published": "2024-09-22T11:34:16-07:00",
+				"url": "https://swift.chasen.dev/2024/09/22/the-verges-article.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/22/it-feels-like.html",
+				
+				"content_html": "<p>It feels like some apps (like Passwords) get a lot of love and attention at Apple, while others languish. I wonder if the difference is in management, developer care, director priorities, or something else. <a href=\"https://hachyderm.io/@rmondello/113181667296070884\">hachyderm.io/@rmondell&hellip;</a></p>\n",
+				"content_text": "It feels like some apps (like Passwords) get a lot of love and attention at Apple, while others languish. I wonder if the difference is in management, developer care, director priorities, or something else. [hachyderm.io/@rmondell...](https://hachyderm.io/@rmondello/113181667296070884)\n",
+				"date_published": "2024-09-22T10:31:49-07:00",
+				"url": "https://swift.chasen.dev/2024/09/22/it-feels-like.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/21/im-going-to.html",
+				
+				"content_html": "<p>I’m going to compare Swift to JavaScript <em>a lot</em> as I get up to speed.</p>\n<p>Seems like Swift’s var == let (in JS) and let == const. I’m sure that won’t trip me up…</p>\n<p>Interesting that <code>1_00__00___00____00</code> is valid in Swift (JS only allows one separator per digit, not multiple).</p>\n",
+				"content_text": "I’m going to compare Swift to JavaScript *a lot* as I get up to speed.\n\nSeems like Swift’s var == let (in JS) and let == const. I’m sure that won’t trip me up…\n\nInteresting that `1_00__00___00____00` is valid in Swift (JS only allows one separator per digit, not multiple).\n",
+				"date_published": "2024-09-21T21:30:48-07:00",
+				"url": "https://swift.chasen.dev/2024/09/21/im-going-to.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/21/is-it-cheating.html",
+				
+				"content_html": "<p>Is it cheating to do Day 1 on the same day as Day 0? 🙈 #100DaysOfSwiftUI</p>\n",
+				"content_text": "Is it cheating to do Day 1 on the same day as Day 0? 🙈 #100DaysOfSwiftUI\n",
+				"date_published": "2024-09-21T21:30:10-07:00",
+				"url": "https://swift.chasen.dev/2024/09/21/is-it-cheating.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/21/cute-that-theres.html",
+				
+				"content_html": "<p>Cute that there’s a Day 0 to kick things off, with this as reading material: <a href=\"https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer\">www.hackingwithswift.com/articles/&hellip;</a></p>\n<p>I’m not trying to get a job as an iOS dev and I have a ton of dev experience; learning SwiftUI is a little hobby for me.</p>\n<p>#100DaysOfSwiftUI</p>\n",
+				"content_text": "Cute that there’s a Day 0 to kick things off, with this as reading material: [www.hackingwithswift.com/articles/...](https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer)\n\nI’m not trying to get a job as an iOS dev and I have a ton of dev experience; learning SwiftUI is a little hobby for me.\n\n#100DaysOfSwiftUI\n",
+				"date_published": "2024-09-21T20:44:31-07:00",
+				"url": "https://swift.chasen.dev/2024/09/21/cute-that-theres.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/21/im-stoked-to.html",
+				
+				"content_html": "<p>I’m stoked to start my Swift journey by following the 100 Days of Swift UI course: <a href=\"https://www.hackingwithswift.com/100/swiftui\">www.hackingwithswift.com/100/swift&hellip;</a> #100DaysOfSwiftUI</p>\n",
+				"content_text": "I’m stoked to start my Swift journey by following the 100 Days of Swift UI course: [www.hackingwithswift.com/100/swift...](https://www.hackingwithswift.com/100/swiftui) #100DaysOfSwiftUI\n",
+				"date_published": "2024-09-21T20:33:40-07:00",
+				"url": "https://swift.chasen.dev/2024/09/21/im-stoked-to.html"
+			}
 	]
 }
