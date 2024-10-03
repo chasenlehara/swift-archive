@@ -25,6 +25,115 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://swift.chasen.dev/2024/10/02/copies-of-the.html" class="u-url"><time class="dt-published" datetime="2024-10-02 19:11:29 -0700">Oct 2, 2024</time></a>
+
+		<div class="e-content">
+			 <blockquote>
+<p>copies of the same class share their underlying data, meaning that changing one changes them all, whereas structs always have their own unique data, and changing a copy does not affect the others.</p>
+</blockquote>
+<p>I found this explanation confusing until I took the test and realized the difference.</p>
+<p>In JS, creating an object or class instance and assigning it to two different variables matches the “copy” semantics above (the variable is a reference to the object).</p>
+<p>The “struct” behavior (by value) is how primitives work in JS (string, bool, etc.). Objects never work this way.</p>
+<p>Day 12 over! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/10/01/structs-part-two.html" class="u-url"><time class="dt-published" datetime="2024-10-01 21:38:29 -0700">Oct 1, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Structs (part two) with a checkpoint… day 11 was pretty straightforward! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/30/structs-mutating-on.html" class="u-url"><time class="dt-published" datetime="2024-09-30 20:10:17 -0700">Sep 30, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Structs, <code>mutating</code> on methods, computed properties, property observers, custom initializers… it’s a lot but it was pretty easy to get through.</p>
+<p>I think the only “new” concept (coming from JavaScript) was marking methods as <code>mutating</code>.</p>
+<p>Day 10 done so 10% of the way there! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/29/dropping-the-parenthesis.html" class="u-url"><time class="dt-published" datetime="2024-09-29 22:33:23 -0700">Sep 29, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Dropping the parenthesis when calling functions with a closure blows my mind:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift">team.filter { $0.hasPrefix(<span style="color:#e6db74">&#34;T&#34;</span>) }
+</code></pre></div><p>The equivalent in JS:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">team</span>.<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">$0</span> =&gt; <span style="color:#a6e22e">$0</span>.<span style="color:#a6e22e">startsWith</span>(<span style="color:#e6db74">&#34;T&#34;</span>))
+</code></pre></div><p>Woo! The checkpoint test actually didn’t take me very long to complete.</p>
+<p>Day 9 in the books! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/28/really-interesting-that.html" class="u-url"><time class="dt-published" datetime="2024-09-28 21:31:33 -0700">Sep 28, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Really interesting that Swift has <code>do</code>, <em>but it’s not what you think!</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">do</span> {
+    <span style="color:#66d9ef">try</span> throwingFunction1()
+    nonThrowingFunction1()
+} <span style="color:#66d9ef">catch</span> {
+    print(<span style="color:#e6db74">&#34;Handle errors here&#34;</span>)
+}
+</code></pre></div><p>In JS, that <code>do</code> would be <code>try</code> and no “try” is required before a throwing function.</p>
+<p>Day 8 in the books! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/27/awesome-to-me.html" class="u-url"><time class="dt-published" datetime="2024-09-27 20:46:38 -0700">Sep 27, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Awesome to me that this is valid:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">record</span>(age: Int) { }
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">record</span>(year: Int) { }
+</code></pre></div><p>Naming internal and external parameters separately is interesting too:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">square</span>(of num: Int) -&gt; Int {
+    <span style="color:#66d9ef">return</span> num <span style="color:#f92672">*</span> num
+}
+
+<span style="color:#66d9ef">let</span> result = square(of: <span style="color:#ae81ff">4</span>)
+</code></pre></div><p>Day 7 in the books! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/09/26/day-is-all.html" class="u-url"><time class="dt-published" datetime="2024-09-26 22:09:12 -0700">Sep 26, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Day 6 is all about <code>for</code> and <code>while</code> loops.</p>
+<p>I’ll be excited to learn the <code>.map</code> and <code>.filter</code> equivalents. I rarely use <code>for</code> loops in JS and have only used <code>while</code> a couple times in my career. 🫢</p>
+<p>I wasn’t expecting to do FizzBuzz for the checkpoint test. There’s a first time for everything! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://swift.chasen.dev/2024/09/26/my-comment-about.html" class="u-url"><time class="dt-published" datetime="2024-09-26 21:59:43 -0700">Sep 26, 2024</time></a>
 
 		<div class="e-content">
