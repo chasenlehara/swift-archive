@@ -7,6 +7,62 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/10/02/copies-of-the.html",
+				
+				"content_html": "<blockquote>\n<p>copies of the same class share their underlying data, meaning that changing one changes them all, whereas structs always have their own unique data, and changing a copy does not affect the others.</p>\n</blockquote>\n<p>I found this explanation confusing until I took the test and realized the difference.</p>\n<p>In JS, creating an object or class instance and assigning it to two different variables matches the “copy” semantics above (the variable is a reference to the object).</p>\n<p>The “struct” behavior (by value) is how primitives work in JS (string, bool, etc.). Objects never work this way.</p>\n<p>Day 12 over! #100DaysOfSwiftUI</p>\n",
+				"content_text": "> copies of the same class share their underlying data, meaning that changing one changes them all, whereas structs always have their own unique data, and changing a copy does not affect the others.\n\nI found this explanation confusing until I took the test and realized the difference.\n\nIn JS, creating an object or class instance and assigning it to two different variables matches the “copy” semantics above (the variable is a reference to the object).\n\nThe “struct” behavior (by value) is how primitives work in JS (string, bool, etc.). Objects never work this way.\n\nDay 12 over! #100DaysOfSwiftUI\n",
+				"date_published": "2024-10-02T19:11:29-07:00",
+				"url": "https://swift.chasen.dev/2024/10/02/copies-of-the.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/01/structs-part-two.html",
+				
+				"content_html": "<p>Structs (part two) with a checkpoint… day 11 was pretty straightforward! #100DaysOfSwiftUI</p>\n",
+				"content_text": "Structs (part two) with a checkpoint… day 11 was pretty straightforward! #100DaysOfSwiftUI\n",
+				"date_published": "2024-10-01T21:38:29-07:00",
+				"url": "https://swift.chasen.dev/2024/10/01/structs-part-two.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/30/structs-mutating-on.html",
+				
+				"content_html": "<p>Structs, <code>mutating</code> on methods, computed properties, property observers, custom initializers… it’s a lot but it was pretty easy to get through.</p>\n<p>I think the only “new” concept (coming from JavaScript) was marking methods as <code>mutating</code>.</p>\n<p>Day 10 done so 10% of the way there! #100DaysOfSwiftUI</p>\n",
+				"content_text": "Structs, `mutating` on methods, computed properties, property observers, custom initializers… it’s a lot but it was pretty easy to get through.\n\nI think the only “new” concept (coming from JavaScript) was marking methods as `mutating`.\n\nDay 10 done so 10% of the way there! #100DaysOfSwiftUI\n",
+				"date_published": "2024-09-30T20:10:17-07:00",
+				"url": "https://swift.chasen.dev/2024/09/30/structs-mutating-on.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/29/dropping-the-parenthesis.html",
+				
+				"content_html": "<p>Dropping the parenthesis when calling functions with a closure blows my mind:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\">team.filter { $0.hasPrefix(<span style=\"color:#e6db74\">&#34;T&#34;</span>) }\n</code></pre></div><p>The equivalent in JS:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-js\" data-lang=\"js\"><span style=\"color:#a6e22e\">team</span>.<span style=\"color:#a6e22e\">filter</span>(<span style=\"color:#a6e22e\">$0</span> =&gt; <span style=\"color:#a6e22e\">$0</span>.<span style=\"color:#a6e22e\">startsWith</span>(<span style=\"color:#e6db74\">&#34;T&#34;</span>))\n</code></pre></div><p>Woo! The checkpoint test actually didn’t take me very long to complete.</p>\n<p>Day 9 in the books! #100DaysOfSwiftUI</p>\n",
+				"content_text": "Dropping the parenthesis when calling functions with a closure blows my mind:\n\n```swift\nteam.filter { $0.hasPrefix(\"T\") }\n```\n\nThe equivalent in JS:\n\n```js\nteam.filter($0 => $0.startsWith(\"T\"))\n```\n\nWoo! The checkpoint test actually didn’t take me very long to complete.\n\nDay 9 in the books! #100DaysOfSwiftUI\n",
+				"date_published": "2024-09-29T22:33:23-07:00",
+				"url": "https://swift.chasen.dev/2024/09/29/dropping-the-parenthesis.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/28/really-interesting-that.html",
+				
+				"content_html": "<p>Really interesting that Swift has <code>do</code>, <em>but it’s not what you think!</em></p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"color:#66d9ef\">do</span> {\n    <span style=\"color:#66d9ef\">try</span> throwingFunction1()\n    nonThrowingFunction1()\n} <span style=\"color:#66d9ef\">catch</span> {\n    print(<span style=\"color:#e6db74\">&#34;Handle errors here&#34;</span>)\n}\n</code></pre></div><p>In JS, that <code>do</code> would be <code>try</code> and no “try” is required before a throwing function.</p>\n<p>Day 8 in the books! #100DaysOfSwiftUI</p>\n",
+				"content_text": "Really interesting that Swift has `do`, _but it’s not what you think!_\n\n```swift\ndo {\n    try throwingFunction1()\n    nonThrowingFunction1()\n} catch {\n    print(\"Handle errors here\")\n}\n```\n\nIn JS, that `do` would be `try` and no “try” is required before a throwing function.\n\nDay 8 in the books! #100DaysOfSwiftUI\n",
+				"date_published": "2024-09-28T21:31:33-07:00",
+				"url": "https://swift.chasen.dev/2024/09/28/really-interesting-that.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/27/awesome-to-me.html",
+				
+				"content_html": "<p>Awesome to me that this is valid:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"color:#66d9ef\">func</span> <span style=\"color:#a6e22e\">record</span>(age: Int) { }\n<span style=\"color:#66d9ef\">func</span> <span style=\"color:#a6e22e\">record</span>(year: Int) { }\n</code></pre></div><p>Naming internal and external parameters separately is interesting too:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"color:#66d9ef\">func</span> <span style=\"color:#a6e22e\">square</span>(of num: Int) -&gt; Int {\n    <span style=\"color:#66d9ef\">return</span> num <span style=\"color:#f92672\">*</span> num\n}\n\n<span style=\"color:#66d9ef\">let</span> result = square(of: <span style=\"color:#ae81ff\">4</span>)\n</code></pre></div><p>Day 7 in the books! #100DaysOfSwiftUI</p>\n",
+				"content_text": "Awesome to me that this is valid:\n\n```swift\nfunc record(age: Int) { }\nfunc record(year: Int) { }\n```\n\nNaming internal and external parameters separately is interesting too:\n\n```swift\nfunc square(of num: Int) -> Int {\n    return num * num\n}\n\nlet result = square(of: 4)\n```\n\nDay 7 in the books! #100DaysOfSwiftUI\n",
+				"date_published": "2024-09-27T20:46:38-07:00",
+				"url": "https://swift.chasen.dev/2024/09/27/awesome-to-me.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/09/26/day-is-all.html",
+				
+				"content_html": "<p>Day 6 is all about <code>for</code> and <code>while</code> loops.</p>\n<p>I’ll be excited to learn the <code>.map</code> and <code>.filter</code> equivalents. I rarely use <code>for</code> loops in JS and have only used <code>while</code> a couple times in my career. 🫢</p>\n<p>I wasn’t expecting to do FizzBuzz for the checkpoint test. There’s a first time for everything! #100DaysOfSwiftUI</p>\n",
+				"content_text": "Day 6 is all about `for` and `while` loops.\n\nI’ll be excited to learn the `.map` and `.filter` equivalents. I rarely use `for` loops in JS and have only used `while` a couple times in my career. 🫢\n\nI wasn’t expecting to do FizzBuzz for the checkpoint test. There’s a first time for everything! #100DaysOfSwiftUI\n",
+				"date_published": "2024-09-26T22:09:12-07:00",
+				"url": "https://swift.chasen.dev/2024/09/26/day-is-all.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/09/26/my-comment-about.html",
 				
 				"content_html": "<p>My comment about no <code>===</code> in Swift was incorrect, thanks Matt!</p>\n<p>I should know that a beginner course isn’t going to immediately explain referential equality, that won’t make sense yet.</p>\n<p><a href=\"https://mastodon.social/@mattiem/113203444245305184\">https://mastodon.social/@mattiem/113203444245305184</a></p>\n",
