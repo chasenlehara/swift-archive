@@ -7,6 +7,70 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/10/07/this-definitely-trips.html",
+				
+				"content_html": "<p>This definitely trips me up:</p>\n<blockquote>\n<p>Tip: It’s tempting to think that modifier should be attached to the end of the <code>NavigationStack</code>, but it needs to be attached to the end of the <code>Form</code> instead. The reason is that navigation stacks are capable of showing many views as your program runs, so by attaching the title to the thing inside the navigation stack we’re allowing iOS to change titles freely.</p>\n</blockquote>\n<p>I’m not sure I 100% understand the reasoning here… excited to learn more. It’s still only day 17! #100DaysOfSwiftUI</p>\n",
+				"content_text": "This definitely trips me up:\n\n> Tip: It’s tempting to think that modifier should be attached to the end of the `NavigationStack`, but it needs to be attached to the end of the `Form` instead. The reason is that navigation stacks are capable of showing many views as your program runs, so by attaching the title to the thing inside the navigation stack we’re allowing iOS to change titles freely.\n\nI’m not sure I 100% understand the reasoning here… excited to learn more. It’s still only day 17! #100DaysOfSwiftUI\n",
+				"date_published": "2024-10-07T21:36:39-07:00",
+				"url": "https://swift.chasen.dev/2024/10/07/this-definitely-trips.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/06/i-have-a.html",
+				
+				"content_html": "<p>I have a lot to learn about what enables this syntax for two-way binding (note the <code>$</code>):</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"color:#66d9ef\">struct</span> <span style=\"color:#a6e22e\">ContentView</span>: View {\n    @State <span style=\"color:#66d9ef\">private</span> <span style=\"color:#66d9ef\">var</span> name = <span style=\"color:#e6db74\">&#34;&#34;</span>\n\n    <span style=\"color:#66d9ef\">var</span> body: some View {\n        Form {\n            TextField(<span style=\"color:#e6db74\">&#34;Enter your name&#34;</span>, text: <span style=\"color:#960050;background-color:#1e0010\">$</span>name)\n            Text(<span style=\"color:#e6db74\">&#34;Hello, world!&#34;</span>)\n        }\n    }\n}\n</code></pre></div>",
+				"content_text": "I have a lot to learn about what enables this syntax for two-way binding (note the `$`):\n\n```swift\nstruct ContentView: View {\n    @State private var name = \"\"\n\n    var body: some View {\n        Form {\n            TextField(\"Enter your name\", text: $name)\n            Text(\"Hello, world!\")\n        }\n    }\n}\n```\n",
+				"date_published": "2024-10-06T20:49:00-07:00",
+				"url": "https://swift.chasen.dev/2024/10/06/i-have-a.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/06/day-starting-off.html",
+				
+				"content_html": "<p>Day 16, starting off with creating a new iOS app in Xcode and seeing everything that’s changed since I last used it almost 12 years ago. Hitting Run for the first time… ah it’s so exciting! #100DaysOfSwiftUI</p>\n",
+				"content_text": "Day 16, starting off with creating a new iOS app in Xcode and seeing everything that’s changed since I last used it almost 12 years ago. Hitting Run for the first time… ah it’s so exciting! #100DaysOfSwiftUI\n",
+				"date_published": "2024-10-06T20:47:26-07:00",
+				"url": "https://swift.chasen.dev/2024/10/06/day-starting-off.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/05/i-might-not.html",
+				
+				"content_html": "<p>I might not do day 16 tomorrow, we’ll see… running the Long Beach half-marathon in the morning. 😃</p>\n",
+				"content_text": "I might not do day 16 tomorrow, we’ll see… running the Long Beach half-marathon in the morning. 😃\n",
+				"date_published": "2024-10-05T20:45:56-07:00",
+				"url": "https://swift.chasen.dev/2024/10/05/i-might-not.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/05/day-is-a.html",
+				
+				"content_html": "<p>Day 15 is a review of the last two weeks of material! #100DaysOfSwiftUI</p>\n<p>I kept on going back to the individual pages to find the syntax I needed while working on the tests, so I’m happy to have it all on one page: <a href=\"https://www.hackingwithswift.com/articles/242/learn-essential-swift-in-one-hour\">www.hackingwithswift.com/articles/&hellip;</a></p>\n",
+				"content_text": "Day 15 is a review of the last two weeks of material! #100DaysOfSwiftUI\n\nI kept on going back to the individual pages to find the syntax I needed while working on the tests, so I’m happy to have it all on one page: [www.hackingwithswift.com/articles/...](https://www.hackingwithswift.com/articles/242/learn-essential-swift-in-one-hour)\n",
+				"date_published": "2024-10-05T20:45:04-07:00",
+				"url": "https://swift.chasen.dev/2024/10/05/day-is-a.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/04/day-is-optionals.html",
+				
+				"content_html": "<p>Day 14 is optionals, guards, nil coalescing, optional chaining, and optional try.</p>\n<p>Guards are new to me but I like them:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"color:#66d9ef\">func</span> <span style=\"color:#a6e22e\">double</span>(number: Int?) -&gt; Int? {\n\t<span style=\"color:#66d9ef\">guard</span> <span style=\"color:#66d9ef\">let</span> number = number <span style=\"color:#66d9ef\">else</span> {\n\t\t<span style=\"color:#66d9ef\">return</span> <span style=\"color:#66d9ef\">nil</span>\n\t}\n\t<span style=\"color:#66d9ef\">return</span> number <span style=\"color:#f92672\">*</span> <span style=\"color:#ae81ff\">2</span>\n}\n</code></pre></div><p>Two weeks in the books! #100DaysOfSwiftUI</p>\n",
+				"content_text": "Day 14 is optionals, guards, nil coalescing, optional chaining, and optional try. \n\nGuards are new to me but I like them:\n\n```swift\nfunc double(number: Int?) -> Int? {\n\tguard let number = number else {\n\t\treturn nil\n\t}\n\treturn number * 2\n}\n```\n\nTwo weeks in the books! #100DaysOfSwiftUI\n",
+				"date_published": "2024-10-04T20:35:17-07:00",
+				"url": "https://swift.chasen.dev/2024/10/04/day-is-optionals.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/03/my-series-has.html",
+				
+				"content_html": "<p>My Series 10 has had really inconsistent battery life (it died on me 8 miles into a run last week 🙃) so I’m happy to see potential fixes in this watchOS update.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "My Series 10 has had really inconsistent battery life (it died on me 8 miles into a run last week 🙃) so I’m happy to see potential fixes in this watchOS update.\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/5d3413e8d5.jpg\" width=\"533\" height=\"600\" alt=\"\">\n",
+				"date_published": "2024-10-03T20:46:14-07:00",
+				"url": "https://swift.chasen.dev/2024/10/03/my-series-has.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/03/prototypes-opaque-return.html",
+				
+				"content_html": "<p>Prototypes, opaque return types, extensions, and protocol extensions don’t have equivalents in JavaScript (and my TypeScript isn’t good enough to compare Swift to TS), but these concepts were straightforward enough that I breezed through day 13. #100DaysOfSwiftUI</p>\n",
+				"content_text": "Prototypes, opaque return types, extensions, and protocol extensions don’t have equivalents in JavaScript (and my TypeScript isn’t good enough to compare Swift to TS), but these concepts were straightforward enough that I breezed through day 13. #100DaysOfSwiftUI\n",
+				"date_published": "2024-10-03T20:41:16-07:00",
+				"url": "https://swift.chasen.dev/2024/10/03/prototypes-opaque-return.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/10/02/copies-of-the.html",
 				
 				"content_html": "<blockquote>\n<p>copies of the same class share their underlying data, meaning that changing one changes them all, whereas structs always have their own unique data, and changing a copy does not affect the others.</p>\n</blockquote>\n<p>I found this explanation confusing until I took the test and realized the difference.</p>\n<p>In JS, creating an object or class instance and assigning it to two different variables matches the “copy” semantics above (the variable is a reference to the object).</p>\n<p>The “struct” behavior (by value) is how primitives work in JS (string, bool, etc.). Objects never work this way.</p>\n<p>Day 12 over! #100DaysOfSwiftUI</p>\n",
@@ -106,7 +170,7 @@
 				"id": "http://chasen.micro.blog/2024/09/22/the-verges-article.html",
 				
 				"content_html": "<p>The Verge’s article on the iPhone 16 Pro made me realize that the “rich contrast” photographic style is where it’s at on my 15 Pro. <a href=\"https://www.theverge.com/24247538/apple-iphone-16-pro-review\">www.theverge.com/24247538/&hellip;</a></p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
-				"content_text": "The Verge’s article on the iPhone 16 Pro made me realize that the “rich contrast” photographic style is where it’s at on my 15 Pro. [www.theverge.com/24247538/...](https://www.theverge.com/24247538/apple-iphone-16-pro-review)\n\n<img src=\"uploads/2024/image.jpg\" width=\"499\" height=\"600\" alt=\"\"><img src=\"uploads/2024/269a779080.jpg\" width=\"431\" height=\"600\" alt=\"\">\n",
+				"content_text": "The Verge’s article on the iPhone 16 Pro made me realize that the “rich contrast” photographic style is where it’s at on my 15 Pro. [www.theverge.com/24247538/...](https://www.theverge.com/24247538/apple-iphone-16-pro-review)\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/image.jpg\" width=\"499\" height=\"600\" alt=\"\"><img src=\"https://cdn.uploads.micro.blog/177243/2024/269a779080.jpg\" width=\"431\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-09-22T11:34:16-07:00",
 				"url": "https://swift.chasen.dev/2024/09/22/the-verges-article.html"
 			},
