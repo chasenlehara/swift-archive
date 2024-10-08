@@ -25,6 +25,118 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://swift.chasen.dev/2024/10/07/this-definitely-trips.html" class="u-url"><time class="dt-published" datetime="2024-10-07 21:36:39 -0700">Oct 7, 2024</time></a>
+
+		<div class="e-content">
+			 <p>This definitely trips me up:</p>
+<blockquote>
+<p>Tip: It’s tempting to think that modifier should be attached to the end of the <code>NavigationStack</code>, but it needs to be attached to the end of the <code>Form</code> instead. The reason is that navigation stacks are capable of showing many views as your program runs, so by attaching the title to the thing inside the navigation stack we’re allowing iOS to change titles freely.</p>
+</blockquote>
+<p>I’m not sure I 100% understand the reasoning here… excited to learn more. It’s still only day 17! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/10/06/i-have-a.html" class="u-url"><time class="dt-published" datetime="2024-10-06 20:49:00 -0700">Oct 6, 2024</time></a>
+
+		<div class="e-content">
+			 <p>I have a lot to learn about what enables this syntax for two-way binding (note the <code>$</code>):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">ContentView</span>: View {
+    @State <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">var</span> name = <span style="color:#e6db74">&#34;&#34;</span>
+
+    <span style="color:#66d9ef">var</span> body: some View {
+        Form {
+            TextField(<span style="color:#e6db74">&#34;Enter your name&#34;</span>, text: <span style="color:#960050;background-color:#1e0010">$</span>name)
+            Text(<span style="color:#e6db74">&#34;Hello, world!&#34;</span>)
+        }
+    }
+}
+</code></pre></div>
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/10/06/day-starting-off.html" class="u-url"><time class="dt-published" datetime="2024-10-06 20:47:26 -0700">Oct 6, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Day 16, starting off with creating a new iOS app in Xcode and seeing everything that’s changed since I last used it almost 12 years ago. Hitting Run for the first time… ah it’s so exciting! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/10/05/i-might-not.html" class="u-url"><time class="dt-published" datetime="2024-10-05 20:45:56 -0700">Oct 5, 2024</time></a>
+
+		<div class="e-content">
+			 <p>I might not do day 16 tomorrow, we’ll see… running the Long Beach half-marathon in the morning. 😃</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/10/05/day-is-a.html" class="u-url"><time class="dt-published" datetime="2024-10-05 20:45:04 -0700">Oct 5, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Day 15 is a review of the last two weeks of material! #100DaysOfSwiftUI</p>
+<p>I kept on going back to the individual pages to find the syntax I needed while working on the tests, so I’m happy to have it all on one page: <a href="https://www.hackingwithswift.com/articles/242/learn-essential-swift-in-one-hour">www.hackingwithswift.com/articles/&hellip;</a></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/10/04/day-is-optionals.html" class="u-url"><time class="dt-published" datetime="2024-10-04 20:35:17 -0700">Oct 4, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Day 14 is optionals, guards, nil coalescing, optional chaining, and optional try.</p>
+<p>Guards are new to me but I like them:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">double</span>(number: Int?) -&gt; Int? {
+	<span style="color:#66d9ef">guard</span> <span style="color:#66d9ef">let</span> number = number <span style="color:#66d9ef">else</span> {
+		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>
+	}
+	<span style="color:#66d9ef">return</span> number <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>
+}
+</code></pre></div><p>Two weeks in the books! #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/10/03/my-series-has.html" class="u-url"><time class="dt-published" datetime="2024-10-03 20:46:14 -0700">Oct 3, 2024</time></a>
+
+		<div class="e-content">
+			 <p>My Series 10 has had really inconsistent battery life (it died on me 8 miles into a run last week 🙃) so I’m happy to see potential fixes in this watchOS update.</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://swift.chasen.dev/2024/10/03/prototypes-opaque-return.html" class="u-url"><time class="dt-published" datetime="2024-10-03 20:41:16 -0700">Oct 3, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Prototypes, opaque return types, extensions, and protocol extensions don’t have equivalents in JavaScript (and my TypeScript isn’t good enough to compare Swift to TS), but these concepts were straightforward enough that I breezed through day 13. #100DaysOfSwiftUI</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://swift.chasen.dev/2024/10/02/copies-of-the.html" class="u-url"><time class="dt-published" datetime="2024-10-02 19:11:29 -0700">Oct 2, 2024</time></a>
 
 		<div class="e-content">
