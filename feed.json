@@ -7,6 +7,70 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/10/13/day-was-really.html",
+				
+				"content_html": "<p>Day 22 was really easy—added the score counter and a different alert for when the game is “over.” #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 22 was really easy—added the score counter and a different alert for when the game is “over.” #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/98afe8fdd8.png\" width=\"302\" height=\"600\" alt=\"The iOS simulator displays a flag quiz game with the title “Guess the Flag.” The prompt says “Tap the flag of Spain.” Three flag options are shown: the Ukrainian flag on top, the Spanish flag in the middle, and the U.S. flag on the bottom. An alert over the flags reads “Correct” with a final score of 8. A “Restart” button is visible.\">\n",
+				"date_published": "2024-10-13T08:33:51-07:00",
+				"url": "https://swift.chasen.dev/2024/10/13/day-was-really.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/11/day-had-us.html",
+				
+				"content_html": "<p>Day 21 had us building a mini flag-guessing game, but without the score implemented. I will be absolutely shocked, shocked I say when we implement the score as the next day’s challenge. 🇺🇸 🇺🇦 🇪🇸 #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 21 had us building a mini flag-guessing game, but without the score implemented. I will be absolutely shocked, shocked I say when we implement the score as the next day’s challenge. 🇺🇸 🇺🇦 🇪🇸 #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/4103e52f0e.png\" width=\"302\" height=\"600\" alt=\"The iOS simulator shows a game titled Guess the Flag. The user is prompted to tap the flag of Spain. Three flags are displayed in a vertical list: the United States flag, the Ukraine flag, and the Spain flag at the bottom. Below the flags, the score reads Score: ???\">\n",
+				"date_published": "2024-10-11T20:59:59-07:00",
+				"url": "https://swift.chasen.dev/2024/10/11/day-had-us.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/11/day-is-all.html",
+				
+				"content_html": "<p>Day 20 is all about stacks, gradients, buttons, and images. I find it more fun to keep <em>all</em> the sample code in one project and let it pile up. 🤪 #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 20 is all about stacks, gradients, buttons, and images. I find it more fun to keep *all* the sample code in one project and let it pile up. 🤪 #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/35cfe2c333.png\" width=\"302\" height=\"600\" alt=\"A screenshot from the iPhone simulator that displays a UI with various buttons and text elements.The screen is absolute chaos. The top shows repeated labels for “First,” “Second,” and “Third.” There are many different linear, radial, and angular gradient backgrounds. Below are colorful buttons labeled “Button 1” through “Button 4,” a red “Tap me” button, and “Edit” buttons. Two “Show Alert” links are at the bottom.\">\n",
+				"date_published": "2024-10-11T08:25:53-07:00",
+				"url": "https://swift.chasen.dev/2024/10/11/day-is-all.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/10/225714.html",
+				
+				"content_html": "<p>Uh oh… <a href=\"https://lbpost.com/news/boil-water-long-beach-notice-water-main-break/\">lbpost.com/news/boil&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Uh oh… [lbpost.com/news/boil...](https://lbpost.com/news/boil-water-long-beach-notice-water-main-break/)\n\n<img src=\"uploads/2024/49b1539ab9.jpg\" width=\"600\" height=\"448\" alt=\"Emergency Alert&10;LB Utilities: A Boil Water Notice is in effect for the following Long Beach zip codes - 90805, 90807, and part of 90806. Residents are advised to use boiled or bottled water for drinking and food preparation until further notice. LB Utilities will inform residents when water testing confirms it is safe to drink. For more information call 562-570-2390\">\n",
+				"date_published": "2024-10-10T22:57:14-07:00",
+				"url": "https://swift.chasen.dev/2024/10/10/225714.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/10/oh-macos-previews.html",
+				
+				"content_html": "<p>Oh macOS Preview’s signature feature, I love you but this is not acceptable. 😅</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Oh macOS Preview’s signature feature, I love you but this is not acceptable. 😅\n\n<img src=\"uploads/2024/008b5e4c32.png\" width=\"546\" height=\"600\" alt=\"The macOS signature capture screen with the “Camera” tab selected. A series of completely erratic squiggly lines is visible above a blue line.\">\n",
+				"date_published": "2024-10-10T07:43:18-07:00",
+				"url": "https://swift.chasen.dev/2024/10/10/oh-macos-previews.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/09/what-does-the.html",
+				
+				"content_html": "<p>What does the Swift community use for code formatting/linting?</p>\n<p>Ideally I’d like to have something that only runs when I invoke it with a keyboard shortcut or maybe on every save.</p>\n",
+				"content_text": "What does the Swift community use for code formatting/linting?\n\nIdeally I’d like to have something that only runs when I invoke it with a keyboard shortcut or maybe on every save.\n",
+				"date_published": "2024-10-09T19:51:18-07:00",
+				"url": "https://swift.chasen.dev/2024/10/09/what-does-the.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/09/day-very-fun.html",
+				
+				"content_html": "<p>Day 19, very fun to have a day focused on building a new app from scratch! This was my take on <a href=\"https://www.hackingwithswift.com/100/swiftui/19\">the challenge</a>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 19, very fun to have a day focused on building a new app from scratch! This was my take on [the challenge](https://www.hackingwithswift.com/100/swiftui/19). #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/image.png\" width=\"303\" height=\"600\" alt=\"A unit conversion app running in the iPhone 16 simulator. The screen displays options to convert between Celsius, Fahrenheit, and Kelvin. The conversion is set to convert from Celsius to Fahrenheit, with an input value of 28, resulting in 82.4 displayed as the output. The design is minimal, with a clean white background and simple buttons.\">\n",
+				"date_published": "2024-10-09T19:50:47-07:00",
+				"url": "https://swift.chasen.dev/2024/10/09/day-very-fun.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/08/day-is-a.html",
+				
+				"content_html": "<p>Day 18 is a short quiz and adding some new code on our own without any guidance—it took so little time (9 minutes 😝) that I’m tempted to just start on the next day, but I will resist! #100DaysOfSwiftUI</p>\n",
+				"content_text": "Day 18 is a short quiz and adding some new code on our own without any guidance—it took so little time (9 minutes 😝) that I’m tempted to just start on the next day, but I will resist! #100DaysOfSwiftUI\n",
+				"date_published": "2024-10-08T21:00:45-07:00",
+				"url": "https://swift.chasen.dev/2024/10/08/day-is-a.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/10/07/this-definitely-trips.html",
 				
 				"content_html": "<p>This definitely trips me up:</p>\n<blockquote>\n<p>Tip: It’s tempting to think that modifier should be attached to the end of the <code>NavigationStack</code>, but it needs to be attached to the end of the <code>Form</code> instead. The reason is that navigation stacks are capable of showing many views as your program runs, so by attaching the title to the thing inside the navigation stack we’re allowing iOS to change titles freely.</p>\n</blockquote>\n<p>I’m not sure I 100% understand the reasoning here… excited to learn more. It’s still only day 17! #100DaysOfSwiftUI</p>\n",
