@@ -7,10 +7,50 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/10/18/i-realize-that.html",
+				
+				"content_html": "<blockquote>\n<p>I realize that you might have thought “wow, we’re looking at machine learning already?” After all, this is only day 27 of a 100-day course. But, as Andre Gide said, “you cannot discover new oceans unless you have the courage to lose sight of the shore.”</p>\n</blockquote>\n<p>Heh, #100DaysOfSwiftUI <a href=\"https://www.hackingwithswift.com/100/swiftui/27\">read my mind</a>!</p>\n<p>Today we built a UI on top of the Core ML model we trained yesterday. Straightforward but fun!</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "> I realize that you might have thought “wow, we’re looking at machine learning already?” After all, this is only day 27 of a 100-day course. But, as Andre Gide said, “you cannot discover new oceans unless you have the courage to lose sight of the shore.”\n\nHeh, #100DaysOfSwiftUI [read my mind](https://www.hackingwithswift.com/100/swiftui/27)!\n\nToday we built a UI on top of the Core ML model we trained yesterday. Straightforward but fun!\n\n<img src=\"uploads/2024/1547919dcc.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays an app called BetterRest. The user has set a wake-up time of 7:15 AM, a desired sleep duration of 7.5 hours, and a daily coffee intake of 3 cups. A pop-up message shows the calculated ideal bedtime as 10:55 PM, with an OK button below.\">\n",
+				"date_published": "2024-10-18T19:21:36-07:00",
+				"url": "https://swift.chasen.dev/2024/10/18/i-realize-that.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/17/i-was-not.html",
+				
+				"content_html": "<p>I was not expecting “Training a model with Create ML” to be a part of the Day 26 content!</p>\n<p>As someone who has built a lot of training content this past year for work, I know how valuable it is to create fun/engaging exercises, so it impresses me to see Machine Learning (ML) in #100DaysOfSwiftUI</p>\n",
+				"content_text": "I was not expecting “Training a model with Create ML” to be a part of the Day 26 content!\n\nAs someone who has built a lot of training content this past year for work, I know how valuable it is to create fun/engaging exercises, so it impresses me to see Machine Learning (ML) in #100DaysOfSwiftUI\n",
+				"date_published": "2024-10-17T21:40:25-07:00",
+				"url": "https://swift.chasen.dev/2024/10/17/i-was-not.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/16/haha-this-looks.html",
+				
+				"content_html": "<p>Haha this looks so awful, but day 25’s challenge was fun: to build a rock/paper/scissors game from scratch! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Haha this looks so awful, but day 25’s challenge was fun: to build a rock/paper/scissors game from scratch! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/f169363b12.png\" width=\"303\" height=\"600\" alt=\"The iOS simulator shows a game with a score of zero. The game is that, given the game’s choice of rock/paper/scissors and text indicating whether the player should pick a winning or losing move, the player then has to select Rock, Paper, or Scissors. The game currently shows “current choice: rock” and “should win” to indicate the player should choose Paper from the buttons below. Icons at the top represent rock, paper, and scissors.\">\n",
+				"date_published": "2024-10-16T19:56:38-07:00",
+				"url": "https://swift.chasen.dev/2024/10/16/haha-this-looks.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/14/day-was-straightforwarda.html",
+				
+				"content_html": "<p>Day 24 was straightforward—a test and a few little changes to make on our own to our recent projects. I had to go back to remember the syntax for <a href=\"https://www.hackingwithswift.com/books/ios-swiftui/custom-modifiers\">custom modifiers</a>. Onward! #100DaysOfSwiftUI</p>\n",
+				"content_text": "Day 24 was straightforward—a test and a few little changes to make on our own to our recent projects. I had to go back to remember the syntax for [custom modifiers](https://www.hackingwithswift.com/books/ios-swiftui/custom-modifiers). Onward! #100DaysOfSwiftUI\n",
+				"date_published": "2024-10-14T22:33:29-07:00",
+				"url": "https://swift.chasen.dev/2024/10/14/day-was-straightforwarda.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/14/today-i-learned.html",
+				
+				"content_html": "<p>Today I learned that the order of modifiers does matter:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\">Text(<span style=\"color:#e6db74\">&#34;Hello, world!&#34;</span>)\n    .padding()\n    .background(.red)\n    .padding()\n    .background(.blue)\n    .padding()\n    .background(.green)\n    .padding()\n    .background(.yellow)\n</code></pre></div><p>Day 23 in the books! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Today I learned that the order of modifiers does matter:\n\n```swift\nText(\"Hello, world!\")\n    .padding()\n    .background(.red)\n    .padding()\n    .background(.blue)\n    .padding()\n    .background(.green)\n    .padding()\n    .background(.yellow)\n```\nDay 23 in the books! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/3566bdbd4a.png\" width=\"303\" height=\"600\" alt=\"The iOS simulator displays a centered message that says “Hello, world” in white text on a pink rectangle. The pink rectangle is surrounded by a purple border, which is itself surrounded by a blue border.\">\n",
+				"date_published": "2024-10-14T19:12:22-07:00",
+				"url": "https://swift.chasen.dev/2024/10/14/today-i-learned.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/10/13/day-was-really.html",
 				
 				"content_html": "<p>Day 22 was really easy—added the score counter and a different alert for when the game is “over.” #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 22 was really easy—added the score counter and a different alert for when the game is “over.” #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/98afe8fdd8.png\" width=\"302\" height=\"600\" alt=\"The iOS simulator displays a flag quiz game with the title “Guess the Flag.” The prompt says “Tap the flag of Spain.” Three flag options are shown: the Ukrainian flag on top, the Spanish flag in the middle, and the U.S. flag on the bottom. An alert over the flags reads “Correct” with a final score of 8. A “Restart” button is visible.\">\n",
+				"content_text": "Day 22 was really easy—added the score counter and a different alert for when the game is “over.” #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/98afe8fdd8.png\" width=\"302\" height=\"600\" alt=\"The iOS simulator displays a flag quiz game with the title “Guess the Flag.” The prompt says “Tap the flag of Spain.” Three flag options are shown: the Ukrainian flag on top, the Spanish flag in the middle, and the U.S. flag on the bottom. An alert over the flags reads “Correct” with a final score of 8. A “Restart” button is visible.\">\n",
 				"date_published": "2024-10-13T08:33:51-07:00",
 				"url": "https://swift.chasen.dev/2024/10/13/day-was-really.html"
 			},
@@ -18,7 +58,7 @@
 				"id": "http://chasen.micro.blog/2024/10/11/day-had-us.html",
 				
 				"content_html": "<p>Day 21 had us building a mini flag-guessing game, but without the score implemented. I will be absolutely shocked, shocked I say when we implement the score as the next day’s challenge. 🇺🇸 🇺🇦 🇪🇸 #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 21 had us building a mini flag-guessing game, but without the score implemented. I will be absolutely shocked, shocked I say when we implement the score as the next day’s challenge. 🇺🇸 🇺🇦 🇪🇸 #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/4103e52f0e.png\" width=\"302\" height=\"600\" alt=\"The iOS simulator shows a game titled Guess the Flag. The user is prompted to tap the flag of Spain. Three flags are displayed in a vertical list: the United States flag, the Ukraine flag, and the Spain flag at the bottom. Below the flags, the score reads Score: ???\">\n",
+				"content_text": "Day 21 had us building a mini flag-guessing game, but without the score implemented. I will be absolutely shocked, shocked I say when we implement the score as the next day’s challenge. 🇺🇸 🇺🇦 🇪🇸 #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/4103e52f0e.png\" width=\"302\" height=\"600\" alt=\"The iOS simulator shows a game titled Guess the Flag. The user is prompted to tap the flag of Spain. Three flags are displayed in a vertical list: the United States flag, the Ukraine flag, and the Spain flag at the bottom. Below the flags, the score reads Score: ???\">\n",
 				"date_published": "2024-10-11T20:59:59-07:00",
 				"url": "https://swift.chasen.dev/2024/10/11/day-had-us.html"
 			},
@@ -26,7 +66,7 @@
 				"id": "http://chasen.micro.blog/2024/10/11/day-is-all.html",
 				
 				"content_html": "<p>Day 20 is all about stacks, gradients, buttons, and images. I find it more fun to keep <em>all</em> the sample code in one project and let it pile up. 🤪 #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 20 is all about stacks, gradients, buttons, and images. I find it more fun to keep *all* the sample code in one project and let it pile up. 🤪 #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/35cfe2c333.png\" width=\"302\" height=\"600\" alt=\"A screenshot from the iPhone simulator that displays a UI with various buttons and text elements.The screen is absolute chaos. The top shows repeated labels for “First,” “Second,” and “Third.” There are many different linear, radial, and angular gradient backgrounds. Below are colorful buttons labeled “Button 1” through “Button 4,” a red “Tap me” button, and “Edit” buttons. Two “Show Alert” links are at the bottom.\">\n",
+				"content_text": "Day 20 is all about stacks, gradients, buttons, and images. I find it more fun to keep *all* the sample code in one project and let it pile up. 🤪 #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/35cfe2c333.png\" width=\"302\" height=\"600\" alt=\"A screenshot from the iPhone simulator that displays a UI with various buttons and text elements.The screen is absolute chaos. The top shows repeated labels for “First,” “Second,” and “Third.” There are many different linear, radial, and angular gradient backgrounds. Below are colorful buttons labeled “Button 1” through “Button 4,” a red “Tap me” button, and “Edit” buttons. Two “Show Alert” links are at the bottom.\">\n",
 				"date_published": "2024-10-11T08:25:53-07:00",
 				"url": "https://swift.chasen.dev/2024/10/11/day-is-all.html"
 			},
@@ -34,7 +74,7 @@
 				"id": "http://chasen.micro.blog/2024/10/10/225714.html",
 				
 				"content_html": "<p>Uh oh… <a href=\"https://lbpost.com/news/boil-water-long-beach-notice-water-main-break/\">lbpost.com/news/boil&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Uh oh… [lbpost.com/news/boil...](https://lbpost.com/news/boil-water-long-beach-notice-water-main-break/)\n\n<img src=\"uploads/2024/49b1539ab9.jpg\" width=\"600\" height=\"448\" alt=\"Emergency Alert&10;LB Utilities: A Boil Water Notice is in effect for the following Long Beach zip codes - 90805, 90807, and part of 90806. Residents are advised to use boiled or bottled water for drinking and food preparation until further notice. LB Utilities will inform residents when water testing confirms it is safe to drink. For more information call 562-570-2390\">\n",
+				"content_text": "Uh oh… [lbpost.com/news/boil...](https://lbpost.com/news/boil-water-long-beach-notice-water-main-break/)\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/49b1539ab9.jpg\" width=\"600\" height=\"448\" alt=\"Emergency Alert&10;LB Utilities: A Boil Water Notice is in effect for the following Long Beach zip codes - 90805, 90807, and part of 90806. Residents are advised to use boiled or bottled water for drinking and food preparation until further notice. LB Utilities will inform residents when water testing confirms it is safe to drink. For more information call 562-570-2390\">\n",
 				"date_published": "2024-10-10T22:57:14-07:00",
 				"url": "https://swift.chasen.dev/2024/10/10/225714.html"
 			},
@@ -42,7 +82,7 @@
 				"id": "http://chasen.micro.blog/2024/10/10/oh-macos-previews.html",
 				
 				"content_html": "<p>Oh macOS Preview’s signature feature, I love you but this is not acceptable. 😅</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Oh macOS Preview’s signature feature, I love you but this is not acceptable. 😅\n\n<img src=\"uploads/2024/008b5e4c32.png\" width=\"546\" height=\"600\" alt=\"The macOS signature capture screen with the “Camera” tab selected. A series of completely erratic squiggly lines is visible above a blue line.\">\n",
+				"content_text": "Oh macOS Preview’s signature feature, I love you but this is not acceptable. 😅\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/008b5e4c32.png\" width=\"546\" height=\"600\" alt=\"The macOS signature capture screen with the “Camera” tab selected. A series of completely erratic squiggly lines is visible above a blue line.\">\n",
 				"date_published": "2024-10-10T07:43:18-07:00",
 				"url": "https://swift.chasen.dev/2024/10/10/oh-macos-previews.html"
 			},
