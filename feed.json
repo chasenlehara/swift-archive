@@ -7,6 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/10/23/back-on-it.html",
+				
+				"content_html": "<p>Back on it after being sick the last couple days… for day 30, we mostly copied code from the tutorial, but I find it very useful to type everything out to get that muscle memory built up.</p>\n<p>Here’s a little game where you have to type words that are a subset of a random word. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Back on it after being sick the last couple days… for day 30, we mostly copied code from the tutorial, but I find it very useful to type everything out to get that muscle memory built up.\n\nHere’s a little game where you have to type words that are a subset of a random word. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/b24ed28ea8.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays a word puzzle game with the word “cherries” at the top. Below is a text box labeled “Enter your word” followed by a list of correct guesses that the player has made: “sire,” “cher,” “chris,” “sir,” “rice,” and “her.” Each word has the number of characters in the word next to it.\">\n",
+				"date_published": "2024-10-23T20:24:24-07:00",
+				"url": "https://swift.chasen.dev/2024/10/23/back-on-it.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/20/day-is-bringing.html",
+				
+				"content_html": "<p>Day 29 is bringing me back to my Objective-C days:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"color:#66d9ef\">let</span> range = checker.rangeOfMisspelledWord(<span style=\"color:#66d9ef\">in</span>: word, range: range, startingAt: <span style=\"color:#ae81ff\">0</span>, wrap: <span style=\"color:#66d9ef\">false</span>, language: <span style=\"color:#e6db74\">&#34;en&#34;</span>)\n</code></pre></div><p>The full <a href=\"https://developer.apple.com/documentation/uikit/uitextchecker/1621029-rangeofmisspelledwordinstring?language=objc\"><code>rangeOfMisspelledWordInString:range:startingAt:wrap:language:</code></a> API signature is too long for this post. #100DaysOfSwiftUI</p>\n",
+				"content_text": "Day 29 is bringing me back to my Objective-C days:\n\n```swift\nlet range = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: \"en\")\n```\n\nThe full [`rangeOfMisspelledWordInString:range:startingAt:wrap:language:`](https://developer.apple.com/documentation/uikit/uitextchecker/1621029-rangeofmisspelledwordinstring?language=objc) API signature is too long for this post. #100DaysOfSwiftUI\n",
+				"date_published": "2024-10-20T20:17:28-07:00",
+				"url": "https://swift.chasen.dev/2024/10/20/day-is-bringing.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/19/day-was-straightforwarda.html",
+				
+				"content_html": "<p>Day 28 was straightforward—a review quiz and some challenges for us to modify our most recent app. Onward! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 28 was straightforward—a review quiz and some challenges for us to modify our most recent app. Onward! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/8560d9f5a3.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays an app called BetterRest. The user has set a wake-up time of 7:15 AM, a desired sleep duration of 7.5 hours, and a daily coffee intake of 3 cups. The calculated ideal bedtime is 10:55 PM. There is no pop-up or OK button visible.\">\n",
+				"date_published": "2024-10-19T21:30:09-07:00",
+				"url": "https://swift.chasen.dev/2024/10/19/day-was-straightforwarda.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/10/18/i-realize-that.html",
 				
 				"content_html": "<blockquote>\n<p>I realize that you might have thought “wow, we’re looking at machine learning already?” After all, this is only day 27 of a 100-day course. But, as Andre Gide said, “you cannot discover new oceans unless you have the courage to lose sight of the shore.”</p>\n</blockquote>\n<p>Heh, #100DaysOfSwiftUI <a href=\"https://www.hackingwithswift.com/100/swiftui/27\">read my mind</a>!</p>\n<p>Today we built a UI on top of the Core ML model we trained yesterday. Straightforward but fun!</p>\n<!-- raw HTML omitted -->\n",
@@ -26,7 +50,7 @@
 				"id": "http://chasen.micro.blog/2024/10/16/haha-this-looks.html",
 				
 				"content_html": "<p>Haha this looks so awful, but day 25’s challenge was fun: to build a rock/paper/scissors game from scratch! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Haha this looks so awful, but day 25’s challenge was fun: to build a rock/paper/scissors game from scratch! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/f169363b12.png\" width=\"303\" height=\"600\" alt=\"The iOS simulator shows a game with a score of zero. The game is that, given the game’s choice of rock/paper/scissors and text indicating whether the player should pick a winning or losing move, the player then has to select Rock, Paper, or Scissors. The game currently shows “current choice: rock” and “should win” to indicate the player should choose Paper from the buttons below. Icons at the top represent rock, paper, and scissors.\">\n",
+				"content_text": "Haha this looks so awful, but day 25’s challenge was fun: to build a rock/paper/scissors game from scratch! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/f169363b12.png\" width=\"303\" height=\"600\" alt=\"The iOS simulator shows a game with a score of zero. The game is that, given the game’s choice of rock/paper/scissors and text indicating whether the player should pick a winning or losing move, the player then has to select Rock, Paper, or Scissors. The game currently shows “current choice: rock” and “should win” to indicate the player should choose Paper from the buttons below. Icons at the top represent rock, paper, and scissors.\">\n",
 				"date_published": "2024-10-16T19:56:38-07:00",
 				"url": "https://swift.chasen.dev/2024/10/16/haha-this-looks.html"
 			},
@@ -42,7 +66,7 @@
 				"id": "http://chasen.micro.blog/2024/10/14/today-i-learned.html",
 				
 				"content_html": "<p>Today I learned that the order of modifiers does matter:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\">Text(<span style=\"color:#e6db74\">&#34;Hello, world!&#34;</span>)\n    .padding()\n    .background(.red)\n    .padding()\n    .background(.blue)\n    .padding()\n    .background(.green)\n    .padding()\n    .background(.yellow)\n</code></pre></div><p>Day 23 in the books! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Today I learned that the order of modifiers does matter:\n\n```swift\nText(\"Hello, world!\")\n    .padding()\n    .background(.red)\n    .padding()\n    .background(.blue)\n    .padding()\n    .background(.green)\n    .padding()\n    .background(.yellow)\n```\nDay 23 in the books! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/3566bdbd4a.png\" width=\"303\" height=\"600\" alt=\"The iOS simulator displays a centered message that says “Hello, world” in white text on a pink rectangle. The pink rectangle is surrounded by a purple border, which is itself surrounded by a blue border.\">\n",
+				"content_text": "Today I learned that the order of modifiers does matter:\n\n```swift\nText(\"Hello, world!\")\n    .padding()\n    .background(.red)\n    .padding()\n    .background(.blue)\n    .padding()\n    .background(.green)\n    .padding()\n    .background(.yellow)\n```\nDay 23 in the books! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/3566bdbd4a.png\" width=\"303\" height=\"600\" alt=\"The iOS simulator displays a centered message that says “Hello, world” in white text on a pink rectangle. The pink rectangle is surrounded by a purple border, which is itself surrounded by a blue border.\">\n",
 				"date_published": "2024-10-14T19:12:22-07:00",
 				"url": "https://swift.chasen.dev/2024/10/14/today-i-learned.html"
 			},
