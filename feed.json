@@ -7,6 +7,70 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/11/04/day-was-our.html",
+				
+				"content_html": "<p>Day 41 was our last day of adding pre-made #100DaysOfSwiftUI code to this Moonshot project. Tomorrow, challenge!</p>\n<p>I really appreciate Xcode’s previews. It reminds me of the love I professed for demo files in my <a href=\"https://css-tricks.com/key-building-large-javascript-apps-modlet-workflow/\">CSS-Tricks “modlets” article</a> years ago.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 41 was our last day of adding pre-made #100DaysOfSwiftUI code to this Moonshot project. Tomorrow, challenge!\n\nI really appreciate Xcode’s previews. It reminds me of the love I professed for demo files in my [CSS-Tricks “modlets” article](https://css-tricks.com/key-building-large-javascript-apps-modlet-workflow/) years ago.\n\n<img src=\"uploads/2024/a4c0a77adf.png\" width=\"300\" height=\"600\" alt=\"An iOS simulator displays the Moonshot app with a biography of astronaut James A. Lovell Jr. at the top. Lovell, wearing a spacesuit with a U.S. flag patch, smiles beside a model of the Moon. Text below details his NASA missions, including Apollo 13 and two Gemini flights.\">\n",
+				"date_published": "2024-11-04T19:46:24-08:00",
+				"url": "https://swift.chasen.dev/2024/11/04/day-was-our.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/03/for-day-we.html",
+				
+				"content_html": "<p>For Day 40 we put into practice what we learned yesterday by starting the implementation of the Moonshot app. Pretty cool that #100DaysOfSwiftUI provides sample data and images to build more interesting-looking apps like this one.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "For Day 40 we put into practice what we learned yesterday by starting the implementation of the Moonshot app. Pretty cool that #100DaysOfSwiftUI provides sample data and images to build more interesting-looking apps like this one.\n\n<img src=\"uploads/2024/c34b9d2391.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays the Moonshot app with mission patches and dates for Apollo missions. Each mission is in a card format, with the patch at the top, mission name below, and launch date at the bottom. The visible missions include Apollo 1 through Apollo 11 with more displayed offscreen.\">\n",
+				"date_published": "2024-11-03T08:30:57-08:00",
+				"url": "https://swift.chasen.dev/2024/11/03/for-day-we.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/02/were-starting-a.html",
+				
+				"content_html": "<p>We’re starting a new “Moonshot” project for Day 39 and learning about <code>Image</code> resizing, <code>LazyVStack</code>, <code>LazyHStack</code>, <code>LazyVGrid</code>, <code>LazyHGrid</code>, <code>NavigationLink</code>, and decoding hierarchical data with <code>Codable</code>.</p>\n<p>I wonder about learning optimizations like the Lazy versions of Stack/Grid so early on. #100DaysOfSwiftUI</p>\n",
+				"content_text": "We’re starting a new “Moonshot” project for Day 39 and learning about `Image` resizing, `LazyVStack`, `LazyHStack`, `LazyVGrid`, `LazyHGrid`, `NavigationLink`, and decoding hierarchical data with `Codable`.\n\nI wonder about learning optimizations like the Lazy versions of Stack/Grid so early on. #100DaysOfSwiftUI\n",
+				"date_published": "2024-11-02T18:48:37-08:00",
+				"url": "https://swift.chasen.dev/2024/11/02/were-starting-a.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/02/day-included-a.html",
+				
+				"content_html": "<p>Day 38 included a quiz and some prompts for us to add features on our own to the app, which included coloring the expense amounts and adding the separate Business/Personal sections (while still keeping support for deleting expenses in those new sections)! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 38 included a quiz and some prompts for us to add features on our own to the app, which included coloring the expense amounts and adding the separate Business/Personal sections (while still keeping support for deleting expenses in those new sections)! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/269d082d95.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays the iExpense app, listing expenses under “Business” and “Personal” categories. Business items include “Phone” and “Travel” with costs in blue and purple. Personal items are “Haircut” and “Parking” with costs in blue and orange.\">\n",
+				"date_published": "2024-11-02T11:14:55-08:00",
+				"url": "https://swift.chasen.dev/2024/11/02/day-included-a.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/02/i-got-my.html",
+				
+				"content_html": "<p>I got my flu shot and COVID booster yesterday morning and paid for it with fever dreams last night. I have always had a strong reaction to the COVID vaccine.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "I got my flu shot and COVID booster yesterday morning and paid for it with fever dreams last night. I have always had a strong reaction to the COVID vaccine.\n\n<img src=\"uploads/2024/bc039c4b75.jpg\" width=\"499\" height=\"600\" alt=\"The iOS Health app showing a Vitals graph with three high outliers in pink (Heart Rate, Respiratory Rate, and Wrist Temperature) and one typical value in blue (Sleep Duration) on November 2, 2024.\"><img src=\"uploads/2024/149999122e.jpg\" width=\"600\" height=\"519\" alt=\"The iOS Sleep++ tracking app displays showing an 8-hour, 58-minute sleep period from 10:52 p.m. to 7:50 a.m. with stages divided as awake for 2 hours 31 minutes, REM for 0 minutes, core sleep for 6 hours 11 minutes, and deep sleep for 17 minutes. Most of the “awake” graph shows sleep interruptions every 10-20 minutes, with a large block awake for almost an hour at 1:50 a.m.\">\n",
+				"date_published": "2024-11-02T07:44:28-08:00",
+				"url": "https://swift.chasen.dev/2024/11/02/i-got-my.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/01/day-using-the.html",
+				
+				"content_html": "<p>Day 37, using the APIs we learned yesterday in a new app, but this stood out to me (emphasis mine):</p>\n<blockquote>\n<p>First, we need to decide what an expense is – what do we want it to store? In this instance it will be three things: the name of the item, whether it’s business or personal, and its <em>cost as a <code>Double</code>.</em></p>\n</blockquote>\n<p>In a real app, you should almost always keep prices as integers so math with them is accurate.</p>\n<p>As a training creator, I know there’s a trade-off between having “production-ready” code vs. simplifying it for learning.</p>\n<p>This is a case where I would have made a different decision. #100DaysOfSwiftUI</p>\n",
+				"content_text": "Day 37, using the APIs we learned yesterday in a new app, but this stood out to me (emphasis mine):\n\n> First, we need to decide what an expense is – what do we want it to store? In this instance it will be three things: the name of the item, whether it’s business or personal, and its _cost as a `Double`._\n\nIn a real app, you should almost always keep prices as integers so math with them is accurate.\n\nAs a training creator, I know there’s a trade-off between having “production-ready” code vs. simplifying it for learning.\n\nThis is a case where I would have made a different decision. #100DaysOfSwiftUI\n",
+				"date_published": "2024-11-01T19:28:47-08:00",
+				"url": "https://swift.chasen.dev/2024/11/01/day-using-the.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/31/day-is-the.html",
+				
+				"content_html": "<p>Day 36 is the start of a new project, and thus a day of learning new APIs: <code>@Observable</code> with <code>class</code>, <code>.sheet()</code>, <code>@Environment</code>, <code>.onDelete()</code>, <code>UserDefaults</code> / <code>@AppStorage</code>, <code>Codable</code>, and <code>JSONEncoder</code>.</p>\n<p>I would’ve liked more info about <code>@Environment</code> but I’m sure we’ll get into it more soon. #100DaysOfSwiftUI</p>\n",
+				"content_text": "Day 36 is the start of a new project, and thus a day of learning new APIs: `@Observable` with `class`, `.sheet()`, `@Environment`, `.onDelete()`, `UserDefaults` / `@AppStorage`, `Codable`, and `JSONEncoder`.\n\nI would’ve liked more info about `@Environment` but I’m sure we’ll get into it more soon. #100DaysOfSwiftUI\n",
+				"date_published": "2024-10-31T08:52:37-07:00",
+				"url": "https://swift.chasen.dev/2024/10/31/day-is-the.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/10/30/i-finished-the.html",
+				
+				"content_html": "<p>I finished the Day 35 challenge today. It’s been a while since I’ve been “challenged” when programming, so this was a great reminder to stay humble while learning something new. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "I finished the Day 35 challenge today. It’s been a while since I’ve been “challenged” when programming, so this was a great reminder to stay humble while learning something new. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/09d6197b2a.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays a question asking “What is 4 times 2” with the answer “8” typed below. A blue “Submit” button is under the text field. The bottom shows “5 / 5” in small text.\">\n",
+				"date_published": "2024-10-30T19:17:13-07:00",
+				"url": "https://swift.chasen.dev/2024/10/30/i-finished-the.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/10/29/yesterday-i-looked.html",
 				
 				"content_html": "<p>Yesterday I looked at the Day 35 challenge (build a new app from just a description, no code) and I was like “nope, don’t have the energy today.”</p>\n<p>I worked on it for ~45 minutes tonight and started off strong, but I’ve run into some errors that I’ll have to come back to tomorrow. #100DaysOfSwiftUI</p>\n",
@@ -18,7 +82,7 @@
 				"id": "http://chasen.micro.blog/2024/10/27/day-was-a.html",
 				
 				"content_html": "<p>Day 34 was a quiz and challenge day where we went back to one of our previous projects and added animations on our own. I really liked the challenge because I wasn’t expecting to go back to a previous project! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 34 was a quiz and challenge day where we went back to one of our previous projects and added animations on our own. I really liked the challenge because I wasn’t expecting to go back to a previous project! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/1f05463a22.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays the “Guess the Flag” app from Day 22. The prompt reads “Tap the flag of US” with the United States flag selected. A pop-up says “Correct” with “Your score is 1” and a “Continue” button below. Current score displays as 1.\">\n",
+				"content_text": "Day 34 was a quiz and challenge day where we went back to one of our previous projects and added animations on our own. I really liked the challenge because I wasn’t expecting to go back to a previous project! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/1f05463a22.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays the “Guess the Flag” app from Day 22. The prompt reads “Tap the flag of US” with the United States flag selected. A pop-up says “Correct” with “Your score is 1” and a “Continue” button below. Current score displays as 1.\">\n",
 				"date_published": "2024-10-27T20:33:18-07:00",
 				"url": "https://swift.chasen.dev/2024/10/27/day-was-a.html"
 			},
@@ -26,7 +90,7 @@
 				"id": "http://chasen.micro.blog/2024/10/25/day-continuing-with.html",
 				
 				"content_html": "<p>Day 33… continuing with animations and I swear this is more fun than it looks from a single screenshot. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 33… continuing with animations and I swear this is more fun than it looks from a single screenshot. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/4db46b5e54.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays an app with a large orange gradient rectangle at the top, a red banner saying “Hello SwiftUI” below it, a blue “Tap Me” link, and two stacked squares beneath, one red and one orange.\">\n",
+				"content_text": "Day 33… continuing with animations and I swear this is more fun than it looks from a single screenshot. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/4db46b5e54.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays an app with a large orange gradient rectangle at the top, a red banner saying “Hello SwiftUI” below it, a blue “Tap Me” link, and two stacked squares beneath, one red and one orange.\">\n",
 				"date_published": "2024-10-25T18:52:03-07:00",
 				"url": "https://swift.chasen.dev/2024/10/25/day-continuing-with.html"
 			},
@@ -34,7 +98,7 @@
 				"id": "http://chasen.micro.blog/2024/10/24/yes-i-do.html",
 				
 				"content_html": "<p>Yes, I do embrace absolute chaos when I’m first trying the provided sample code so I can keep playing with older examples as I’m learning more intricate modifiers. Day 32 in the books! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Yes, I do embrace absolute chaos when I’m first trying the provided sample code so I can keep playing with older examples as I’m learning more intricate modifiers. Day 32 in the books! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/4702c049eb.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays a simple app interface with the text “Hello, world” below a globe icon. Three red buttons labeled “Tap Me” are stacked vertically. A “Scale amount” stepper control (with minus and plus buttons) is shown near the second button to adjust the size. The second button has a ring around it from animating in size.\">\n",
+				"content_text": "Yes, I do embrace absolute chaos when I’m first trying the provided sample code so I can keep playing with older examples as I’m learning more intricate modifiers. Day 32 in the books! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/4702c049eb.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays a simple app interface with the text “Hello, world” below a globe icon. Three red buttons labeled “Tap Me” are stacked vertically. A “Scale amount” stepper control (with minus and plus buttons) is shown near the second button to adjust the size. The second button has a ring around it from animating in size.\">\n",
 				"date_published": "2024-10-24T22:46:20-07:00",
 				"url": "https://swift.chasen.dev/2024/10/24/yes-i-do.html"
 			},
@@ -42,7 +106,7 @@
 				"id": "http://chasen.micro.blog/2024/10/24/day-was-a.html",
 				
 				"content_html": "<p>Day 31 was a challenge day where we took a test and had to update our app with only some requirements and no code hints. I extended mine to show a score based on the number of letters in each correct guess. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 31 was a challenge day where we took a test and had to update our app with only some requirements and no code hints. I extended mine to show a score based on the number of letters in each correct guess. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/079a0d1291.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays a word game interface. The word “bedrooms” is displayed at the top, with a text field prompting the user to “Enter your word.” Below is a list of valid words with their character counts. The total score is 51.\">\n",
+				"content_text": "Day 31 was a challenge day where we took a test and had to update our app with only some requirements and no code hints. I extended mine to show a score based on the number of letters in each correct guess. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/079a0d1291.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays a word game interface. The word “bedrooms” is displayed at the top, with a text field prompting the user to “Enter your word.” Below is a list of valid words with their character counts. The total score is 51.\">\n",
 				"date_published": "2024-10-24T22:13:21-07:00",
 				"url": "https://swift.chasen.dev/2024/10/24/day-was-a.html"
 			},
@@ -50,7 +114,7 @@
 				"id": "http://chasen.micro.blog/2024/10/23/back-on-it.html",
 				
 				"content_html": "<p>Back on it after being sick the last couple days… for day 30, we mostly copied code from the tutorial, but I find it very useful to type everything out to get that muscle memory built up.</p>\n<p>Here’s a little game where you have to type words that are a subset of a random word. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Back on it after being sick the last couple days… for day 30, we mostly copied code from the tutorial, but I find it very useful to type everything out to get that muscle memory built up.\n\nHere’s a little game where you have to type words that are a subset of a random word. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/b24ed28ea8.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays a word puzzle game with the word “cherries” at the top. Below is a text box labeled “Enter your word” followed by a list of correct guesses that the player has made: “sire,” “cher,” “chris,” “sir,” “rice,” and “her.” Each word has the number of characters in the word next to it.\">\n",
+				"content_text": "Back on it after being sick the last couple days… for day 30, we mostly copied code from the tutorial, but I find it very useful to type everything out to get that muscle memory built up.\n\nHere’s a little game where you have to type words that are a subset of a random word. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/b24ed28ea8.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays a word puzzle game with the word “cherries” at the top. Below is a text box labeled “Enter your word” followed by a list of correct guesses that the player has made: “sire,” “cher,” “chris,” “sir,” “rice,” and “her.” Each word has the number of characters in the word next to it.\">\n",
 				"date_published": "2024-10-23T20:24:24-07:00",
 				"url": "https://swift.chasen.dev/2024/10/23/back-on-it.html"
 			},
@@ -66,7 +130,7 @@
 				"id": "http://chasen.micro.blog/2024/10/19/day-was-straightforwarda.html",
 				
 				"content_html": "<p>Day 28 was straightforward—a review quiz and some challenges for us to modify our most recent app. Onward! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 28 was straightforward—a review quiz and some challenges for us to modify our most recent app. Onward! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/8560d9f5a3.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays an app called BetterRest. The user has set a wake-up time of 7:15 AM, a desired sleep duration of 7.5 hours, and a daily coffee intake of 3 cups. The calculated ideal bedtime is 10:55 PM. There is no pop-up or OK button visible.\">\n",
+				"content_text": "Day 28 was straightforward—a review quiz and some challenges for us to modify our most recent app. Onward! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/8560d9f5a3.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays an app called BetterRest. The user has set a wake-up time of 7:15 AM, a desired sleep duration of 7.5 hours, and a daily coffee intake of 3 cups. The calculated ideal bedtime is 10:55 PM. There is no pop-up or OK button visible.\">\n",
 				"date_published": "2024-10-19T21:30:09-07:00",
 				"url": "https://swift.chasen.dev/2024/10/19/day-was-straightforwarda.html"
 			},
@@ -74,7 +138,7 @@
 				"id": "http://chasen.micro.blog/2024/10/18/i-realize-that.html",
 				
 				"content_html": "<blockquote>\n<p>I realize that you might have thought “wow, we’re looking at machine learning already?” After all, this is only day 27 of a 100-day course. But, as Andre Gide said, “you cannot discover new oceans unless you have the courage to lose sight of the shore.”</p>\n</blockquote>\n<p>Heh, #100DaysOfSwiftUI <a href=\"https://www.hackingwithswift.com/100/swiftui/27\">read my mind</a>!</p>\n<p>Today we built a UI on top of the Core ML model we trained yesterday. Straightforward but fun!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "> I realize that you might have thought “wow, we’re looking at machine learning already?” After all, this is only day 27 of a 100-day course. But, as Andre Gide said, “you cannot discover new oceans unless you have the courage to lose sight of the shore.”\n\nHeh, #100DaysOfSwiftUI [read my mind](https://www.hackingwithswift.com/100/swiftui/27)!\n\nToday we built a UI on top of the Core ML model we trained yesterday. Straightforward but fun!\n\n<img src=\"uploads/2024/1547919dcc.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays an app called BetterRest. The user has set a wake-up time of 7:15 AM, a desired sleep duration of 7.5 hours, and a daily coffee intake of 3 cups. A pop-up message shows the calculated ideal bedtime as 10:55 PM, with an OK button below.\">\n",
+				"content_text": "> I realize that you might have thought “wow, we’re looking at machine learning already?” After all, this is only day 27 of a 100-day course. But, as Andre Gide said, “you cannot discover new oceans unless you have the courage to lose sight of the shore.”\n\nHeh, #100DaysOfSwiftUI [read my mind](https://www.hackingwithswift.com/100/swiftui/27)!\n\nToday we built a UI on top of the Core ML model we trained yesterday. Straightforward but fun!\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/1547919dcc.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays an app called BetterRest. The user has set a wake-up time of 7:15 AM, a desired sleep duration of 7.5 hours, and a daily coffee intake of 3 cups. A pop-up message shows the calculated ideal bedtime as 10:55 PM, with an OK button below.\">\n",
 				"date_published": "2024-10-18T19:21:36-07:00",
 				"url": "https://swift.chasen.dev/2024/10/18/i-realize-that.html"
 			},
@@ -90,7 +154,7 @@
 				"id": "http://chasen.micro.blog/2024/10/16/haha-this-looks.html",
 				
 				"content_html": "<p>Haha this looks so awful, but day 25’s challenge was fun: to build a rock/paper/scissors game from scratch! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Haha this looks so awful, but day 25’s challenge was fun: to build a rock/paper/scissors game from scratch! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/f169363b12.png\" width=\"303\" height=\"600\" alt=\"The iOS simulator shows a game with a score of zero. The game is that, given the game’s choice of rock/paper/scissors and text indicating whether the player should pick a winning or losing move, the player then has to select Rock, Paper, or Scissors. The game currently shows “current choice: rock” and “should win” to indicate the player should choose Paper from the buttons below. Icons at the top represent rock, paper, and scissors.\">\n",
+				"content_text": "Haha this looks so awful, but day 25’s challenge was fun: to build a rock/paper/scissors game from scratch! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/f169363b12.png\" width=\"303\" height=\"600\" alt=\"The iOS simulator shows a game with a score of zero. The game is that, given the game’s choice of rock/paper/scissors and text indicating whether the player should pick a winning or losing move, the player then has to select Rock, Paper, or Scissors. The game currently shows “current choice: rock” and “should win” to indicate the player should choose Paper from the buttons below. Icons at the top represent rock, paper, and scissors.\">\n",
 				"date_published": "2024-10-16T19:56:38-07:00",
 				"url": "https://swift.chasen.dev/2024/10/16/haha-this-looks.html"
 			},
@@ -106,7 +170,7 @@
 				"id": "http://chasen.micro.blog/2024/10/14/today-i-learned.html",
 				
 				"content_html": "<p>Today I learned that the order of modifiers does matter:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\">Text(<span style=\"color:#e6db74\">&#34;Hello, world!&#34;</span>)\n    .padding()\n    .background(.red)\n    .padding()\n    .background(.blue)\n    .padding()\n    .background(.green)\n    .padding()\n    .background(.yellow)\n</code></pre></div><p>Day 23 in the books! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Today I learned that the order of modifiers does matter:\n\n```swift\nText(\"Hello, world!\")\n    .padding()\n    .background(.red)\n    .padding()\n    .background(.blue)\n    .padding()\n    .background(.green)\n    .padding()\n    .background(.yellow)\n```\nDay 23 in the books! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/3566bdbd4a.png\" width=\"303\" height=\"600\" alt=\"The iOS simulator displays a centered message that says “Hello, world” in white text on a pink rectangle. The pink rectangle is surrounded by a purple border, which is itself surrounded by a blue border.\">\n",
+				"content_text": "Today I learned that the order of modifiers does matter:\n\n```swift\nText(\"Hello, world!\")\n    .padding()\n    .background(.red)\n    .padding()\n    .background(.blue)\n    .padding()\n    .background(.green)\n    .padding()\n    .background(.yellow)\n```\nDay 23 in the books! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/3566bdbd4a.png\" width=\"303\" height=\"600\" alt=\"The iOS simulator displays a centered message that says “Hello, world” in white text on a pink rectangle. The pink rectangle is surrounded by a purple border, which is itself surrounded by a blue border.\">\n",
 				"date_published": "2024-10-14T19:12:22-07:00",
 				"url": "https://swift.chasen.dev/2024/10/14/today-i-learned.html"
 			},
@@ -114,7 +178,7 @@
 				"id": "http://chasen.micro.blog/2024/10/13/day-was-really.html",
 				
 				"content_html": "<p>Day 22 was really easy—added the score counter and a different alert for when the game is “over.” #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 22 was really easy—added the score counter and a different alert for when the game is “over.” #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/98afe8fdd8.png\" width=\"302\" height=\"600\" alt=\"The iOS simulator displays a flag quiz game with the title “Guess the Flag.” The prompt says “Tap the flag of Spain.” Three flag options are shown: the Ukrainian flag on top, the Spanish flag in the middle, and the U.S. flag on the bottom. An alert over the flags reads “Correct” with a final score of 8. A “Restart” button is visible.\">\n",
+				"content_text": "Day 22 was really easy—added the score counter and a different alert for when the game is “over.” #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/98afe8fdd8.png\" width=\"302\" height=\"600\" alt=\"The iOS simulator displays a flag quiz game with the title “Guess the Flag.” The prompt says “Tap the flag of Spain.” Three flag options are shown: the Ukrainian flag on top, the Spanish flag in the middle, and the U.S. flag on the bottom. An alert over the flags reads “Correct” with a final score of 8. A “Restart” button is visible.\">\n",
 				"date_published": "2024-10-13T08:33:51-07:00",
 				"url": "https://swift.chasen.dev/2024/10/13/day-was-really.html"
 			},
@@ -122,7 +186,7 @@
 				"id": "http://chasen.micro.blog/2024/10/11/day-had-us.html",
 				
 				"content_html": "<p>Day 21 had us building a mini flag-guessing game, but without the score implemented. I will be absolutely shocked, shocked I say when we implement the score as the next day’s challenge. 🇺🇸 🇺🇦 🇪🇸 #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 21 had us building a mini flag-guessing game, but without the score implemented. I will be absolutely shocked, shocked I say when we implement the score as the next day’s challenge. 🇺🇸 🇺🇦 🇪🇸 #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/4103e52f0e.png\" width=\"302\" height=\"600\" alt=\"The iOS simulator shows a game titled Guess the Flag. The user is prompted to tap the flag of Spain. Three flags are displayed in a vertical list: the United States flag, the Ukraine flag, and the Spain flag at the bottom. Below the flags, the score reads Score: ???\">\n",
+				"content_text": "Day 21 had us building a mini flag-guessing game, but without the score implemented. I will be absolutely shocked, shocked I say when we implement the score as the next day’s challenge. 🇺🇸 🇺🇦 🇪🇸 #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/4103e52f0e.png\" width=\"302\" height=\"600\" alt=\"The iOS simulator shows a game titled Guess the Flag. The user is prompted to tap the flag of Spain. Three flags are displayed in a vertical list: the United States flag, the Ukraine flag, and the Spain flag at the bottom. Below the flags, the score reads Score: ???\">\n",
 				"date_published": "2024-10-11T20:59:59-07:00",
 				"url": "https://swift.chasen.dev/2024/10/11/day-had-us.html"
 			},
@@ -130,7 +194,7 @@
 				"id": "http://chasen.micro.blog/2024/10/11/day-is-all.html",
 				
 				"content_html": "<p>Day 20 is all about stacks, gradients, buttons, and images. I find it more fun to keep <em>all</em> the sample code in one project and let it pile up. 🤪 #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 20 is all about stacks, gradients, buttons, and images. I find it more fun to keep *all* the sample code in one project and let it pile up. 🤪 #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/35cfe2c333.png\" width=\"302\" height=\"600\" alt=\"A screenshot from the iPhone simulator that displays a UI with various buttons and text elements.The screen is absolute chaos. The top shows repeated labels for “First,” “Second,” and “Third.” There are many different linear, radial, and angular gradient backgrounds. Below are colorful buttons labeled “Button 1” through “Button 4,” a red “Tap me” button, and “Edit” buttons. Two “Show Alert” links are at the bottom.\">\n",
+				"content_text": "Day 20 is all about stacks, gradients, buttons, and images. I find it more fun to keep *all* the sample code in one project and let it pile up. 🤪 #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/35cfe2c333.png\" width=\"302\" height=\"600\" alt=\"A screenshot from the iPhone simulator that displays a UI with various buttons and text elements.The screen is absolute chaos. The top shows repeated labels for “First,” “Second,” and “Third.” There are many different linear, radial, and angular gradient backgrounds. Below are colorful buttons labeled “Button 1” through “Button 4,” a red “Tap me” button, and “Edit” buttons. Two “Show Alert” links are at the bottom.\">\n",
 				"date_published": "2024-10-11T08:25:53-07:00",
 				"url": "https://swift.chasen.dev/2024/10/11/day-is-all.html"
 			},
@@ -138,7 +202,7 @@
 				"id": "http://chasen.micro.blog/2024/10/10/225714.html",
 				
 				"content_html": "<p>Uh oh… <a href=\"https://lbpost.com/news/boil-water-long-beach-notice-water-main-break/\">lbpost.com/news/boil&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Uh oh… [lbpost.com/news/boil...](https://lbpost.com/news/boil-water-long-beach-notice-water-main-break/)\n\n<img src=\"uploads/2024/49b1539ab9.jpg\" width=\"600\" height=\"448\" alt=\"Emergency Alert&10;LB Utilities: A Boil Water Notice is in effect for the following Long Beach zip codes - 90805, 90807, and part of 90806. Residents are advised to use boiled or bottled water for drinking and food preparation until further notice. LB Utilities will inform residents when water testing confirms it is safe to drink. For more information call 562-570-2390\">\n",
+				"content_text": "Uh oh… [lbpost.com/news/boil...](https://lbpost.com/news/boil-water-long-beach-notice-water-main-break/)\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/49b1539ab9.jpg\" width=\"600\" height=\"448\" alt=\"Emergency Alert&10;LB Utilities: A Boil Water Notice is in effect for the following Long Beach zip codes - 90805, 90807, and part of 90806. Residents are advised to use boiled or bottled water for drinking and food preparation until further notice. LB Utilities will inform residents when water testing confirms it is safe to drink. For more information call 562-570-2390\">\n",
 				"date_published": "2024-10-10T22:57:14-07:00",
 				"url": "https://swift.chasen.dev/2024/10/10/225714.html"
 			},
@@ -146,7 +210,7 @@
 				"id": "http://chasen.micro.blog/2024/10/10/oh-macos-previews.html",
 				
 				"content_html": "<p>Oh macOS Preview’s signature feature, I love you but this is not acceptable. 😅</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Oh macOS Preview’s signature feature, I love you but this is not acceptable. 😅\n\n<img src=\"uploads/2024/008b5e4c32.png\" width=\"546\" height=\"600\" alt=\"The macOS signature capture screen with the “Camera” tab selected. A series of completely erratic squiggly lines is visible above a blue line.\">\n",
+				"content_text": "Oh macOS Preview’s signature feature, I love you but this is not acceptable. 😅\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/008b5e4c32.png\" width=\"546\" height=\"600\" alt=\"The macOS signature capture screen with the “Camera” tab selected. A series of completely erratic squiggly lines is visible above a blue line.\">\n",
 				"date_published": "2024-10-10T07:43:18-07:00",
 				"url": "https://swift.chasen.dev/2024/10/10/oh-macos-previews.html"
 			},
@@ -162,7 +226,7 @@
 				"id": "http://chasen.micro.blog/2024/10/09/day-very-fun.html",
 				
 				"content_html": "<p>Day 19, very fun to have a day focused on building a new app from scratch! This was my take on <a href=\"https://www.hackingwithswift.com/100/swiftui/19\">the challenge</a>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 19, very fun to have a day focused on building a new app from scratch! This was my take on [the challenge](https://www.hackingwithswift.com/100/swiftui/19). #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/image.png\" width=\"303\" height=\"600\" alt=\"A unit conversion app running in the iPhone 16 simulator. The screen displays options to convert between Celsius, Fahrenheit, and Kelvin. The conversion is set to convert from Celsius to Fahrenheit, with an input value of 28, resulting in 82.4 displayed as the output. The design is minimal, with a clean white background and simple buttons.\">\n",
+				"content_text": "Day 19, very fun to have a day focused on building a new app from scratch! This was my take on [the challenge](https://www.hackingwithswift.com/100/swiftui/19). #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/image.png\" width=\"303\" height=\"600\" alt=\"A unit conversion app running in the iPhone 16 simulator. The screen displays options to convert between Celsius, Fahrenheit, and Kelvin. The conversion is set to convert from Celsius to Fahrenheit, with an input value of 28, resulting in 82.4 displayed as the output. The design is minimal, with a clean white background and simple buttons.\">\n",
 				"date_published": "2024-10-09T19:50:47-07:00",
 				"url": "https://swift.chasen.dev/2024/10/09/day-very-fun.html"
 			},
@@ -226,7 +290,7 @@
 				"id": "http://chasen.micro.blog/2024/10/03/my-series-has.html",
 				
 				"content_html": "<p>My Series 10 has had really inconsistent battery life (it died on me 8 miles into a run last week 🙃) so I’m happy to see potential fixes in this watchOS update.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "My Series 10 has had really inconsistent battery life (it died on me 8 miles into a run last week 🙃) so I’m happy to see potential fixes in this watchOS update.\n\n<img src=\"uploads/2024/5d3413e8d5.jpg\" width=\"533\" height=\"600\" alt=\"\">\n",
+				"content_text": "My Series 10 has had really inconsistent battery life (it died on me 8 miles into a run last week 🙃) so I’m happy to see potential fixes in this watchOS update.\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/5d3413e8d5.jpg\" width=\"533\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-10-03T20:46:14-07:00",
 				"url": "https://swift.chasen.dev/2024/10/03/my-series-has.html"
 			},
@@ -338,7 +402,7 @@
 				"id": "http://chasen.micro.blog/2024/09/22/the-verges-article.html",
 				
 				"content_html": "<p>The Verge’s article on the iPhone 16 Pro made me realize that the “rich contrast” photographic style is where it’s at on my 15 Pro. <a href=\"https://www.theverge.com/24247538/apple-iphone-16-pro-review\">www.theverge.com/24247538/&hellip;</a></p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
-				"content_text": "The Verge’s article on the iPhone 16 Pro made me realize that the “rich contrast” photographic style is where it’s at on my 15 Pro. [www.theverge.com/24247538/...](https://www.theverge.com/24247538/apple-iphone-16-pro-review)\n\n<img src=\"uploads/2024/image.jpg\" width=\"499\" height=\"600\" alt=\"\"><img src=\"uploads/2024/269a779080.jpg\" width=\"431\" height=\"600\" alt=\"\">\n",
+				"content_text": "The Verge’s article on the iPhone 16 Pro made me realize that the “rich contrast” photographic style is where it’s at on my 15 Pro. [www.theverge.com/24247538/...](https://www.theverge.com/24247538/apple-iphone-16-pro-review)\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/image.jpg\" width=\"499\" height=\"600\" alt=\"\"><img src=\"https://cdn.uploads.micro.blog/177243/2024/269a779080.jpg\" width=\"431\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-09-22T11:34:16-07:00",
 				"url": "https://swift.chasen.dev/2024/09/22/the-verges-article.html"
 			},
