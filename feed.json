@@ -7,6 +7,70 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/11/16/day-was-a.html",
+				
+				"content_html": "<p>Day 56 was a review and challenge (on our own) day, so I updated the detail view to handle missing data more gracefully. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 56 was a review and challenge (on our own) day, so I updated the detail view to handle missing data more gracefully. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/a33997cf8b.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a Bookworm app screen showing a book with a forest-themed cover labeled Fantasy. The text says No author. Below is a rating of three out of five stars and a note saved on Nov 16, 2024, at 8:01 PM.\">\n",
+				"date_published": "2024-11-16T21:03:05-08:00",
+				"url": "https://swift.chasen.dev/2024/11/16/day-was-a.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/16/for-day-we.html",
+				
+				"content_html": "<p>For Day 55 we learned how to delete SwiftData objects, sort queries using <code>SortDescriptor</code>, and add custom buttons to alerts. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "For Day 55 we learned how to delete SwiftData objects, sort queries using `SortDescriptor`, and add custom buttons to alerts. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/c32eff1352.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a confirmation dialog asking, “Delete book. Are you sure?” with options to “Cancel” or “Delete.” The app shows “The Little Prince” by Antoine de Saint-Exupéry, with a fantasy-themed cover image and navigation tabs at the bottom.\">\n",
+				"date_published": "2024-11-16T07:41:00-08:00",
+				"url": "https://swift.chasen.dev/2024/11/16/for-day-we.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/15/for-day-we.html",
+				
+				"content_html": "<p>For Day 54, we earnestly started the implementation of a “Bookworm” app and created new SwiftData models and SwiftUI components.</p>\n<p>I think the only new APIs were <a href=\"https://developer.apple.com/documentation/swiftui/binding/constant(_:)\"><code>.constant()</code></a> and using <code>.buttonStyle(.plain)</code> to disable the whole “tap the row to trigger its buttons” behavior. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "For Day 54, we earnestly started the implementation of a “Bookworm” app and created new SwiftData models and SwiftUI components.\n\nI think the only new APIs were [`.constant()`](https://developer.apple.com/documentation/swiftui/binding/constant(_:)) and using `.buttonStyle(.plain)` to disable the whole “tap the row to trigger its buttons” behavior. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/f9b8099697.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an “Add Book” screen with fields for the title “The Little Prince,” author “Antoine de Saint-Exupéry,” genre set to “Fantasy,” a review input containing “Fantastic,” a five-star rating, and a “Save” button.\">\n",
+				"date_published": "2024-11-15T20:15:15-08:00",
+				"url": "https://swift.chasen.dev/2024/11/15/for-day-we.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/14/day-is-the.html",
+				
+				"content_html": "<p>Day 53 is the start of our first project with SwiftData. So far all the terminology reminds me of my Core Data days. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 53 is the start of our first project with SwiftData. So far all the terminology reminds me of my Core Data days. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/368683ff27.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a Classroom app with a list of student names: Ginny Weasley, Ron Lovegood, and Hermione Potter. A header reads “Classroom” with an “Add” button in the top-right. The bottom navigation shows icons labeled Students and Notes.\">\n",
+				"date_published": "2024-11-14T22:00:25-08:00",
+				"url": "https://swift.chasen.dev/2024/11/14/day-is-the.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/13/day-is-a.html",
+				
+				"content_html": "<p>Day 52 is a review quiz and challenge day. I found the challenges pretty easy this time around! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 52 is a review quiz and challenge day. I found the challenges pretty easy this time around! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/8c17e39046.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator shows a checkout screen featuring cupcakes and a total of $37.50. A pop-up alert error message says, “Checkout failed. Received error: resource exceeds maximum size.” App navigation icons appear along the bottom of the screen.\">\n",
+				"date_published": "2024-11-13T20:11:50-08:00",
+				"url": "https://swift.chasen.dev/2024/11/13/day-is-a.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/12/its-our-first.html",
+				
+				"content_html": "<p>It’s our first day using the debugger! I love debuggers so much. I feel like teaching how to use real debuggers is undervalued by the developer community.</p>\n<p>Day 51, officially over half-way done with #100DaysOfSwiftUI!</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "It’s our first day using the debugger! I love debuggers so much. I feel like teaching how to use real debuggers is undervalued by the developer community.\n\nDay 51, officially over half-way done with #100DaysOfSwiftUI!\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/7c9d68ceab.png\" width=\"600\" height=\"384\" alt=\"Xcode displays three panels: the first with a breakpoint paused on a line of code in a `placeOrder` function, the second with the running app’s preview paused (showing a “Place Order” screen), and the third with a JSON object as a string.\">\n",
+				"date_published": "2024-11-12T21:46:33-08:00",
+				"url": "https://swift.chasen.dev/2024/11/12/its-our-first.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/12/continuing-our-new.html",
+				
+				"content_html": "<p>Continuing our new project in Day 50 by using <code>CodingKeys</code> to make <code>@Observable</code> get along with <code>JSONEncoder().encode()</code>, and learning about haptics with the <code>.sensoryFeedback()</code> modifier and <code>CHHapticEngine</code>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Continuing our new project in Day 50 by using `CodingKeys` to make `@Observable` get along with `JSONEncoder().encode()`, and learning about haptics with the `.sensoryFeedback()` modifier and `CHHapticEngine`. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/8578bca71a.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a “Cupcake Corner” app with a form to select the cake type (set to “Rainbow”), adjust the quantity (set to “18”), add extra frosting or sprinkles, and enter delivery details. Toggle switches for frosting and sprinkles are on and off, respectively. A navigation bar at the bottom has tabs for Order (currently selected), List, Image, Form, and More.\">\n",
+				"date_published": "2024-11-12T08:15:58-08:00",
+				"url": "https://swift.chasen.dev/2024/11/12/continuing-our-new.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/11/new-project-day.html",
+				
+				"content_html": "<p>New project day! Day 49 was focused on <code>async</code>/<code>await</code>, <code>URLSession.shared.data()</code>, <code>AsyncImage</code>, and the <code>.disabled()</code> modifier. I’m continuing to use <code>TabView</code> so I can keep all the sample code around in a project. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "New project day! Day 49 was focused on `async`/`await`, `URLSession.shared.data()`, `AsyncImage`, and the `.disabled()` modifier. I’m continuing to use `TabView` so I can keep all the sample code around in a project. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/a843e3c950.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays an app with three tabs at the bottom: List, Image, and Form. The current tab is “List” and the view shows a long list of Taylor Swift songs. Titles include “Our Song,” “Tim McGraw,” and more. \">\n",
+				"date_published": "2024-11-11T20:34:00-08:00",
+				"url": "https://swift.chasen.dev/2024/11/11/new-project-day.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/11/11/day-included-watching.html",
 				
 				"content_html": "<p><a href=\"https://www.hackingwithswift.com/100/swiftui/48\">Day 48</a> included watching two videos. Paul’s had a fun premise (“What Star Wars Can Teach Us About Swift”) and Woz’s video seemed aimed at high-schoolers, but had some good takeaways: “make your studies… a fun part of life” and “always try to be creative and think different.” #100DaysOfSwiftUI</p>\n",
@@ -18,7 +82,7 @@
 				"id": "http://chasen.micro.blog/2024/11/09/day-was-a.html",
 				
 				"content_html": "<p>Day 47 was a review and challenge day, with an entire app we had to build from scratch on our own. I’m stoked it only took me 30 minutes to put together this app! #100DaysOfSwiftUI</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
-				"content_text": "Day 47 was a review and challenge day, with an entire app we had to build from scratch on our own. I’m stoked it only took me 30 minutes to put together this app! #100DaysOfSwiftUI\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://swift.chasen.dev/uploads/2024/video.mov\" width=\"302\" height=\"640\" poster=\"https://swift.chasen.dev/uploads/2024/poster.png\" preload=\"none\"></video>\n",
+				"content_text": "Day 47 was a review and challenge day, with an entire app we had to build from scratch on our own. I’m stoked it only took me 30 minutes to put together this app! #100DaysOfSwiftUI\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://cdn.uploads.micro.blog/177243/2024/video.mov\" width=\"302\" height=\"640\" poster=\"https://swift.chasen.dev/uploads/2024/poster.png\" preload=\"none\"></video>\n",
 				"date_published": "2024-11-09T09:05:03-08:00",
 				"url": "https://swift.chasen.dev/2024/11/09/day-was-a.html"
 			},
@@ -34,7 +98,7 @@
 				"id": "http://chasen.micro.blog/2024/11/08/adding-a-tab.html",
 				
 				"content_html": "<p>Adding a tab bar wasn’t part of Day 45, but I wanted to keep my other view and start “fresh” with today’s code. We actually went through <code>navigationBarTitleDisplayMode()</code>, <code>toolbarBackground()</code>, <code>toolbarColorScheme()</code>, <code>toolbar()</code>, <code>ToolbarItem</code>, and passing bindings to <code>navigationTitle()</code>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Adding a tab bar wasn’t part of Day 45, but I wanted to keep my other view and start “fresh” with today’s code. We actually went through `navigationBarTitleDisplayMode()`, `toolbarBackground()`, `toolbarColorScheme()`, `toolbar()`, `ToolbarItem`, and passing bindings to `navigationTitle()`. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/2f3016bc68.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays a list interface with rows labeled from Row 0 to Row 14. The top navigation bar shows an editable title “SwiftUI” with Cancel, Confirm, and Destroy buttons. The bottom tab bar shows the current view and one other tab.\">\n",
+				"content_text": "Adding a tab bar wasn’t part of Day 45, but I wanted to keep my other view and start “fresh” with today’s code. We actually went through `navigationBarTitleDisplayMode()`, `toolbarBackground()`, `toolbarColorScheme()`, `toolbar()`, `ToolbarItem`, and passing bindings to `navigationTitle()`. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/2f3016bc68.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays a list interface with rows labeled from Row 0 to Row 14. The top navigation bar shows an editable title “SwiftUI” with Cancel, Confirm, and Destroy buttons. The bottom tab bar shows the current view and one other tab.\">\n",
 				"date_published": "2024-11-08T08:07:59-08:00",
 				"url": "https://swift.chasen.dev/2024/11/08/adding-a-tab.html"
 			},
@@ -42,7 +106,7 @@
 				"id": "http://chasen.micro.blog/2024/11/07/today-i-made.html",
 				
 				"content_html": "<p>For Day 44 I made this abomination while learning the ins and outs of <a href=\"https://developer.apple.com/documentation/swiftui/navigationpath\">NavigationPath</a>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "For Day 44 I made this abomination while learning the ins and outs of [NavigationPath](https://developer.apple.com/documentation/swiftui/navigationpath). #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/63bd35cf86.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays the text “Number: 0” at the top. Below are three clickable links labeled “Go to Random Number,” “Push 556,” and “Push Hello.” A list follows with options labeled Select Number and Select String, each paired with a value from 0 to 4.\">\n",
+				"content_text": "For Day 44 I made this abomination while learning the ins and outs of [NavigationPath](https://developer.apple.com/documentation/swiftui/navigationpath). #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/63bd35cf86.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays the text “Number: 0” at the top. Below are three clickable links labeled “Go to Random Number,” “Push 556,” and “Push Hello.” A list follows with options labeled Select Number and Select String, each paired with a value from 0 to 4.\">\n",
 				"date_published": "2024-11-07T20:42:17-08:00",
 				"url": "https://swift.chasen.dev/2024/11/07/today-i-made.html"
 			},
