@@ -7,6 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/11/22/wow-im-impressed.html",
+				
+				"content_html": "<p>Wow, I’m impressed with myself for learning and SwiftData/SwiftUI for being easy.</p>\n<p>For Day 59, we had to go back to an old app and upgrade it to use SwiftData, add sorting, and add filtering. It took me about an hour to do everything, which is a lot faster than I expected. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Wow, I’m impressed with myself for learning and SwiftData/SwiftUI for being easy.\n\nFor Day 59, we had to go back to an old app and upgrade it to use SwiftData, add sorting, and add filtering. It took me about an hour to do everything, which is a lot faster than I expected. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/06ed281c5d.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an “iExpense” app. The toolbar includes buttons to add new expenses and sort. A segmented control allows the main list of expenses to be sorted by “All,” “Business,” or “Personal” (with Business currently selected). The two listed expenses include “Phone, $34.35” and “Travel, $123.45.”\">\n",
+				"date_published": "2024-11-22T20:25:00-08:00",
+				"url": "https://swift.chasen.dev/2024/11/22/wow-im-impressed.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/19/day-continuing-yesterdays.html",
+				
+				"content_html": "<p>Day 58: Continuing yesterday’s project and learning about NSPredicate, changing fetch requests dynamically, and creating relationships. One of today’s sections is about <a href=\"https://www.hackingwithswift.com/books/ios-swiftui/syncing-swiftdata-with-cloudkit\">syncing SwiftData with CloudKit</a>, but I skipped it because I don’t have a paid developer account (yet)! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 58: Continuing yesterday’s project and learning about NSPredicate, changing fetch requests dynamically, and creating relationships. One of today’s sections is about [syncing SwiftData with CloudKit](https://www.hackingwithswift.com/books/ios-swiftui/syncing-swiftdata-with-cloudkit), but I skipped it because I don’t have a paid developer account (yet)! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/8a7e2aa803.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator shows a Users screen with a sortable list. Names include Ed Sheeran, Johnny English, Piper Chapman, Rosa Diaz, and Roy Kent. Each name has a blue badge (indicating job counts) showing the number zero except Piper Chapman, which shows two.\">\n",
+				"date_published": "2024-11-19T08:02:17-08:00",
+				"url": "https://swift.chasen.dev/2024/11/19/day-continuing-yesterdays.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/11/18/starting-a-new.html",
+				
+				"content_html": "<p>Starting a new project for Day 57, so don’t have much to show so far. We’re learning how to edit SwiftData objects with SwiftUI and filter data using <code>#Predicate</code>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Starting a new project for Day 57, so don’t have much to show so far. We’re learning how to edit SwiftData objects with SwiftUI and filter data using `#Predicate`. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/3890021f61.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a list titled Users, showing names Ed Sheeran, Johnny English, Rosa Diaz, and Roy Kent. Each name is in a row with a right-facing arrow, and a plus icon is at the top right for adding users.\">\n",
+				"date_published": "2024-11-18T18:34:54-08:00",
+				"url": "https://swift.chasen.dev/2024/11/18/starting-a-new.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/11/16/day-was-a.html",
 				
 				"content_html": "<p>Day 56 was a review and challenge (on our own) day, so I updated the detail view to handle missing data more gracefully. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
@@ -26,7 +50,7 @@
 				"id": "http://chasen.micro.blog/2024/11/15/for-day-we.html",
 				
 				"content_html": "<p>For Day 54, we earnestly started the implementation of a “Bookworm” app and created new SwiftData models and SwiftUI components.</p>\n<p>I think the only new APIs were <a href=\"https://developer.apple.com/documentation/swiftui/binding/constant(_:)\"><code>.constant()</code></a> and using <code>.buttonStyle(.plain)</code> to disable the whole “tap the row to trigger its buttons” behavior. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "For Day 54, we earnestly started the implementation of a “Bookworm” app and created new SwiftData models and SwiftUI components.\n\nI think the only new APIs were [`.constant()`](https://developer.apple.com/documentation/swiftui/binding/constant(_:)) and using `.buttonStyle(.plain)` to disable the whole “tap the row to trigger its buttons” behavior. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/f9b8099697.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an “Add Book” screen with fields for the title “The Little Prince,” author “Antoine de Saint-Exupéry,” genre set to “Fantasy,” a review input containing “Fantastic,” a five-star rating, and a “Save” button.\">\n",
+				"content_text": "For Day 54, we earnestly started the implementation of a “Bookworm” app and created new SwiftData models and SwiftUI components.\n\nI think the only new APIs were [`.constant()`](https://developer.apple.com/documentation/swiftui/binding/constant(_:)) and using `.buttonStyle(.plain)` to disable the whole “tap the row to trigger its buttons” behavior. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/f9b8099697.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an “Add Book” screen with fields for the title “The Little Prince,” author “Antoine de Saint-Exupéry,” genre set to “Fantasy,” a review input containing “Fantastic,” a five-star rating, and a “Save” button.\">\n",
 				"date_published": "2024-11-15T20:15:15-08:00",
 				"url": "https://swift.chasen.dev/2024/11/15/for-day-we.html"
 			},
@@ -34,7 +58,7 @@
 				"id": "http://chasen.micro.blog/2024/11/14/day-is-the.html",
 				
 				"content_html": "<p>Day 53 is the start of our first project with SwiftData. So far all the terminology reminds me of my Core Data days. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 53 is the start of our first project with SwiftData. So far all the terminology reminds me of my Core Data days. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/368683ff27.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a Classroom app with a list of student names: Ginny Weasley, Ron Lovegood, and Hermione Potter. A header reads “Classroom” with an “Add” button in the top-right. The bottom navigation shows icons labeled Students and Notes.\">\n",
+				"content_text": "Day 53 is the start of our first project with SwiftData. So far all the terminology reminds me of my Core Data days. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/368683ff27.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a Classroom app with a list of student names: Ginny Weasley, Ron Lovegood, and Hermione Potter. A header reads “Classroom” with an “Add” button in the top-right. The bottom navigation shows icons labeled Students and Notes.\">\n",
 				"date_published": "2024-11-14T22:00:25-08:00",
 				"url": "https://swift.chasen.dev/2024/11/14/day-is-the.html"
 			},
@@ -42,7 +66,7 @@
 				"id": "http://chasen.micro.blog/2024/11/13/day-is-a.html",
 				
 				"content_html": "<p>Day 52 is a review quiz and challenge day. I found the challenges pretty easy this time around! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 52 is a review quiz and challenge day. I found the challenges pretty easy this time around! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/8c17e39046.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator shows a checkout screen featuring cupcakes and a total of $37.50. A pop-up alert error message says, “Checkout failed. Received error: resource exceeds maximum size.” App navigation icons appear along the bottom of the screen.\">\n",
+				"content_text": "Day 52 is a review quiz and challenge day. I found the challenges pretty easy this time around! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/8c17e39046.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator shows a checkout screen featuring cupcakes and a total of $37.50. A pop-up alert error message says, “Checkout failed. Received error: resource exceeds maximum size.” App navigation icons appear along the bottom of the screen.\">\n",
 				"date_published": "2024-11-13T20:11:50-08:00",
 				"url": "https://swift.chasen.dev/2024/11/13/day-is-a.html"
 			},
