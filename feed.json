@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/12/03/back-at-it.html",
+				
+				"content_html": "<p>Back at it after a little Thanksgiving break and we’ve run into our first (I think) need to use <code>@MainActor</code>.</p>\n<p>Today we added the ability to change image filters and share the resulting image. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Back at it after a little Thanksgiving break and we’ve run into our first (I think) need to use `@MainActor`.\n\nToday we added the ability to change image filters and share the resulting image. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/ddde2d632d.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app titled Instafilter. The image of flowers from Day 65 is shown, but this time through a “crystallize” filter. The “Intensity” slider is set to 75% with “Change Filter” and “Share…” buttons below. Underneath is a bottom tab bar with four tabs labeled Day 65–66, Day 64, Day 63, and Day 62, with Day 65 selected.\">\n",
+				"date_published": "2024-12-03T18:37:38-08:00",
+				"url": "https://swift.chasen.dev/2024/12/03/back-at-it.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/11/27/day-and-this.html",
 				
 				"content_html": "<p>Day 65 and this sort of thing still gets me:</p>\n<blockquote>\n<p>We can then call that whenever our <code>selectedItem</code> property changes, by attaching an <code>onChange()</code> modifier somewhere in <code>ContentView</code> – it really doesn’t matter where, but attaching it to the <code>PhotosPicker</code> would seem sensible.</p>\n</blockquote>\n<p>We covered modifiers and building our own much earlier in the course, but I still don’t have a good mental model for how/why you can put some of them anywhere and they’ll work. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
