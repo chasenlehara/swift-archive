@@ -7,10 +7,66 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/12/11/day-was-a.html",
+				
+				"content_html": "<p>Day 73 was a challenge day, so I had fun refactoring some of the code from the main View into a ViewModel and adding error handling. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 73 was a challenge day, so I had fun refactoring some of the code from the main View into a ViewModel and adding error handling. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/5701f7afcd.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a view with a blue button labeled “Unlock Places” and an alert is above the view with an error message stating “Biometry is not enrolled,” with an OK button to dismiss. The bottom tab bar shows tabs for Day 70, Day 69, and Day 68.\">\n",
+				"date_published": "2024-12-11T18:31:25-08:00",
+				"url": "https://swift.chasen.dev/2024/12/11/day-was-a.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/08/082701.html",
+				
+				"content_html": "<p>Today we refactored our code to use MVVM and added “unlock with FaceID” to this part of the app.</p>\n<p>From <a href=\"https://www.hackingwithswift.com/books/ios-swiftui/introducing-mvvm-into-your-swiftui-project\">Day 72</a>:</p>\n<blockquote>\n<p>Tip: I get lots of questions about why I place my view models into view extensions, […]. This is a small app, but think about how this would look when you have 10 views, or 50 views, or even 500 views. If you use extensions like this, the view model for your current view is always just called ViewModel, and not EditMapLocationViewModel or similar – it&rsquo;s much shorter, and avoids cluttering up your code with lots of different class names!</p>\n</blockquote>\n<p>Hm, I’m not 100% convinced… #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Today we refactored our code to use MVVM and added “unlock with FaceID” to this part of the app.\n\nFrom [Day 72](https://www.hackingwithswift.com/books/ios-swiftui/introducing-mvvm-into-your-swiftui-project):\n\n> Tip: I get lots of questions about why I place my view models into view extensions, […]. This is a small app, but think about how this would look when you have 10 views, or 50 views, or even 500 views. If you use extensions like this, the view model for your current view is always just called ViewModel, and not EditMapLocationViewModel or similar – it's much shorter, and avoids cluttering up your code with lots of different class names!\n\nHm, I’m not 100% convinced… #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/2eefe5bcde.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a view with a blue button labeled “Unlock Places” and the FaceID interface is shown above the view, indicating it’s being used to unlock the view. The bottom tab bar shows “Day 70” selected in blue and “Day 69” and “Day 68” inactive in gray.\">\n",
+				"date_published": "2024-12-08T08:27:01-08:00",
+				"url": "https://swift.chasen.dev/2024/12/08/082701.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/07/195414.html",
+				
+				"content_html": "<p>For Day 71, we used Wikipedia’s API to fetch places near a set of coordinates. I had no idea this was a thing, and I already have an existing app idea that I think could leverage this. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "For Day 71, we used Wikipedia’s API to fetch places near a set of coordinates. I had no idea this was a thing, and I already have an existing app idea that I think could leverage this. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/9c4207a70d.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a “Place details” screen with a title field reading “Windermere Peaks” and a note field with “Take me to the lakes.” Below, a list of nearby locations includes lakes, towns, and landmarks in Cumbria, England.\">\n",
+				"date_published": "2024-12-07T19:54:14-08:00",
+				"url": "https://swift.chasen.dev/2024/12/07/195414.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/07/for-day-we.html",
+				
+				"content_html": "<p>For Day 70 we added the ability to pin locations on a map and edit them.</p>\n<p>We were supposed to use <code>.onLongPressGesture</code>, but I couldn’t get it to work in the previews or simulator, so I just used another <code>.onTapGesture</code>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "For Day 70 we added the ability to pin locations on a map and edit them.\n\nWe were supposed to use `.onLongPressGesture`, but I couldn’t get it to work in the previews or simulator, so I just used another `.onTapGesture`. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/59829b40af.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an Apple Maps view highlighting Windermere Peaks with a red star icon. Nearby locations include Lake District National Park, Windermere, and Kendal. A tab bar at the bottom includes tabs for Day 70 (currently selected), Day 69, and Day 68.\">\n",
+				"date_published": "2024-12-07T07:21:54-08:00",
+				"url": "https://swift.chasen.dev/2024/12/07/for-day-we.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/06/day-was-short.html",
+				
+				"content_html": "<p>Day 69 was short: we learned how to 1) add different types of maps and 2) use Face ID to unlock the app. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 69 was short: we learned how to 1) add different types of maps and 2) use Face ID to unlock the app. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/ac4332e510.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app with three maps of London: one satellite, one with red pins for Buckingham Palace and the Tower of London, and another with blue text labels for those two landmarks. Buttons for Paris and Tokyo are visible between the first and second map. A Face ID prompt overlays the screen and a button indicates the biometrics are currently Locked. A tab bar at the bottom includes tabs for Day 69 and Day 68.\">\n",
+				"date_published": "2024-12-06T20:58:21-08:00",
+				"url": "https://swift.chasen.dev/2024/12/06/day-was-short.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/06/day-has-been.html",
+				
+				"content_html": "<p>Day 68 has been some of the most interesting content (from a language-learning perspective) in a while.</p>\n<blockquote>\n<p>First, yes the method is just called <code>&lt;</code>, which is the “less than” operator. It’s the job of the method to decide whether one user is “less than” (in a sorting sense) another, so we’re adding functionality to an existing operator. This is called <em>operator overloading</em>, and it can be both a blessing and a curse.</p>\n</blockquote>\n<p>I don’t think I’ve ever worked in a language with operator overloading and it definitely makes me nervous about maintainability. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 68 has been some of the most interesting content (from a language-learning perspective) in a while.\n\n> First, yes the method is just called `<`, which is the “less than” operator. It’s the job of the method to decide whether one user is “less than” (in a sorting sense) another, so we’re adding functionality to an existing operator. This is called _operator overloading_, and it can be both a blessing and a curse.\n\nI don’t think I’ve ever worked in a language with operator overloading and it definitely makes me nervous about maintainability. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/88bb8df642.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a screen with a list of names in alphabetical order: Kochanski Kristine, Lister David, and Rimmer Arnold. Below the list, a button labeled “Read and Write” is shown, with the word “Loading…” below it.\">\n",
+				"date_published": "2024-12-06T07:06:29-08:00",
+				"url": "https://swift.chasen.dev/2024/12/06/day-has-been.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/05/day-is-the.html",
+				
+				"content_html": "<p>Day 67 is the last day for this particular project, so we had a review quiz (got 12/12) and added some features to the app without any code prompts, just requirements.</p>\n<p>I’m always a little nervous when the challenges are easy… what did I miss? 😅 #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 67 is the last day for this particular project, so we had a review quiz (got 12/12) and added some features to the app without any code prompts, just requirements.\n\nI’m always a little nervous when the challenges are easy… what did I miss? 😅 #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/40ac318727.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app titled Instafilter. A confirmation dialog shows a list of filter options under the heading Instafilter, including Bump Distortion, Crystallize, Droste Effect, Edges, Gaussian Blur, Pixelate, Sepia Tone, Twirl Distortion, Unsharp Mask, and Vignette, with a Cancel button at the bottom.\">\n",
+				"date_published": "2024-12-05T18:29:09-08:00",
+				"url": "https://swift.chasen.dev/2024/12/05/day-is-the.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/12/03/back-at-it.html",
 				
 				"content_html": "<p>Back at it after a little Thanksgiving break and we’ve run into our first (I think) need to use <code>@MainActor</code>.</p>\n<p>Today we added the ability to change image filters and share the resulting image. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Back at it after a little Thanksgiving break and we’ve run into our first (I think) need to use `@MainActor`.\n\nToday we added the ability to change image filters and share the resulting image. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/ddde2d632d.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app titled Instafilter. The image of flowers from Day 65 is shown, but this time through a “crystallize” filter. The “Intensity” slider is set to 75% with “Change Filter” and “Share…” buttons below. Underneath is a bottom tab bar with four tabs labeled Day 65–66, Day 64, Day 63, and Day 62, with Day 65 selected.\">\n",
+				"content_text": "Back at it after a little Thanksgiving break and we’ve run into our first (I think) need to use `@MainActor`.\n\nToday we added the ability to change image filters and share the resulting image. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/ddde2d632d.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app titled Instafilter. The image of flowers from Day 65 is shown, but this time through a “crystallize” filter. The “Intensity” slider is set to 75% with “Change Filter” and “Share…” buttons below. Underneath is a bottom tab bar with four tabs labeled Day 65–66, Day 64, Day 63, and Day 62, with Day 65 selected.\">\n",
 				"date_published": "2024-12-03T18:37:38-08:00",
 				"url": "https://swift.chasen.dev/2024/12/03/back-at-it.html"
 			},
@@ -18,7 +74,7 @@
 				"id": "http://chasen.micro.blog/2024/11/27/day-and-this.html",
 				
 				"content_html": "<p>Day 65 and this sort of thing still gets me:</p>\n<blockquote>\n<p>We can then call that whenever our <code>selectedItem</code> property changes, by attaching an <code>onChange()</code> modifier somewhere in <code>ContentView</code> – it really doesn’t matter where, but attaching it to the <code>PhotosPicker</code> would seem sensible.</p>\n</blockquote>\n<p>We covered modifiers and building our own much earlier in the course, but I still don’t have a good mental model for how/why you can put some of them anywhere and they’ll work. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 65 and this sort of thing still gets me:\n\n> We can then call that whenever our `selectedItem` property changes, by attaching an `onChange()` modifier somewhere in `ContentView` – it really doesn’t matter where, but attaching it to the `PhotosPicker` would seem sensible.\n\nWe covered modifiers and building our own much earlier in the course, but I still don’t have a good mental model for how/why you can put some of them anywhere and they’ll work. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/0f4ecd377f.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app titled Instafilter. A sepia-toned image of flowers is shown, with a slider labeled “Intensity” set to 75% with a “Change Filter” button below. Underneath is a bottom tab bar with four tabs labeled Day 65, Day 64, Day 63, and Day 62, with Day 65 selected.\">\n",
+				"content_text": "Day 65 and this sort of thing still gets me:\n\n> We can then call that whenever our `selectedItem` property changes, by attaching an `onChange()` modifier somewhere in `ContentView` – it really doesn’t matter where, but attaching it to the `PhotosPicker` would seem sensible.\n\nWe covered modifiers and building our own much earlier in the course, but I still don’t have a good mental model for how/why you can put some of them anywhere and they’ll work. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/0f4ecd377f.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app titled Instafilter. A sepia-toned image of flowers is shown, with a slider labeled “Intensity” set to 75% with a “Change Filter” button below. Underneath is a bottom tab bar with four tabs labeled Day 65, Day 64, Day 63, and Day 62, with Day 65 selected.\">\n",
 				"date_published": "2024-11-27T21:58:47-08:00",
 				"url": "https://swift.chasen.dev/2024/11/27/day-and-this.html"
 			},
@@ -26,7 +82,7 @@
 				"id": "http://chasen.micro.blog/2024/11/27/for-day-we.html",
 				
 				"content_html": "<p>For Day 64 we learned how to use <code>PhotosPicker</code> to… let the user pick photos, use <code>ShareLink</code> to… create share links, and call <code>requestReview()</code> to… request the user leave a review of our app! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "For Day 64 we learned how to use `PhotosPicker` to… let the user pick photos, use `ShareLink` to… create share links, and call `requestReview()` to… request the user leave a review of our app! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/9465a23ca4.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a screen with links/options in blue text, including “Select a picture,” two “Share…” buttons, “Spread the word about Swift,” “Click to share,” and “Leave a review.” A bottom tab bar shows three tabs labeled Day 64, Day 63, and Day 62, with Day 64 selected.\">\n",
+				"content_text": "For Day 64 we learned how to use `PhotosPicker` to… let the user pick photos, use `ShareLink` to… create share links, and call `requestReview()` to… request the user leave a review of our app! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/9465a23ca4.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a screen with links/options in blue text, including “Select a picture,” two “Share…” buttons, “Spread the word about Swift,” “Click to share,” and “Leave a review.” A bottom tab bar shows three tabs labeled Day 64, Day 63, and Day 62, with Day 64 selected.\">\n",
 				"date_published": "2024-11-27T08:09:31-08:00",
 				"url": "https://swift.chasen.dev/2024/11/27/for-day-we.html"
 			},
@@ -34,7 +90,7 @@
 				"id": "http://chasen.micro.blog/2024/11/26/for-day-we.html",
 				
 				"content_html": "<p>For Day 63, we learned about the different Image APIs available: <code>Image</code>, <code>UIImage</code>, <code>CGImage</code>, and <code>CIImage</code>. We also tried out <code>ContentUnavailableView</code>!</p>\n<p>I continued my normal practice of keeping <em>all</em> the sample code in the project and building UI to see it all. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "For Day 63, we learned about the different Image APIs available: `Image`, `UIImage`, `CGImage`, and `CIImage`. We also tried out `ContentUnavailableView`!\n\nI continued my normal practice of keeping *all* the sample code in the project and building UI to see it all. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/97650162b6.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a segmented control with options including sepia, pixellation, crystal, twirl, and dynamic. Below, a “Bro, do you even Swift?” meme (with a picture of Taylor Swift) is displayed with a sepia filter applied. Below the image is a placeholder view with the Swift logo, text that says “No snippets,” a “Create Snippet” button, and a tab bar with Day 63 selected.\">\n",
+				"content_text": "For Day 63, we learned about the different Image APIs available: `Image`, `UIImage`, `CGImage`, and `CIImage`. We also tried out `ContentUnavailableView`!\n\nI continued my normal practice of keeping *all* the sample code in the project and building UI to see it all. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/97650162b6.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a segmented control with options including sepia, pixellation, crystal, twirl, and dynamic. Below, a “Bro, do you even Swift?” meme (with a picture of Taylor Swift) is displayed with a sepia filter applied. Below the image is a placeholder view with the Swift logo, text that says “No snippets,” a “Create Snippet” button, and a tab bar with Day 63 selected.\">\n",
 				"date_published": "2024-11-26T20:07:57-08:00",
 				"url": "https://swift.chasen.dev/2024/11/26/for-day-we.html"
 			},
@@ -42,7 +98,7 @@
 				"id": "http://chasen.micro.blog/2024/11/24/for-day-i.html",
 				
 				"content_html": "<p>For Day 62, I liked that we were shown “Open Quickly” in Xcode and told how to find the definition of a generated interface. I don’t fully understand it now, but I know I will in a couple years.</p>\n<p>Oh, and for the start of a new project, we played around with <code>confirmationDialog()</code>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "For Day 62, I liked that we were shown “Open Quickly” in Xcode and told how to find the definition of a generated interface. I don’t fully understand it now, but I know I will in a couple years.\n\nOh, and for the start of a new project, we played around with `confirmationDialog()`. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/b6b88f7419.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app with “Hello World” text that is blurred out based on the value of a slider below the text. A red square labeled “Hello, World!” is in the center of the view. A confirmation dialog overlays the screen at the bottom with a prompt to select a color. Options are “Red,” “Green,” “Blue,” and “Cancel.”\">\n",
+				"content_text": "For Day 62, I liked that we were shown “Open Quickly” in Xcode and told how to find the definition of a generated interface. I don’t fully understand it now, but I know I will in a couple years.\n\nOh, and for the start of a new project, we played around with `confirmationDialog()`. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/b6b88f7419.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app with “Hello World” text that is blurred out based on the value of a slider below the text. A red square labeled “Hello, World!” is in the center of the view. A confirmation dialog overlays the screen at the bottom with a prompt to select a color. Options are “Red,” “Green,” “Blue,” and “Cancel.”\">\n",
 				"date_published": "2024-11-24T07:52:48-08:00",
 				"url": "https://swift.chasen.dev/2024/11/24/for-day-i.html"
 			},
