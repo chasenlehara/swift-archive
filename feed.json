@@ -7,10 +7,74 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/12/16/today-was-almost.html",
+				
+				"content_html": "<p>Today was <em>almost</em> smooth sailing, learning about list row swipe actions and local/scheduled notifications, but I ran into issues with the directions for <a href=\"https://www.hackingwithswift.com/books/ios-swiftui/adding-swift-package-dependencies-in-xcode\">adding Swift package dependencies in Xcode</a>.</p>\n<p>I wrote up the issue and my fix in this issue: <a href=\"https://github.com/twostraws/SamplePackage/issues/3\">Day 81: <code>No such module 'SamplePackage'</code></a> #100DaysOfSwiftUI</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "Today was _almost_ smooth sailing, learning about list row swipe actions and local/scheduled notifications, but I ran into issues with the directions for [adding Swift package dependencies in Xcode](https://www.hackingwithswift.com/books/ios-swiftui/adding-swift-package-dependencies-in-xcode).\n\nI wrote up the issue and my fix in this issue: [Day 81: `No such module 'SamplePackage'`](https://github.com/twostraws/SamplePackage/issues/3) #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/5f49055017.png\" width=\"600\" height=\"322\" alt=\"Xcode error panel shows five issues in the HotProspects project. A red error states, “No such module SamplePackage” in Day81.swift. Four gray errors indicate missing files like HotProspects.abi.json, swiftmodule, and related outputs in the derived data folder.\"><img src=\"uploads/2024/997d912e18.png\" width=\"600\" height=\"358\" alt=\"The Xcode Build Phases screen is open for the HotProspects project. It lists project phases like Target Dependencies, Compile Sources with five items, and Link Binary With Libraries, which includes a single required package named SamplePackage.\">\n",
+				"date_published": "2024-12-16T18:50:39-08:00",
+				"url": "https://swift.chasen.dev/2024/12/16/today-was-almost.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/16/day-and-were.html",
+				
+				"content_html": "<p>Day 80 and we’re learning about Result, image interpolation, and context menus.</p>\n<p>This stood out to me:</p>\n<blockquote>\n<p>Remember, context menus are by their nature hidden, so please think twice before hiding important actions in a context menu.</p>\n</blockquote>\n<p>Undiscoverable UI might as well be no UI at all. I value explicit UI that’s easy to discover and understand. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 80 and we’re learning about Result, image interpolation, and context menus.\n\nThis stood out to me:\n\n> Remember, context menus are by their nature hidden, so please think twice before hiding important actions in a context menu.\n\nUndiscoverable UI might as well be no UI at all. I value explicit UI that’s easy to discover and understand. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/1f1c12a7c9.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator shows a color selection menu with Red, Green, and Blue options. Red is highlighted and checked. The context menu comes from a Change Color button. Blurred out in the background is a tab view and a cartoon alien image from the Kenney Platform Art Deluxe bundle.\">\n",
+				"date_published": "2024-12-16T07:18:30-08:00",
+				"url": "https://swift.chasen.dev/2024/12/16/day-and-were.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/15/day-and-were.html",
+				
+				"content_html": "<p>Day 79 and we’re (finally) learning about TabView, my favorite way to keep our example code around!</p>\n<p>One actual takeaway from today: impressive that an EditButton can affect the state of a List in the same view without any explicit bindings; I’m usually cautious of “magical” APIs. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 79 and we’re (finally) learning about TabView, my favorite way to keep our example code around!\n\nOne actual takeaway from today: impressive that an EditButton can affect the state of a List in the same view without any explicit bindings; I’m usually cautious of “magical” APIs. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/0e729fb178.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a white screen with a blue button labeled Show Tab 2 in the center. A tab bar at the bottom has two tabs, One with a blue star icon and Two with a gray circle icon.\">\n",
+				"date_published": "2024-12-15T20:42:50-08:00",
+				"url": "https://swift.chasen.dev/2024/12/15/day-and-were.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/15/for-day-we.html",
+				
+				"content_html": "<p>For Day 78, we started saving the user’s current location when they save one of the photos to the app. Easy peasy! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "For Day 78, we started saving the user’s current location when they save one of the photos to the app. Easy peasy! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/0d35b130bb.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a detail view with a photo of a field with green plants, one yellow flower, and a sandy background, paired with a map showing the location saved with a red pin near Anza Boulevard and the Interstate 280.\">\n",
+				"date_published": "2024-12-15T08:42:02-08:00",
+				"url": "https://swift.chasen.dev/2024/12/15/for-day-we.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/14/day-was-a.html",
+				
+				"content_html": "<p><a href=\"https://www.hackingwithswift.com/100/swiftui/77\">Day 77</a> was a doozy of a challenge: build an entire app from scratch that imported a photo, prompted for a name, stored both somehow (I chose SwiftData), display it in a list, and show a detail view.</p>\n<p>It was a lot of work but took me about an hour from start to finish. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "[Day 77](https://www.hackingwithswift.com/100/swiftui/77) was a doozy of a challenge: build an entire app from scratch that imported a photo, prompted for a name, stored both somehow (I chose SwiftData), display it in a list, and show a detail view.\n\nIt was a lot of work but took me about an hour from start to finish. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/f6ac38db4c.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a “Photos” app with two pictures: Flowers, with a thumbnail of pink flowers, and Waterfall, with a thumbnail of a waterfall surrounded by greenery. You can tap on a row to go to the detail view. There are edit and add buttons in the top navigation.\">\n",
+				"date_published": "2024-12-14T19:50:04-08:00",
+				"url": "https://swift.chasen.dev/2024/12/14/day-was-a.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/13/for-day-we.html",
+				
+				"content_html": "<p>For Day 76, we had a quiz and challenge: fix accessibility issues in three of our past apps.</p>\n<p>For <a href=\"https://swift.chasen.dev/2024/11/13/day-is-a.html\">Cupcake Corner</a>, I couldn’t reproduce the issue.</p>\n<p>For <a href=\"https://swift.chasen.dev/2024/11/02/day-included-a.html\">iExpense</a>, the fix was easy.</p>\n<p>For <a href=\"https://swift.chasen.dev/2024/11/04/day-was-our.html\">Moonshot</a>, there were a couple images that needed labels, but I couldn’t find any other issues. #100DaysOfSwiftUI</p>\n",
+				"content_text": "For Day 76, we had a quiz and challenge: fix accessibility issues in three of our past apps.\n\nFor [Cupcake Corner](https://swift.chasen.dev/2024/11/13/day-is-a.html), I couldn’t reproduce the issue.\n\nFor [iExpense](https://swift.chasen.dev/2024/11/02/day-included-a.html), the fix was easy.\n\nFor [Moonshot](https://swift.chasen.dev/2024/11/04/day-was-our.html), there were a couple images that needed labels, but I couldn’t find any other issues. #100DaysOfSwiftUI\n",
+				"date_published": "2024-12-13T08:19:18-08:00",
+				"url": "https://swift.chasen.dev/2024/12/13/for-day-we.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/12/i-liked-pauls.html",
+				
+				"content_html": "<p>I liked Paul’s message on <a href=\"https://www.hackingwithswift.com/100/swiftui/75\">Day 75</a> of #100DaysOfSwiftUI much better:</p>\n<blockquote>\n<p>There’s a New York lawyer called Gregory Mansfield who fights for disability rights, and he once wrote this: “Accessibility is not charity. Accessibility is not generosity. Accessibility is not an amenity. Accessibility is not a gratuity. You don’t bestow access – <em>you ensure it</em>.”</p>\n</blockquote>\n<p>👏</p>\n",
+				"content_text": "I liked Paul’s message on [Day 75](https://www.hackingwithswift.com/100/swiftui/75) of #100DaysOfSwiftUI much better:\n\n> There’s a New York lawyer called Gregory Mansfield who fights for disability rights, and he once wrote this: “Accessibility is not charity. Accessibility is not generosity. Accessibility is not an amenity. Accessibility is not a gratuity. You don’t bestow access – _you ensure it_.”\n\n👏\n",
+				"date_published": "2024-12-12T18:14:46-08:00",
+				"url": "https://swift.chasen.dev/2024/12/12/i-liked-pauls.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/12/on-day-weve.html",
+				
+				"content_html": "<p>On <a href=\"https://www.hackingwithswift.com/100/swiftui/74\">Day 74</a> we’ve started learning about accessibility.</p>\n<p>I‘m not a fan of how this is framed:</p>\n<blockquote>\n<p>Tony Fadell – the creator of the iPod at Apple – had this to say: “you are defined by what you do and also by what you don’t do.”</p>\n<p>Sure, you can skip accessibility and 90% of people won’t notice, but do you want to be defined by that? I’d wager that the answer is <em>no</em>.</p>\n</blockquote>\n<p>I wish this focused on accessibility as a fundamental human right that’s needed by <em>all</em> of us at one point or another… not just an arbitrary percentage (that is really low as well). #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "On [Day 74](https://www.hackingwithswift.com/100/swiftui/74) we’ve started learning about accessibility.\n\nI‘m not a fan of how this is framed:\n\n> Tony Fadell – the creator of the iPod at Apple – had this to say: “you are defined by what you do and also by what you don’t do.”\n> \n> Sure, you can skip accessibility and 90% of people won’t notice, but do you want to be defined by that? I’d wager that the answer is _no_.\n\nI wish this focused on accessibility as a fundamental human right that’s needed by *all* of us at one point or another… not just an arbitrary percentage (that is really low as well). #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/45094fb672.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a screen with a photo of a yellow flower field under a blue sky. Below, text shows “Your score is 1000.” Further down, “Value 10” appears with “Increment” and “Decrement” buttons in blue.\">\n",
+				"date_published": "2024-12-12T08:36:28-08:00",
+				"url": "https://swift.chasen.dev/2024/12/12/on-day-weve.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/12/11/day-was-a.html",
 				
 				"content_html": "<p>Day 73 was a challenge day, so I had fun refactoring some of the code from the main View into a ViewModel and adding error handling. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 73 was a challenge day, so I had fun refactoring some of the code from the main View into a ViewModel and adding error handling. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/5701f7afcd.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a view with a blue button labeled “Unlock Places” and an alert is above the view with an error message stating “Biometry is not enrolled,” with an OK button to dismiss. The bottom tab bar shows tabs for Day 70, Day 69, and Day 68.\">\n",
+				"content_text": "Day 73 was a challenge day, so I had fun refactoring some of the code from the main View into a ViewModel and adding error handling. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/5701f7afcd.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a view with a blue button labeled “Unlock Places” and an alert is above the view with an error message stating “Biometry is not enrolled,” with an OK button to dismiss. The bottom tab bar shows tabs for Day 70, Day 69, and Day 68.\">\n",
 				"date_published": "2024-12-11T18:31:25-08:00",
 				"url": "https://swift.chasen.dev/2024/12/11/day-was-a.html"
 			},
@@ -18,7 +82,7 @@
 				"id": "http://chasen.micro.blog/2024/12/08/082701.html",
 				
 				"content_html": "<p>Today we refactored our code to use MVVM and added “unlock with FaceID” to this part of the app.</p>\n<p>From <a href=\"https://www.hackingwithswift.com/books/ios-swiftui/introducing-mvvm-into-your-swiftui-project\">Day 72</a>:</p>\n<blockquote>\n<p>Tip: I get lots of questions about why I place my view models into view extensions, […]. This is a small app, but think about how this would look when you have 10 views, or 50 views, or even 500 views. If you use extensions like this, the view model for your current view is always just called ViewModel, and not EditMapLocationViewModel or similar – it&rsquo;s much shorter, and avoids cluttering up your code with lots of different class names!</p>\n</blockquote>\n<p>Hm, I’m not 100% convinced… #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Today we refactored our code to use MVVM and added “unlock with FaceID” to this part of the app.\n\nFrom [Day 72](https://www.hackingwithswift.com/books/ios-swiftui/introducing-mvvm-into-your-swiftui-project):\n\n> Tip: I get lots of questions about why I place my view models into view extensions, […]. This is a small app, but think about how this would look when you have 10 views, or 50 views, or even 500 views. If you use extensions like this, the view model for your current view is always just called ViewModel, and not EditMapLocationViewModel or similar – it's much shorter, and avoids cluttering up your code with lots of different class names!\n\nHm, I’m not 100% convinced… #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/2eefe5bcde.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a view with a blue button labeled “Unlock Places” and the FaceID interface is shown above the view, indicating it’s being used to unlock the view. The bottom tab bar shows “Day 70” selected in blue and “Day 69” and “Day 68” inactive in gray.\">\n",
+				"content_text": "Today we refactored our code to use MVVM and added “unlock with FaceID” to this part of the app.\n\nFrom [Day 72](https://www.hackingwithswift.com/books/ios-swiftui/introducing-mvvm-into-your-swiftui-project):\n\n> Tip: I get lots of questions about why I place my view models into view extensions, […]. This is a small app, but think about how this would look when you have 10 views, or 50 views, or even 500 views. If you use extensions like this, the view model for your current view is always just called ViewModel, and not EditMapLocationViewModel or similar – it's much shorter, and avoids cluttering up your code with lots of different class names!\n\nHm, I’m not 100% convinced… #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/2eefe5bcde.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a view with a blue button labeled “Unlock Places” and the FaceID interface is shown above the view, indicating it’s being used to unlock the view. The bottom tab bar shows “Day 70” selected in blue and “Day 69” and “Day 68” inactive in gray.\">\n",
 				"date_published": "2024-12-08T08:27:01-08:00",
 				"url": "https://swift.chasen.dev/2024/12/08/082701.html"
 			},
@@ -26,7 +90,7 @@
 				"id": "http://chasen.micro.blog/2024/12/07/195414.html",
 				
 				"content_html": "<p>For Day 71, we used Wikipedia’s API to fetch places near a set of coordinates. I had no idea this was a thing, and I already have an existing app idea that I think could leverage this. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "For Day 71, we used Wikipedia’s API to fetch places near a set of coordinates. I had no idea this was a thing, and I already have an existing app idea that I think could leverage this. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/9c4207a70d.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a “Place details” screen with a title field reading “Windermere Peaks” and a note field with “Take me to the lakes.” Below, a list of nearby locations includes lakes, towns, and landmarks in Cumbria, England.\">\n",
+				"content_text": "For Day 71, we used Wikipedia’s API to fetch places near a set of coordinates. I had no idea this was a thing, and I already have an existing app idea that I think could leverage this. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/9c4207a70d.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a “Place details” screen with a title field reading “Windermere Peaks” and a note field with “Take me to the lakes.” Below, a list of nearby locations includes lakes, towns, and landmarks in Cumbria, England.\">\n",
 				"date_published": "2024-12-07T19:54:14-08:00",
 				"url": "https://swift.chasen.dev/2024/12/07/195414.html"
 			},
@@ -34,7 +98,7 @@
 				"id": "http://chasen.micro.blog/2024/12/07/for-day-we.html",
 				
 				"content_html": "<p>For Day 70 we added the ability to pin locations on a map and edit them.</p>\n<p>We were supposed to use <code>.onLongPressGesture</code>, but I couldn’t get it to work in the previews or simulator, so I just used another <code>.onTapGesture</code>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "For Day 70 we added the ability to pin locations on a map and edit them.\n\nWe were supposed to use `.onLongPressGesture`, but I couldn’t get it to work in the previews or simulator, so I just used another `.onTapGesture`. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/59829b40af.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an Apple Maps view highlighting Windermere Peaks with a red star icon. Nearby locations include Lake District National Park, Windermere, and Kendal. A tab bar at the bottom includes tabs for Day 70 (currently selected), Day 69, and Day 68.\">\n",
+				"content_text": "For Day 70 we added the ability to pin locations on a map and edit them.\n\nWe were supposed to use `.onLongPressGesture`, but I couldn’t get it to work in the previews or simulator, so I just used another `.onTapGesture`. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/59829b40af.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an Apple Maps view highlighting Windermere Peaks with a red star icon. Nearby locations include Lake District National Park, Windermere, and Kendal. A tab bar at the bottom includes tabs for Day 70 (currently selected), Day 69, and Day 68.\">\n",
 				"date_published": "2024-12-07T07:21:54-08:00",
 				"url": "https://swift.chasen.dev/2024/12/07/for-day-we.html"
 			},
