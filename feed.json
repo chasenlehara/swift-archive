@@ -7,6 +7,38 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/12/22/day-is-a-challenge-day.html",
+				
+				"content_html": "<p>Day 85 is a challenge day! The quiz was easy but the challenge took me about an hour to complete. The “contacted” icon, link to an edit screen, and sort options are all new. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 85 is a challenge day! The quiz was easy but the challenge took me about an hour to complete. The “contacted” icon, link to an edit screen, and sort options are all new. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/c8a50604b4.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app with the title Everyone at the top . A sorting menu is open, offering options to sort by name or date added. Sort by Name is selected, shown with a checkmark. Below the menu, two contacts are listed: Ada with the email ada@example.com and Paul Hudson with the email paul@hackingwithswift.com. The bottom navigation bar includes five tabs: Everyone, Contacted, Uncontacted, Me, and More, with Everyone currently selected.\">\n",
+				"date_published": "2024-12-22T09:11:50-08:00",
+				"url": "https://swift.chasen.dev/2024/12/22/day-is-a-challenge-day.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/20/for-day-we.html",
+				
+				"content_html": "<p>For Day 84, we learned how to add swipe actions to list items and show local notifications using the <code>UserNotifications</code> framework! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "For Day 84, we learned how to add swipe actions to list items and show local notifications using the `UserNotifications` framework! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/b84ea89520.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a lock screen with the date Friday, December 20, the time 6:42, and a notification labeled Contact Paul Hudson with an email address. The background shows a gradient of soft pink and blue hues.\">\n",
+				"date_published": "2024-12-20T19:03:44-08:00",
+				"url": "https://swift.chasen.dev/2024/12/20/for-day-we.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/17/day-has-this.html",
+				
+				"content_html": "<p>Day 83 has this tidbit:</p>\n<blockquote>\n<p>The CPU running our code doesn’t care about data types, comments, access control, and more, but if you want to write great software that is scalable, testable, and maintainable, you need to add some rules.</p>\n</blockquote>\n<p>There’s a little piece of me that wishes we talked more about testing and maintainability. I know they’re more advanced topics that I’ll learn on my own, but a man can still wish.</p>\n<p>Today we added UI to scan QR codes and multi-item editing. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 83 has this tidbit:\n\n> The CPU running our code doesn’t care about data types, comments, access control, and more, but if you want to write great software that is scalable, testable, and maintainable, you need to add some rules.\n\nThere’s a little piece of me that wishes we talked more about testing and maintainability. I know they’re more advanced topics that I’ll learn on my own, but a man can still wish.\n\nToday we added UI to scan QR codes and multi-item editing. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/b892cd6a6a.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a contact list titled Everyone, showing one contact: Paul Hudson with the email paul@hackingwithswift.com. A blue checkmark indicates the contact is selected and a blue “Delete Selected” button appears at the bottom of the view. Below that, a tab bar highlights the Everyone tab and includes options like Contacted, Uncontacted, Me, and More.\">\n",
+				"date_published": "2024-12-17T18:52:31-08:00",
+				"url": "https://swift.chasen.dev/2024/12/17/day-has-this.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/17/day-was-much.html",
+				
+				"content_html": "<p>Day 82 was much easier—I don’t think there was anything new, we “just” laid the groundwork for the new tabs and added the SwiftData pieces to store the contact info. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 82 was much easier—I don’t think there was anything new, we “just” laid the groundwork for the new tabs and added the SwiftData pieces to store the contact info. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/a84a31b3e9.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a contact list under the heading “Everyone” with one contact named Paul Hudson and the email paul@hackingwithswift.com. The bottom tab bar shows icons for Everyone, Contacted, Uncontacted, Me, and More.\">\n",
+				"date_published": "2024-12-17T07:45:34-08:00",
+				"url": "https://swift.chasen.dev/2024/12/17/day-was-much.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/12/16/today-was-almost.html",
 				
 				"content_html": "<p>Today was <em>almost</em> smooth sailing, learning about list row swipe actions and local/scheduled notifications, but I ran into issues with the directions for <a href=\"https://www.hackingwithswift.com/books/ios-swiftui/adding-swift-package-dependencies-in-xcode\">adding Swift package dependencies in Xcode</a>.</p>\n<p>I wrote up the issue and my fix in this issue: <a href=\"https://github.com/twostraws/SamplePackage/issues/3\">Day 81: <code>No such module 'SamplePackage'</code></a> #100DaysOfSwiftUI</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
@@ -18,7 +50,7 @@
 				"id": "http://chasen.micro.blog/2024/12/16/day-and-were.html",
 				
 				"content_html": "<p>Day 80 and we’re learning about Result, image interpolation, and context menus.</p>\n<p>This stood out to me:</p>\n<blockquote>\n<p>Remember, context menus are by their nature hidden, so please think twice before hiding important actions in a context menu.</p>\n</blockquote>\n<p>Undiscoverable UI might as well be no UI at all. I value explicit UI that’s easy to discover and understand. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 80 and we’re learning about Result, image interpolation, and context menus.\n\nThis stood out to me:\n\n> Remember, context menus are by their nature hidden, so please think twice before hiding important actions in a context menu.\n\nUndiscoverable UI might as well be no UI at all. I value explicit UI that’s easy to discover and understand. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/1f1c12a7c9.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator shows a color selection menu with Red, Green, and Blue options. Red is highlighted and checked. The context menu comes from a Change Color button. Blurred out in the background is a tab view and a cartoon alien image from the Kenney Platform Art Deluxe bundle.\">\n",
+				"content_text": "Day 80 and we’re learning about Result, image interpolation, and context menus.\n\nThis stood out to me:\n\n> Remember, context menus are by their nature hidden, so please think twice before hiding important actions in a context menu.\n\nUndiscoverable UI might as well be no UI at all. I value explicit UI that’s easy to discover and understand. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/1f1c12a7c9.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator shows a color selection menu with Red, Green, and Blue options. Red is highlighted and checked. The context menu comes from a Change Color button. Blurred out in the background is a tab view and a cartoon alien image from the Kenney Platform Art Deluxe bundle.\">\n",
 				"date_published": "2024-12-16T07:18:30-08:00",
 				"url": "https://swift.chasen.dev/2024/12/16/day-and-were.html"
 			},
@@ -26,7 +58,7 @@
 				"id": "http://chasen.micro.blog/2024/12/15/day-and-were.html",
 				
 				"content_html": "<p>Day 79 and we’re (finally) learning about TabView, my favorite way to keep our example code around!</p>\n<p>One actual takeaway from today: impressive that an EditButton can affect the state of a List in the same view without any explicit bindings; I’m usually cautious of “magical” APIs. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 79 and we’re (finally) learning about TabView, my favorite way to keep our example code around!\n\nOne actual takeaway from today: impressive that an EditButton can affect the state of a List in the same view without any explicit bindings; I’m usually cautious of “magical” APIs. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/0e729fb178.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a white screen with a blue button labeled Show Tab 2 in the center. A tab bar at the bottom has two tabs, One with a blue star icon and Two with a gray circle icon.\">\n",
+				"content_text": "Day 79 and we’re (finally) learning about TabView, my favorite way to keep our example code around!\n\nOne actual takeaway from today: impressive that an EditButton can affect the state of a List in the same view without any explicit bindings; I’m usually cautious of “magical” APIs. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/0e729fb178.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a white screen with a blue button labeled Show Tab 2 in the center. A tab bar at the bottom has two tabs, One with a blue star icon and Two with a gray circle icon.\">\n",
 				"date_published": "2024-12-15T20:42:50-08:00",
 				"url": "https://swift.chasen.dev/2024/12/15/day-and-were.html"
 			},
@@ -34,7 +66,7 @@
 				"id": "http://chasen.micro.blog/2024/12/15/for-day-we.html",
 				
 				"content_html": "<p>For Day 78, we started saving the user’s current location when they save one of the photos to the app. Easy peasy! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "For Day 78, we started saving the user’s current location when they save one of the photos to the app. Easy peasy! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/0d35b130bb.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a detail view with a photo of a field with green plants, one yellow flower, and a sandy background, paired with a map showing the location saved with a red pin near Anza Boulevard and the Interstate 280.\">\n",
+				"content_text": "For Day 78, we started saving the user’s current location when they save one of the photos to the app. Easy peasy! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/0d35b130bb.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a detail view with a photo of a field with green plants, one yellow flower, and a sandy background, paired with a map showing the location saved with a red pin near Anza Boulevard and the Interstate 280.\">\n",
 				"date_published": "2024-12-15T08:42:02-08:00",
 				"url": "https://swift.chasen.dev/2024/12/15/for-day-we.html"
 			},
@@ -42,7 +74,7 @@
 				"id": "http://chasen.micro.blog/2024/12/14/day-was-a.html",
 				
 				"content_html": "<p><a href=\"https://www.hackingwithswift.com/100/swiftui/77\">Day 77</a> was a doozy of a challenge: build an entire app from scratch that imported a photo, prompted for a name, stored both somehow (I chose SwiftData), display it in a list, and show a detail view.</p>\n<p>It was a lot of work but took me about an hour from start to finish. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[Day 77](https://www.hackingwithswift.com/100/swiftui/77) was a doozy of a challenge: build an entire app from scratch that imported a photo, prompted for a name, stored both somehow (I chose SwiftData), display it in a list, and show a detail view.\n\nIt was a lot of work but took me about an hour from start to finish. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/f6ac38db4c.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a “Photos” app with two pictures: Flowers, with a thumbnail of pink flowers, and Waterfall, with a thumbnail of a waterfall surrounded by greenery. You can tap on a row to go to the detail view. There are edit and add buttons in the top navigation.\">\n",
+				"content_text": "[Day 77](https://www.hackingwithswift.com/100/swiftui/77) was a doozy of a challenge: build an entire app from scratch that imported a photo, prompted for a name, stored both somehow (I chose SwiftData), display it in a list, and show a detail view.\n\nIt was a lot of work but took me about an hour from start to finish. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/f6ac38db4c.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a “Photos” app with two pictures: Flowers, with a thumbnail of pink flowers, and Waterfall, with a thumbnail of a waterfall surrounded by greenery. You can tap on a row to go to the detail view. There are edit and add buttons in the top navigation.\">\n",
 				"date_published": "2024-12-14T19:50:04-08:00",
 				"url": "https://swift.chasen.dev/2024/12/14/day-was-a.html"
 			},
