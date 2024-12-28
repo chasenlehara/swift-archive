@@ -7,6 +7,38 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2024/12/27/for-day-we-learned-how.html",
+				
+				"content_html": "<p>For Day 89, we learned how to detect when our app moves to the background or foreground so we could pause and restart our timer at the right moment. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "For Day 89, we learned how to detect when our app moves to the background or foreground so we could pause and restart our timer at the right moment. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/3334c80645.png\" width=\"600\" height=\"362\" alt=\"The iOS Simulator displays a trivia app with a question card reading, “Who played the 13th Doctor in Doctor Who” and a timer showing 89 seconds remaining. On the right is a “check” button and on the left is a “cancel” button. The background is a scratched metal texture.\">\n",
+				"date_published": "2024-12-27T19:31:27-08:00",
+				"url": "https://swift.chasen.dev/2024/12/27/for-day-we-learned-how.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/26/for-day-we-built-a.html",
+				
+				"content_html": "<p>For Day 88, we built a brand new part of the app with a stack of cards and gestures for swiping them left and right to move to the next card. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "For Day 88, we built a brand new part of the app with a stack of cards and gestures for swiping them left and right to move to the next card. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/a21a98cf15.png\" width=\"600\" height=\"362\" alt=\"The iOS Simulator displays a flashcard with the question, “Who played the 13th Doctor in Doctor Who,” against a gray, scratched metal background.\">\n",
+				"date_published": "2024-12-26T21:46:04-08:00",
+				"url": "https://swift.chasen.dev/2024/12/26/for-day-we-built-a.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/24/for-day-we-learned-a.html",
+				
+				"content_html": "<p>For Day 87, we learned a little bit about the Combine framework, <code>Timer</code>, and three accessibility settings: Differentiate Without Color, Reduce Motion, and Reduce Transparency. #100DaysOfSwiftUI</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "For Day 87, we learned a little bit about the Combine framework, `Timer`, and three accessibility settings: Differentiate Without Color, Reduce Motion, and Reduce Transparency. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/a5e7cc7c69.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a white screen with the text Timer and ScenePhaseView near the top. A green “Success” button appears in the center, followed by blue text “ReduceMotionView!” and a gray button labeled “ReduceTransparencyView!” The bottom tab bar includes a Day 87 tab (selected) and a Day 86 tab.\"><img src=\"uploads/2024/599f72048a.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator shows the same screen as the previous image with a couple differences. The “Success” button is now black with white text and a checkmark icon. The “ReduceTransparencyView!” button is also black with white text. Other elements remain the same.\">\n",
+				"date_published": "2024-12-24T07:42:26-08:00",
+				"url": "https://swift.chasen.dev/2024/12/24/for-day-we-learned-a.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2024/12/22/for-day-we-started-a.html",
+				
+				"content_html": "<p>For Day 86, we started a brand new project and started playing with all the gesture APIs and hit testing. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "For Day 86, we started a brand new project and started playing with all the gesture APIs and hit testing. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/876171edfc.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a white screen with text prompts including double tap me, long press me, magnify me, rotate me, and tap on me at the top. Below, a small red circle is positioned above a larger red circle that partially overlaps a blue square. The text Hello is centered beneath the shapes, and World is spaced further down near the bottom of the screen. At the very bottom is a tab bar with Day 86 selected.\">\n",
+				"date_published": "2024-12-22T18:04:29-08:00",
+				"url": "https://swift.chasen.dev/2024/12/22/for-day-we-started-a.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2024/12/22/day-is-a-challenge-day.html",
 				
 				"content_html": "<p>Day 85 is a challenge day! The quiz was easy but the challenge took me about an hour to complete. The “contacted” icon, link to an edit screen, and sort options are all new. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
@@ -18,7 +50,7 @@
 				"id": "http://chasen.micro.blog/2024/12/20/for-day-we.html",
 				
 				"content_html": "<p>For Day 84, we learned how to add swipe actions to list items and show local notifications using the <code>UserNotifications</code> framework! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "For Day 84, we learned how to add swipe actions to list items and show local notifications using the `UserNotifications` framework! #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/b84ea89520.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a lock screen with the date Friday, December 20, the time 6:42, and a notification labeled Contact Paul Hudson with an email address. The background shows a gradient of soft pink and blue hues.\">\n",
+				"content_text": "For Day 84, we learned how to add swipe actions to list items and show local notifications using the `UserNotifications` framework! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/b84ea89520.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a lock screen with the date Friday, December 20, the time 6:42, and a notification labeled Contact Paul Hudson with an email address. The background shows a gradient of soft pink and blue hues.\">\n",
 				"date_published": "2024-12-20T19:03:44-08:00",
 				"url": "https://swift.chasen.dev/2024/12/20/for-day-we.html"
 			},
@@ -26,7 +58,7 @@
 				"id": "http://chasen.micro.blog/2024/12/17/day-has-this.html",
 				
 				"content_html": "<p>Day 83 has this tidbit:</p>\n<blockquote>\n<p>The CPU running our code doesn’t care about data types, comments, access control, and more, but if you want to write great software that is scalable, testable, and maintainable, you need to add some rules.</p>\n</blockquote>\n<p>There’s a little piece of me that wishes we talked more about testing and maintainability. I know they’re more advanced topics that I’ll learn on my own, but a man can still wish.</p>\n<p>Today we added UI to scan QR codes and multi-item editing. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 83 has this tidbit:\n\n> The CPU running our code doesn’t care about data types, comments, access control, and more, but if you want to write great software that is scalable, testable, and maintainable, you need to add some rules.\n\nThere’s a little piece of me that wishes we talked more about testing and maintainability. I know they’re more advanced topics that I’ll learn on my own, but a man can still wish.\n\nToday we added UI to scan QR codes and multi-item editing. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/b892cd6a6a.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a contact list titled Everyone, showing one contact: Paul Hudson with the email paul@hackingwithswift.com. A blue checkmark indicates the contact is selected and a blue “Delete Selected” button appears at the bottom of the view. Below that, a tab bar highlights the Everyone tab and includes options like Contacted, Uncontacted, Me, and More.\">\n",
+				"content_text": "Day 83 has this tidbit:\n\n> The CPU running our code doesn’t care about data types, comments, access control, and more, but if you want to write great software that is scalable, testable, and maintainable, you need to add some rules.\n\nThere’s a little piece of me that wishes we talked more about testing and maintainability. I know they’re more advanced topics that I’ll learn on my own, but a man can still wish.\n\nToday we added UI to scan QR codes and multi-item editing. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/b892cd6a6a.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a contact list titled Everyone, showing one contact: Paul Hudson with the email paul@hackingwithswift.com. A blue checkmark indicates the contact is selected and a blue “Delete Selected” button appears at the bottom of the view. Below that, a tab bar highlights the Everyone tab and includes options like Contacted, Uncontacted, Me, and More.\">\n",
 				"date_published": "2024-12-17T18:52:31-08:00",
 				"url": "https://swift.chasen.dev/2024/12/17/day-has-this.html"
 			},
@@ -34,7 +66,7 @@
 				"id": "http://chasen.micro.blog/2024/12/17/day-was-much.html",
 				
 				"content_html": "<p>Day 82 was much easier—I don’t think there was anything new, we “just” laid the groundwork for the new tabs and added the SwiftData pieces to store the contact info. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Day 82 was much easier—I don’t think there was anything new, we “just” laid the groundwork for the new tabs and added the SwiftData pieces to store the contact info. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/a84a31b3e9.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a contact list under the heading “Everyone” with one contact named Paul Hudson and the email paul@hackingwithswift.com. The bottom tab bar shows icons for Everyone, Contacted, Uncontacted, Me, and More.\">\n",
+				"content_text": "Day 82 was much easier—I don’t think there was anything new, we “just” laid the groundwork for the new tabs and added the SwiftData pieces to store the contact info. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/a84a31b3e9.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a contact list under the heading “Everyone” with one contact named Paul Hudson and the email paul@hackingwithswift.com. The bottom tab bar shows icons for Everyone, Contacted, Uncontacted, Me, and More.\">\n",
 				"date_published": "2024-12-17T07:45:34-08:00",
 				"url": "https://swift.chasen.dev/2024/12/17/day-was-much.html"
 			},
@@ -42,7 +74,7 @@
 				"id": "http://chasen.micro.blog/2024/12/16/today-was-almost.html",
 				
 				"content_html": "<p>Today was <em>almost</em> smooth sailing, learning about list row swipe actions and local/scheduled notifications, but I ran into issues with the directions for <a href=\"https://www.hackingwithswift.com/books/ios-swiftui/adding-swift-package-dependencies-in-xcode\">adding Swift package dependencies in Xcode</a>.</p>\n<p>I wrote up the issue and my fix in this issue: <a href=\"https://github.com/twostraws/SamplePackage/issues/3\">Day 81: <code>No such module 'SamplePackage'</code></a> #100DaysOfSwiftUI</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
-				"content_text": "Today was _almost_ smooth sailing, learning about list row swipe actions and local/scheduled notifications, but I ran into issues with the directions for [adding Swift package dependencies in Xcode](https://www.hackingwithswift.com/books/ios-swiftui/adding-swift-package-dependencies-in-xcode).\n\nI wrote up the issue and my fix in this issue: [Day 81: `No such module 'SamplePackage'`](https://github.com/twostraws/SamplePackage/issues/3) #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/5f49055017.png\" width=\"600\" height=\"322\" alt=\"Xcode error panel shows five issues in the HotProspects project. A red error states, “No such module SamplePackage” in Day81.swift. Four gray errors indicate missing files like HotProspects.abi.json, swiftmodule, and related outputs in the derived data folder.\"><img src=\"uploads/2024/997d912e18.png\" width=\"600\" height=\"358\" alt=\"The Xcode Build Phases screen is open for the HotProspects project. It lists project phases like Target Dependencies, Compile Sources with five items, and Link Binary With Libraries, which includes a single required package named SamplePackage.\">\n",
+				"content_text": "Today was _almost_ smooth sailing, learning about list row swipe actions and local/scheduled notifications, but I ran into issues with the directions for [adding Swift package dependencies in Xcode](https://www.hackingwithswift.com/books/ios-swiftui/adding-swift-package-dependencies-in-xcode).\n\nI wrote up the issue and my fix in this issue: [Day 81: `No such module 'SamplePackage'`](https://github.com/twostraws/SamplePackage/issues/3) #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/5f49055017.png\" width=\"600\" height=\"322\" alt=\"Xcode error panel shows five issues in the HotProspects project. A red error states, “No such module SamplePackage” in Day81.swift. Four gray errors indicate missing files like HotProspects.abi.json, swiftmodule, and related outputs in the derived data folder.\"><img src=\"https://cdn.uploads.micro.blog/177243/2024/997d912e18.png\" width=\"600\" height=\"358\" alt=\"The Xcode Build Phases screen is open for the HotProspects project. It lists project phases like Target Dependencies, Compile Sources with five items, and Link Binary With Libraries, which includes a single required package named SamplePackage.\">\n",
 				"date_published": "2024-12-16T18:50:39-08:00",
 				"url": "https://swift.chasen.dev/2024/12/16/today-was-almost.html"
 			},
