@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2025/01/10/picking-daysofswiftui-back-up-and.html",
+				
+				"content_html": "<p>Picking #100DaysOfSwiftUI back up, and in the home stretch at Day 91! It was a challenge day with a review quiz and an open-ended prompt to fix a couple minor bugs and add a feature.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Picking #100DaysOfSwiftUI back up, and in the home stretch at Day 91! It was a challenge day with a review quiz and an open-ended prompt to fix a couple minor bugs and add a feature.\n\n<img src=\"uploads/2025/07efff8de5.png\" width=\"600\" height=\"362\" alt=\"The iOS Simulator displays a flashcard with a quiz question reading, “What is Taylor Swift’s birth year,” on a scratched metallic background. A timer at the top shows 91 seconds remaining, with circular buttons for cancel and confirm at the bottom corners.\">\n",
+				"date_published": "2025-01-10T19:09:28-08:00",
+				"url": "https://swift.chasen.dev/2025/01/10/picking-daysofswiftui-back-up-and.html",
+				"tags": ["100 Days of SwiftUI"]
+			},
+			{
 				"id": "http://chasen.micro.blog/2025/01/03/for-day-we-made-a.html",
 				
 				"content_html": "<p>For Day 90, we made a bunch of accessibility fixes and added a view for creating new cards! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
@@ -44,7 +53,7 @@
 				"id": "http://chasen.micro.blog/2024/12/26/for-day-we-built-a.html",
 				
 				"content_html": "<p>For Day 88, we built a brand new part of the app with a stack of cards and gestures for swiping them left and right to move to the next card. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "For Day 88, we built a brand new part of the app with a stack of cards and gestures for swiping them left and right to move to the next card. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/a21a98cf15.png\" width=\"600\" height=\"362\" alt=\"The iOS Simulator displays a flashcard with the question, “Who played the 13th Doctor in Doctor Who,” against a gray, scratched metal background.\">\n",
+				"content_text": "For Day 88, we built a brand new part of the app with a stack of cards and gestures for swiping them left and right to move to the next card. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/a21a98cf15.png\" width=\"600\" height=\"362\" alt=\"The iOS Simulator displays a flashcard with the question, “Who played the 13th Doctor in Doctor Who,” against a gray, scratched metal background.\">\n",
 				"date_published": "2024-12-26T21:46:04-08:00",
 				"url": "https://swift.chasen.dev/2024/12/26/for-day-we-built-a.html",
 				"tags": ["100 Days of SwiftUI"]
