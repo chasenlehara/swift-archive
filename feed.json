@@ -7,6 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2025/04/04/i-always-thought-apples-relationship.html",
+				
+				"content_html": "<p>I always thought Apple’s relationship with China would become more strained because of issues on the Chinese side (Taiwan, censorship, etc.).</p>\n<p>Now, it’s the domestic side that’s hurting the company the most.</p>\n",
+				"content_text": "I always thought Apple’s relationship with China would become more strained because of issues on the Chinese side (Taiwan, censorship, etc.).\n\nNow, it’s the domestic side that’s hurting the company the most.\n",
+				"date_published": "2025-04-04T14:07:25-07:00",
+				"url": "https://swift.chasen.dev/2025/04/04/i-always-thought-apples-relationship.html"
+			},
+			{
+				"id": "http://chasen.micro.blog/2025/03/29/traveling-to-chicago-for-work.html",
+				
+				"content_html": "<p>Traveling to Chicago for work this week and coming to terms with this chaotic weather. 😅</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Traveling to Chicago for work this week and coming to terms with this chaotic weather. 😅\n\n<img src=\"uploads/2025/f944f84641.jpg\" width=\"479\" height=\"600\" alt=\"Chicago forecast shows rain on Sunday with a range of 46 to 69 Fahrenheit, clouds on Monday with 35 to 46, clouds on Tuesday with 32 to 44, rain on Wednesday with 39 to 71, clouds on Thursday with 46 to 60, and clouds in Friday with 41 to 49.\">\n",
+				"date_published": "2025-03-29T20:29:02-07:00",
+				"url": "https://swift.chasen.dev/2025/03/29/traveling-to-chicago-for-work.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2025/03/26/this-bit-from-the-most.html",
 				
 				"content_html": "<p>This bit from <a href=\"https://www.relay.fm/upgrade/556\">the most recent Upgrade</a> makes me think that we only have Automator and AppleScript in macOS because the OS team didn’t want Workflow/Shortcuts (which was bought by the Siri team).</p>\n<p>Almost certainly we would have neither in macOS if they had been interested in Workflow in 2017.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
