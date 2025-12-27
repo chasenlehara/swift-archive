@@ -7,11 +7,19 @@
 	"items": [
 		
 			{
+				"id": "http://chasen.micro.blog/2025/12/27/what-i-really-wish-apple.html",
+				
+				"content_html": "<p>What I really wish Apple would do with LLMs is integrate it into little places throughout the OS.</p>\n<p>How awesome would it be if searching the Help menu for a similar term to a menu bar item (but not exact match!) would return better results? Or if results came from help books on macOS?</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "What I really wish Apple would do with LLMs is integrate it into little places throughout the OS.\n\nHow awesome would it be if searching the Help menu for a similar term to a menu bar item (but not exact match!) would return better results? Or if results came from help books on macOS?\n\n<img src=\"uploads/2025/refresh.png\" width=\"600\" height=\"98\" alt=\"Safari menu bar with the Help menu open, showing a search for “refresh” but no menu bar item results. Suggestions include “Get extensions to customize Safari on Mac” and “Show All Help Topics.”\">\n",
+				"date_published": "2025-12-27T09:45:14-08:00",
+				"url": "https://swift.chasen.dev/2025/12/27/what-i-really-wish-apple.html"
+			},
+			{
 				"id": "http://chasen.micro.blog/2025/08/31/slate.html",
 				"title": "Slate",
 				"content_html": "<p>The next app that I’ve made for myself (after <a href=\"https://swift.chasen.dev/2025/07/31/tend.html\">Tend</a>) is tentatively called Slate.</p>\n<p>My partner gets his shift schedule for work from an app that doesn’t make it easy to add his shifts to his calendar. I used a janky “AI” app to do this for a while, but I don’t like that it wasn’t processed on-device.</p>\n<p>Enter Slate: It lets you pick a recent screenshot (via <a href=\"https://developer.apple.com/documentation/photokit/bringing-photos-picker-to-your-swiftui-app\">PhotosPicker</a>) and uses <a href=\"https://developer.apple.com/documentation/vision/recognizing-text-in-images\">VNRecognizeTextRequest</a> to find all the text in the screenshot.</p>\n<p>I have some custom code for translating the text to calendar events and the UI lets you selectively add whichever of the parsed events you want. Then you select the calendar you want to add the events to, and Slate will add them.</p>\n<p>What previously took me a few minutes (with an app I didn’t like) now takes ~20 seconds from start to finish. I love it!</p>\n",
 				"content_text": "The next app that I’ve made for myself (after [Tend](https://swift.chasen.dev/2025/07/31/tend.html)) is tentatively called Slate.\n\nMy partner gets his shift schedule for work from an app that doesn’t make it easy to add his shifts to his calendar. I used a janky “AI” app to do this for a while, but I don’t like that it wasn’t processed on-device.\n\nEnter Slate: It lets you pick a recent screenshot (via [PhotosPicker](https://developer.apple.com/documentation/photokit/bringing-photos-picker-to-your-swiftui-app)) and uses [VNRecognizeTextRequest](https://developer.apple.com/documentation/vision/recognizing-text-in-images) to find all the text in the screenshot.\n\nI have some custom code for translating the text to calendar events and the UI lets you selectively add whichever of the parsed events you want. Then you select the calendar you want to add the events to, and Slate will add them.\n\nWhat previously took me a few minutes (with an app I didn’t like) now takes ~20 seconds from start to finish. I love it!\n",
-				"date_published": "2025-08-31T16:39:36-07:00",
+				"date_published": "2025-08-31T15:39:36-08:00",
 				"url": "https://swift.chasen.dev/2025/08/31/slate.html"
 			},
 			{
@@ -19,7 +27,7 @@
 				"title": "Tend",
 				"content_html": "<p>I’ve been using <a href=\"https://tiller.com\">Tiller</a> for the past five years to track my finances. I love the service because they do the hard part (integrate with financial data platforms to import your transaction data) and provide straightforward spreadsheet templates to make managing your finances easier.</p>\n<p>Recently, I’ve come to realize that <a href=\"https://help.tiller.com/en/articles/432684-using-tiller-on-a-mobile-device\">their lack of a native mobile app</a> keeps me more disconnected from my finances than I would like.</p>\n<p>One of the reasons why I started learning <a href=\"https://swift.chasen.dev/categories/100-days-of-swiftui/\">SwiftUI last year</a> was that: I have dozens ideas for little apps that would make my life better.</p>\n<p>This past month, I’ve started to put what I’ve learned into practice to build my first (personal) app, Tend.</p>\n<p>Tend is really simple: It connects to a Google Sheet, then it shows me my list of categories and does some math to show the remaining daily/weekly/monthly amounts. It also shows me a list of all my uncategorized transactions and lets me quickly categorize them.</p>\n<p>If other people are interested, one day I plan to make it more widely available, but for now it’s been useful (and fun!) to have an app that helps me track my finances more frequently than I normally would, which has usually been only a couple times a month.</p>\n",
 				"content_text": "I’ve been using [Tiller](https://tiller.com) for the past five years to track my finances. I love the service because they do the hard part (integrate with financial data platforms to import your transaction data) and provide straightforward spreadsheet templates to make managing your finances easier.\n\nRecently, I’ve come to realize that [their lack of a native mobile app](https://help.tiller.com/en/articles/432684-using-tiller-on-a-mobile-device) keeps me more disconnected from my finances than I would like.\n\nOne of the reasons why I started learning [SwiftUI last year](https://swift.chasen.dev/categories/100-days-of-swiftui/) was that: I have dozens ideas for little apps that would make my life better.\n\nThis past month, I’ve started to put what I’ve learned into practice to build my first (personal) app, Tend.\n\nTend is really simple: It connects to a Google Sheet, then it shows me my list of categories and does some math to show the remaining daily/weekly/monthly amounts. It also shows me a list of all my uncategorized transactions and lets me quickly categorize them.\n\nIf other people are interested, one day I plan to make it more widely available, but for now it’s been useful (and fun!) to have an app that helps me track my finances more frequently than I normally would, which has usually been only a couple times a month.\n",
-				"date_published": "2025-07-31T21:29:13-07:00",
+				"date_published": "2025-07-31T20:29:13-08:00",
 				"url": "https://swift.chasen.dev/2025/07/31/tend.html"
 			},
 			{
@@ -27,7 +35,7 @@
 				"title": "WWDC 2025",
 				"content_html": "<p>Some quick notes from watching the <a href=\"https://developer.apple.com/videos/play/wwdc2025/101/\">keynote</a> today:</p>\n<ul>\n<li>Awesome that Apple is opening up the on device model—before today, it felt like they would only do this in very controlled ways.</li>\n<li>The glass in some elements (like tab bars) looks like way too much (not enough contrast with the background elements), so I’ll bet $5 that the translucency gets turned down over the summer.</li>\n<li>The “selected” state for tab bar items looks awful.</li>\n<li>The all-clear look for icons looks over the top but cool.</li>\n<li>I’m excited that parts of the UI changing based on the device movement/accelerometer is back. Those seemed to go away over time since the iOS 7 days, but I think they’re great little bits of interactivity.</li>\n<li>I had no idea that typing indicators in group chats weren’t a thing… guess I’m not in that many group chats.</li>\n<li>Surprised they more deeply integrated ChatGPT with the image styles; I thought they would keep an arm’s distance from integrating more with OpenAI.</li>\n<li>FaceTime translation is awesome. I’m surprised they didn’t do the translation in the same voice as the speaker. Maybe that would be too creepy or require too much processing power.</li>\n<li>It seems like the best Liquid Glass UIs are when the text is light over a dark background. Hopefully they improve the readability across the board.</li>\n<li>The movement under Liquid Glass when content is playing (like video, Apple TV, etc.) makes all the buttons move and it looks distracting to me. I’m curious to see it in practice.</li>\n<li>Not sure how I feel about the new macOS design, especially the sidebar. Why does it look raised?</li>\n<li>The macOS toolbar looks a lot better with contrast between the button shapes and the toolbar’s background.</li>\n<li>Clipboard history on macOS! It’s always been on my to-do list to try a clipboard manager, but now I’ll just wait for Tahoe.</li>\n<li>Spatial widgets in visionOS are amazing. I had so many app ideas before the hardware was released that were based on physical persistence. Now it seems like this is possible!</li>\n<li>Wow, they really brought the macOS window traffic light widgets to iPadOS. And now the design changes on macOS makes sense (they’re consistent with each other).</li>\n<li>Wow, <em>and</em> the menu bar is on iPadOS now? Awesome.</li>\n<li>lol @ “We’ve expanded our vision for Swift Assist.”</li>\n<li>I liked the little movie at the end.</li>\n</ul>\n<p>Images courtesy of Apple.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
 				"content_text": "Some quick notes from watching the [keynote](https://developer.apple.com/videos/play/wwdc2025/101/) today:\n\n- Awesome that Apple is opening up the on device model—before today, it felt like they would only do this in very controlled ways.\n- The glass in some elements (like tab bars) looks like way too much (not enough contrast with the background elements), so I’ll bet $5 that the translucency gets turned down over the summer.\n- The “selected” state for tab bar items looks awful.\n- The all-clear look for icons looks over the top but cool.\n- I’m excited that parts of the UI changing based on the device movement/accelerometer is back. Those seemed to go away over time since the iOS 7 days, but I think they’re great little bits of interactivity.\n- I had no idea that typing indicators in group chats weren’t a thing… guess I’m not in that many group chats.\n- Surprised they more deeply integrated ChatGPT with the image styles; I thought they would keep an arm’s distance from integrating more with OpenAI.\n- FaceTime translation is awesome. I’m surprised they didn’t do the translation in the same voice as the speaker. Maybe that would be too creepy or require too much processing power.\n- It seems like the best Liquid Glass UIs are when the text is light over a dark background. Hopefully they improve the readability across the board.\n- The movement under Liquid Glass when content is playing (like video, Apple TV, etc.) makes all the buttons move and it looks distracting to me. I’m curious to see it in practice.\n- Not sure how I feel about the new macOS design, especially the sidebar. Why does it look raised?\n- The macOS toolbar looks a lot better with contrast between the button shapes and the toolbar’s background.\n- Clipboard history on macOS! It’s always been on my to-do list to try a clipboard manager, but now I’ll just wait for Tahoe.\n- Spatial widgets in visionOS are amazing. I had so many app ideas before the hardware was released that were based on physical persistence. Now it seems like this is possible!\n- Wow, they really brought the macOS window traffic light widgets to iPadOS. And now the design changes on macOS makes sense (they’re consistent with each other).\n- Wow, _and_ the menu bar is on iPadOS now? Awesome.\n- lol @ “We’ve expanded our vision for Swift Assist.”\n- I liked the little movie at the end.\n\nImages courtesy of Apple.\n\n<img src=\"uploads/2025/b6295b3b52.jpg\" width=\"600\" height=\"337\" alt=\"Three iOS 26 home screens showing app icons. The first screen displays transparent icons; the second shows dark mode icons, and the third features light mode icons. A blurred wallpaper serves as the background, placing focus on the icons.\"><img src=\"uploads/2025/38bf975ac0.jpg\" width=\"600\" height=\"337\" alt=\"A visionOS interface floating in a warmly lit living room, showcasing the Image Playground feature of Apple Intelligence. At the center, a generated oil painting–style portrait of a smiling woman is bordered by a glowing frame. Style suggestions such as Disco, Sci-fi, and Sunset appear below. A ChatGPT option is visible in the bottom panel, indicating integration for generating images. The entire UI hovers mid-air, blending with the real-world environment.\"><img src=\"uploads/2025/a09248538f.jpg\" width=\"600\" height=\"400\" alt=\"A macOS 15 (Tahoe) desktop displaying the updated Xcode interface. The screen shows Swift code alongside a live UI preview and a new minimap for navigation. The menu bar and window chrome have rounded corners and translucent effects. The desktop background depicts a clear alpine lake with snow-covered mountains under blue sky.\"><img src=\"uploads/2025/be81fa41d5.jpg\" width=\"600\" height=\"337\" alt=\"iPadOS 26 interface featuring a new systemwide menu bar at the top with items like File, Edit, and View. The layout mimics macOS-style controls, enhancing productivity workflows. The left sidebar, listing content options, appears to float above the app canvas, casting a subtle shadow. A stylus hovers near the screen, suggesting Apple Pencil interaction, with a softly blurred wallpaper in the background.\">\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://swift.chasen.dev/uploads/2025/3aca476dea.mov\" width=\"1280\" height=\"720\" poster=\"https://swift.chasen.dev/uploads/2025/9d44c96020.png\" preload=\"none\"></video><video controls=\"controls\" playsinline=\"playsinline\" src=\"https://swift.chasen.dev/uploads/2025/b85603011b.mov\" width=\"1280\" height=\"720\" poster=\"https://swift.chasen.dev/uploads/2025/1decfb1266.png\" preload=\"none\"></video><video controls=\"controls\" playsinline=\"playsinline\" src=\"https://swift.chasen.dev/uploads/2025/0dc493bf09.mov\" width=\"1280\" height=\"720\" poster=\"https://swift.chasen.dev/uploads/2025/d209451dfd.png\" preload=\"none\"></video><video controls=\"controls\" playsinline=\"playsinline\" src=\"https://swift.chasen.dev/uploads/2025/2b027e8fa2.mov\" width=\"1280\" height=\"720\" poster=\"https://swift.chasen.dev/uploads/2025/7e347f507e.png\" preload=\"none\"></video>\n",
-				"date_published": "2025-06-09T21:48:54-07:00",
+				"date_published": "2025-06-09T20:48:54-08:00",
 				"url": "https://swift.chasen.dev/2025/06/09/wwdc.html"
 			},
 			{
@@ -35,15 +43,15 @@
 				
 				"content_html": "<p>Traveling to Chicago for work this week and coming to terms with this chaotic weather. 😅</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Traveling to Chicago for work this week and coming to terms with this chaotic weather. 😅\n\n<img src=\"uploads/2025/f944f84641.jpg\" width=\"479\" height=\"600\" alt=\"Chicago forecast shows rain on Sunday with a range of 46 to 69 Fahrenheit, clouds on Monday with 35 to 46, clouds on Tuesday with 32 to 44, rain on Wednesday with 39 to 71, clouds on Thursday with 46 to 60, and clouds in Friday with 41 to 49.\">\n",
-				"date_published": "2025-03-29T20:29:02-07:00",
+				"date_published": "2025-03-29T19:29:02-08:00",
 				"url": "https://swift.chasen.dev/2025/03/29/traveling-to-chicago-for-work.html"
 			},
 			{
 				"id": "http://chasen.micro.blog/2025/03/26/this-bit-from-the-most.html",
 				
 				"content_html": "<p>This bit from <a href=\"https://www.relay.fm/upgrade/556\">the most recent Upgrade</a> makes me think that we only have Automator and AppleScript in macOS because the OS team didn’t want Workflow/Shortcuts (which was bought by the Siri team).</p>\n<p>Almost certainly we would have neither in macOS if they had been interested in Workflow in 2017.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
-				"content_text": "This bit from [the most recent Upgrade](https://www.relay.fm/upgrade/556) makes me think that we only have Automator and AppleScript in macOS because the OS team didn’t want Workflow/Shortcuts (which was bought by the Siri team).\n\nAlmost certainly we would have neither in macOS if they had been interested in Workflow in 2017.\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://swift.chasen.dev/uploads/2025/image.mp4\" width=\"1008\" height=\"1008\" poster=\"https://swift.chasen.dev/uploads/2025/ddaf7ada46.png\" preload=\"none\"></video>\n",
-				"date_published": "2025-03-26T19:31:03-07:00",
+				"content_text": "This bit from [the most recent Upgrade](https://www.relay.fm/upgrade/556) makes me think that we only have Automator and AppleScript in macOS because the OS team didn’t want Workflow/Shortcuts (which was bought by the Siri team).\n\nAlmost certainly we would have neither in macOS if they had been interested in Workflow in 2017.\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://cdn.uploads.micro.blog/177243/2025/image.mp4\" width=\"1008\" height=\"1008\" poster=\"https://swift.chasen.dev/uploads/2025/ddaf7ada46.png\" preload=\"none\"></video>\n",
+				"date_published": "2025-03-26T18:31:03-08:00",
 				"url": "https://swift.chasen.dev/2025/03/26/this-bit-from-the-most.html"
 			},
 			{
@@ -51,7 +59,7 @@
 				"title": "Reflecting on 100 Days of SwiftUI",
 				"content_html": "<p>A few months ago, I started the <a href=\"https://www.hackingwithswift.com/100/swiftui\">100 Days of SwiftUI</a> course. This post is a reflection on why I think anyone interested in Swift development should go through the course, and some tricks to making the most out of it.</p>\n<p>My background: I’m an experienced web developer who last worked with Objective-C in the iOS 6 days. I wanted to learn Swift, and even though I have experience with UIKit, I figured SwiftUI would be an easier way to get started.</p>\n<h2 id=\"the-course\">The course</h2>\n<p>The first couple weeks are solely focused on learning <a href=\"https://swift.chasen.dev/2024/09/22/this-has-a.html\">the ins and outs of Swift</a>—no UI and no Xcode required (<a href=\"https://developer.apple.com/swift-playground/\">Swift Playground</a> is all you need).</p>\n<p>The point of the course is to complete one day <em>every day</em> for the 100 days. I found myself itching to move faster in these first couple weeks… which in retrospect, I think you can get away with doubling up on the days if you’re already an experienced programmer and mainly learning Swift’s syntax.</p>\n<p>Then, the meat of the course is focused around projects where you build small apps.</p>\n<p>Most of the course follows the same basic pattern for projects:</p>\n<ul>\n<li>One or more days of learning material with sample code to copy into your project and play with.</li>\n<li>One “wrap up” day with a review quiz and a “challenge” prompt (given some requirements, write a part of the app on your own, with a couple extra hints if you get stuck but no final code to check yourself against).</li>\n</ul>\n<p>The learning material days are easier to get through because they are written explanations with code examples that you can copy, run, and test to see how they work. Sometimes I would do a couple of these in a single day to “catch up” to where I was supposed to be in the whole 100 days. Don’t tell anyone. 🤫</p>\n<p>I liked the quizzes as a way to double check what I had learned and reinforce the correct terminology.</p>\n<p>The challenges were a mix of pure fun (when they were easier) to the real drudge of working as a software developer. That said, I thought they were really great to get me actually coding and practicing what I had learned, and that’s the real value of the course.</p>\n<p>The course had a few other types of days throughout:</p>\n<ul>\n<li>Challenge: Build an app from scratch (based on the given requirements).</li>\n<li>Milestone: Same as Challenge days, but with some extra review material to summarize the content from previous days (which I found really useful for reference).</li>\n</ul>\n<p>I also appreciated that, throughout the entire course, we were building “real” apps: <a href=\"https://swift.chasen.dev/2024/10/09/day-very-fun.html\">unit conversion</a>, <a href=\"https://swift.chasen.dev/2024/10/13/day-was-really.html\">a “guess the flag” game</a>, <a href=\"https://swift.chasen.dev/2024/11/02/day-included-a.html\">finance tracker</a>, <a href=\"https://swift.chasen.dev/2024/11/13/day-is-a.html\">e-commerce</a> and more (there were nineteen projects altogether).</p>\n<p>The course exposes you to a lot of different APIs too: <a href=\"https://swift.chasen.dev/2024/10/18/i-realize-that.html\">Core ML</a>, <a href=\"https://swift.chasen.dev/2024/12/24/for-day-we-learned-a.html\">accessibility</a>, <a href=\"https://swift.chasen.dev/2024/12/22/for-day-we-started-a.html\">gestures</a>, and a whole lot more.</p>\n<h2 id=\"tips-and-tricks\">Tips and tricks</h2>\n<p>For anyone else taking the course, I have some tips:</p>\n<ul>\n<li>\n<p>Really try to do one day every day, but it’s ok if you can’t. 100 days for me actually took 120, and that included some cheat “catch up” days where I did a couple days in one.</p>\n</li>\n<li>\n<p>Download the <a href=\"https://github.com/twostraws/HackingWithSwift/tree/main/SwiftUI\">project source code</a> and search it when you need help. I found myself going back to the examples for reference.</p>\n</li>\n<li>\n<p>Keep around your test code with tab bars (we <a href=\"https://swift.chasen.dev/2024/12/15/day-and-were.html\">eventually</a> learned how to use them, but not until later). Don’t shy away from creating a lot of view files for each day of learning material and displaying those views in a tab bar. <a href=\"https://swift.chasen.dev/2024/12/24/for-day-we-learned-a.html\">Example.</a></p>\n</li>\n<li>\n<p>If you are blogging about it (you should!), post screenshots of your progress. It makes it a lot more fun to look back at what you’ve built. #100DaysOfSwiftUI</p>\n</li>\n</ul>\n",
 				"content_text": "A few months ago, I started the [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) course. This post is a reflection on why I think anyone interested in Swift development should go through the course, and some tricks to making the most out of it.\n\nMy background: I’m an experienced web developer who last worked with Objective-C in the iOS 6 days. I wanted to learn Swift, and even though I have experience with UIKit, I figured SwiftUI would be an easier way to get started.\n\n## The course\n\nThe first couple weeks are solely focused on learning [the ins and outs of Swift](https://swift.chasen.dev/2024/09/22/this-has-a.html)—no UI and no Xcode required ([Swift Playground](https://developer.apple.com/swift-playground/) is all you need).\n\nThe point of the course is to complete one day _every day_ for the 100 days. I found myself itching to move faster in these first couple weeks… which in retrospect, I think you can get away with doubling up on the days if you’re already an experienced programmer and mainly learning Swift’s syntax.\n\nThen, the meat of the course is focused around projects where you build small apps.\n\nMost of the course follows the same basic pattern for projects:\n\n- One or more days of learning material with sample code to copy into your project and play with.\n- One “wrap up” day with a review quiz and a “challenge” prompt (given some requirements, write a part of the app on your own, with a couple extra hints if you get stuck but no final code to check yourself against).\n\nThe learning material days are easier to get through because they are written explanations with code examples that you can copy, run, and test to see how they work. Sometimes I would do a couple of these in a single day to “catch up” to where I was supposed to be in the whole 100 days. Don’t tell anyone. 🤫\n\nI liked the quizzes as a way to double check what I had learned and reinforce the correct terminology.\n\nThe challenges were a mix of pure fun (when they were easier) to the real drudge of working as a software developer. That said, I thought they were really great to get me actually coding and practicing what I had learned, and that’s the real value of the course.\n\nThe course had a few other types of days throughout:\n\n- Challenge: Build an app from scratch (based on the given requirements).\n- Milestone: Same as Challenge days, but with some extra review material to summarize the content from previous days (which I found really useful for reference).\n\nI also appreciated that, throughout the entire course, we were building “real” apps: [unit conversion](https://swift.chasen.dev/2024/10/09/day-very-fun.html), [a “guess the flag” game](https://swift.chasen.dev/2024/10/13/day-was-really.html), [finance tracker](https://swift.chasen.dev/2024/11/02/day-included-a.html), [e-commerce](https://swift.chasen.dev/2024/11/13/day-is-a.html) and more (there were nineteen projects altogether).\n\nThe course exposes you to a lot of different APIs too: [Core ML](https://swift.chasen.dev/2024/10/18/i-realize-that.html), [accessibility](https://swift.chasen.dev/2024/12/24/for-day-we-learned-a.html), [gestures](https://swift.chasen.dev/2024/12/22/for-day-we-started-a.html), and a whole lot more.\n\n## Tips and tricks\n\nFor anyone else taking the course, I have some tips:\n\n- Really try to do one day every day, but it’s ok if you can’t. 100 days for me actually took 120, and that included some cheat “catch up” days where I did a couple days in one.\n\n- Download the [project source code](https://github.com/twostraws/HackingWithSwift/tree/main/SwiftUI) and search it when you need help. I found myself going back to the examples for reference.\n\n- Keep around your test code with tab bars (we [eventually](https://swift.chasen.dev/2024/12/15/day-and-were.html) learned how to use them, but not until later). Don’t shy away from creating a lot of view files for each day of learning material and displaying those views in a tab bar. [Example.](https://swift.chasen.dev/2024/12/24/for-day-we-learned-a.html)\n\n- If you are blogging about it (you should!), post screenshots of your progress. It makes it a lot more fun to look back at what you’ve built. #100DaysOfSwiftUI\n",
-				"date_published": "2025-02-27T21:45:18-07:00",
+				"date_published": "2025-02-27T20:45:18-08:00",
 				"url": "https://swift.chasen.dev/2025/02/27/reflecting-on-days-of-swiftui.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -60,7 +68,7 @@
 				
 				"content_html": "<p>Woo hoo! Day 100 is “just” a final exam and I passed (with merit)! Almost hard to believe that I’ve come to the end of my #100DaysOfSwiftUI journey.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Woo hoo! Day 100 is “just” a final exam and I passed (with merit)! Almost hard to believe that I’ve come to the end of my #100DaysOfSwiftUI journey.\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2025/e5f88e3989.jpg\" width=\"600\" height=\"466\" alt=\"A “certificate of merit” presented to “Chasen” for completing 100 Days of SwiftUI. It includes a quote: “Programming is an art. Don’t spend all your time sharpening your pencil when you should be drawing.” Below is Paul Hudson’s signature with “Founder” underneath.  The white background features faint dotted patterns and a blue-toned calendar on the left, with the “Hacking with Swift” logo in the upper left.\">\n",
-				"date_published": "2025-01-19T20:31:32-07:00",
+				"date_published": "2025-01-19T19:31:32-08:00",
 				"url": "https://swift.chasen.dev/2025/01/19/woo-hoo-day-is-just.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -69,7 +77,7 @@
 				
 				"content_html": "<p>Day 99 included our last quiz and challenge: add a photo credit over the image, fill in some loading/saving methods for favorites, and add sorting to the resorts list. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 99 included our last quiz and challenge: add a photo credit over the image, fill in some loading/saving methods for favorites, and add sorting to the resorts list. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2025/3e990b4cd4.png\" width=\"600\" height=\"450\" alt=\"The iOS Simulator displays an iPad with a “Resorts” app open in split view. The left pane lists ski resorts with country flags, names, and run counts. At the top of the list, a sort picker is open, showing options “Default,” “Alphabetical” (selected), and “Country.” In the list, “Deer Valley” is highlighted with a heart icon, showing “103 runs.” The right detail view displays a skier in a red jacket navigating deep snow, with the caption “Photo Credit: Maarten Duineveld” in the lower corner. Below the image, resort details are presented, including “Size: Small,” “Price: $$$,” “Elevation: 2,000m,” and “Snow: 103cm.” A descriptive paragraph highlights Deer Valley’s location in Utah, upscale amenities, and its role in the 2002 Winter Olympics.\">\n",
-				"date_published": "2025-01-18T11:10:44-07:00",
+				"date_published": "2025-01-18T10:10:44-08:00",
 				"url": "https://swift.chasen.dev/2025/01/18/day-included-our-last-quiz.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -78,7 +86,7 @@
 				
 				"content_html": "<p>For Day 98, we implemented searching resorts, replaced the facility info with icons, added a button for the user to mark favorite resorts, and added a favorite indicator in the Resorts list. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 98, we implemented searching resorts, replaced the facility info with icons, added a button for the user to mark favorite resorts, and added a favorite indicator in the Resorts list. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2025/39f1d8b4cb.png\" width=\"600\" height=\"450\" alt=\"The iOS Simulator displays an iPad with a “Resorts” app open in split view. The left pane lists resorts, and “Vail Ski Resort” is selected with a heart icon. The right detail view shows the resort’s information. A modal alert labeled “Family” overlays the entire screen and says, “This resort is popular with families” with an OK button.\">\n",
-				"date_published": "2025-01-17T20:18:00-07:00",
+				"date_published": "2025-01-17T19:18:00-08:00",
 				"url": "https://swift.chasen.dev/2025/01/17/for-day-we-implemented-searching.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -87,7 +95,7 @@
 				
 				"content_html": "<p>For Day 97 we started actually building a new project using <code>NavigationSplitView</code>, <code>NavigationLink</code>, and <code>format: .list(type: .and)</code> (for concatenating strings). #100DaysOfSwiftUI</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
 				"content_text": "For Day 97 we started actually building a new project using `NavigationSplitView`, `NavigationLink`, and `format: .list(type: .and)` (for concatenating strings). #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2025/03fd9bff09.png\" width=\"600\" height=\"450\" alt=\"The iOS Simulator displays an iPad app with a split view layout. The left sidebar lists ski resorts with names, flags, and run counts, e.g. Squaw Valley in the U.S. has 270 runs. The detail view on the right shows the text, “Welcome to SnowSeeker!” with a prompt to “select a resort from the left-hand menu; swipe from the left edge to show it.”\"><img src=\"https://cdn.uploads.micro.blog/177243/2025/1ccab81993.png\" width=\"600\" height=\"450\" alt=\"The iOS Simulator displays the same iPad app, now showing “Deer Valley” selected in the sidebar. The detail view features an image of a skier in red gear on snowy terrain, with stats below: size “Small,” price “$$$,” elevation “2,000m,” and snow “103cm.” A description highlights Deer Valley’s location in Utah, its upscale amenities, and its history as a 2002 Winter Olympics venue. Facilities include “Family, Beginners, and Accommodation.”\">\n",
-				"date_published": "2025-01-16T20:28:38-07:00",
+				"date_published": "2025-01-16T19:28:38-08:00",
 				"url": "https://swift.chasen.dev/2025/01/16/for-day-we-started-actually.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -96,7 +104,7 @@
 				
 				"content_html": "<p>Day 96 and we’re looking at iPad-friendly APIs for the first time.</p>\n<p>I’ll be honest—I had not tried running any of our previous apps in the iPad simulator, but now I see they were working fine the whole time. Pretty cool!</p>\n<p>This screenshot looks absolutely chaotic. 👹 #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 96 and we’re looking at iPad-friendly APIs for the first time.\n\nI’ll be honest—I had not tried running any of our previous apps in the iPad simulator, but now I see they were working fine the whole time. Pretty cool!\n\nThis screenshot looks absolutely chaotic. 👹 #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2025/523a4ea329.png\" width=\"600\" height=\"450\" alt=\"The iOS Simulator displays an iPad mini interface with a split view layout. The left pane shows a folder labeled “Primary.” The right pane features a search bar with the term “S” entered, a “Cancel” button, and two results, “Subh” and “Stefanie.” Below, links labeled “Tap for sheet” and “Tap for alert” are above text that reads “Name: Paul Country: England Pets: Luna and Arya.” A black circle appears under this text. The same text is repeated again, but in blue. Additional text at the bottom reads “Welcome! Your high score: 0.” A stepper for the high score (with plus and minus buttons) appears below. A floating keyboard bar shows the suggestion “S,” with options like “She” and a microphone icon.\">\n",
-				"date_published": "2025-01-15T20:18:27-07:00",
+				"date_published": "2025-01-15T19:18:27-08:00",
 				"url": "https://swift.chasen.dev/2025/01/15/day-and-were-looking-at.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -105,7 +113,7 @@
 				
 				"content_html": "<p>Day 95 was a full <a href=\"https://www.hackingwithswift.com/guide/ios-swiftui/7/3/challenge\">challenge</a> day—build an app from scratch based on some requirements!</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 95 was a full [challenge](https://www.hackingwithswift.com/guide/ios-swiftui/7/3/challenge) day—build an app from scratch based on some requirements!\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2025/3236bdda0d.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a Dice Roller app showing two dice with six sides each. Results include rolls of 2 and 4, totaling 6. A blue “Roll Dice” button is centered below the results. A log displays the roll history and date.\">\n",
-				"date_published": "2025-01-14T22:06:46-07:00",
+				"date_published": "2025-01-14T21:06:46-08:00",
 				"url": "https://swift.chasen.dev/2025/01/14/day-was-a-full-challenge.html"
 			},
 			{
@@ -113,7 +121,7 @@
 				
 				"content_html": "<p>Day 94 is a review and challenge day! Graphics code can be a doozy because when you get the wrong result, it’s difficult to know what’s actually wrong in the code (or with your math). 😅 I got some help with this one. 😬 #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 94 is a review and challenge day! Graphics code can be a doozy because when you get the wrong result, it’s difficult to know what’s actually wrong in the code (or with your math). 😅 I got some help with this one. 😬 #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2025/62b12b085d.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a rainbow-colored list of rows labeled Row 0 to Row 14, arranged vertically in a tapered, 3D perspective. Colors shift from orange at the top (with a light opacity) to red at the bottom (at full opacity). Tab bar icons include Swift symbols labeled Day 94 (selected), Day 93, Cover Flow, Images, and More.\">\n",
-				"date_published": "2025-01-14T00:31:06-07:00",
+				"date_published": "2025-01-13T23:31:06-08:00",
 				"url": "https://swift.chasen.dev/2025/01/13/day-is-a-review-and.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -122,7 +130,7 @@
 				
 				"content_html": "<p>Day 93 was a fun walk through of using <code>GeometryReader</code>, including using <code>visualEffect()</code> and <code>scrollTargetBehavior()</code>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 93 was a fun walk through of using `GeometryReader`, including using `visualEffect()` and `scrollTargetBehavior()`. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2025/7db3d38bc6.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays fifteen rows labeled Row 0 through Row 14, each in a different color. Each row is angled in 3D space, keeping the center in place but rotating the left or right sides, creating a cascading effect. The bottom tab bar contains icons labeled Day 93 (selected), Cover Flow, Images, Frames, and More.\">\n",
-				"date_published": "2025-01-12T22:45:28-07:00",
+				"date_published": "2025-01-12T21:45:28-08:00",
 				"url": "https://swift.chasen.dev/2025/01/12/day-was-a-fun-walk.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -131,7 +139,7 @@
 				
 				"content_html": "<p>For Day 92, we started a new project (our second to last!) and learned about how layout, alignment guides, and absolute positioning work within SwiftUI.</p>\n<p>I really loved the explainer, starting from <a href=\"https://www.hackingwithswift.com/books/ios-swiftui/how-layout-works-in-swiftui\">How layout works in SwiftUI</a>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 92, we started a new project (our second to last!) and learned about how layout, alignment guides, and absolute positioning work within SwiftUI.\n\nI really loved the explainer, starting from [How layout works in SwiftUI](https://www.hackingwithswift.com/books/ios-swiftui/how-layout-works-in-swiftui). #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2025/day-92.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a white screen with multiple text elements, including “Hello, World!” inside a red rectangle, “Live long and prosper” in black, and overlapping versions of the phrase in varying alignments. Tab bar icons for “Day 92,” “Alignment,”, and “Custom alignment” appear at the bottom, with Day 92 selected.\">\n",
-				"date_published": "2025-01-11T23:20:07-07:00",
+				"date_published": "2025-01-11T22:20:07-08:00",
 				"url": "https://swift.chasen.dev/2025/01/11/for-day-we-started-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -140,7 +148,7 @@
 				
 				"content_html": "<p>Picking #100DaysOfSwiftUI back up, and in the home stretch at Day 91! It was a challenge day with a review quiz and an open-ended prompt to fix a couple minor bugs and add a feature.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Picking #100DaysOfSwiftUI back up, and in the home stretch at Day 91! It was a challenge day with a review quiz and an open-ended prompt to fix a couple minor bugs and add a feature.\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2025/07efff8de5.png\" width=\"600\" height=\"362\" alt=\"The iOS Simulator displays a flashcard with a quiz question reading, “What is Taylor Swift’s birth year,” on a scratched metallic background. A timer at the top shows 91 seconds remaining, with circular buttons for cancel and confirm at the bottom corners.\">\n",
-				"date_published": "2025-01-10T20:09:28-07:00",
+				"date_published": "2025-01-10T19:09:28-08:00",
 				"url": "https://swift.chasen.dev/2025/01/10/picking-daysofswiftui-back-up-and.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -149,7 +157,7 @@
 				
 				"content_html": "<p>For Day 90, we made a bunch of accessibility fixes and added a view for creating new cards! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 90, we made a bunch of accessibility fixes and added a view for creating new cards! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2025/8cac80e980.png\" width=\"600\" height=\"362\" alt=\"The iOS Simulator shows a card creation interface with text fields for Prompt and Answer, an Add Card button below, and a Done button at the top.\">\n",
-				"date_published": "2025-01-03T22:08:15-07:00",
+				"date_published": "2025-01-03T21:08:15-08:00",
 				"url": "https://swift.chasen.dev/2025/01/03/for-day-we-made-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -158,7 +166,7 @@
 				"title": "2024 iPhone Home Screens",
 				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<p>As the year comes to a close, I want to take a quick snapshot of what my home screens look like now so I can compare them in a year from now.</p>\n<p>I say home <em>screens</em> because I use <a href=\"https://support.apple.com/guide/iphone/set-up-a-focus-iphd6288a67f/ios\">focus modes</a> extensively to change my home screens (depending on my current focus):</p>\n<!-- raw HTML omitted -->\n<p>Let’s go through them <em>roughly</em> by time of day:</p>\n<h2 id=\"morning\">Morning</h2>\n<p>Here’s what my Morning home screen looks like (in Small icon mode so it’s easier to understand with labels; I actually use Large icon mode everywhere):</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<h2 id=\"fitness\">Fitness</h2>\n<p>Here’s what my Fitness home screen looks like:</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<h2 id=\"work\">Work</h2>\n<p>Here’s what my Work home screen looks like:</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<h2 id=\"driving\">Driving</h2>\n<p>Here’s what my Driving home screen looks like:</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<h2 id=\"personal\">Personal</h2>\n<p>Here’s what my Personal home screen looks like:</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<h2 id=\"do-not-disturb\">Do Not Disturb</h2>\n<p>Here’s what my Do Not Disturb home screen looks like:</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<h2 id=\"evening\">Evening</h2>\n<p>Here’s what my Evening home screen looks like:</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<h2 id=\"sleep\">Sleep</h2>\n<p>Here’s what my Sleep home screen looks like:</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
 				"content_text": "<style style=\"display: none\">\n  /* Container styling */\n  .side-by-side {\n\ttext-align: center;\n\tmax-width: 393px;\n\t margin: auto;\n  }\n\t.side-by-side div:first-of-type {\n\t\tdisplay: inline-block;\n  \tposition: relative;\n\t}\n\n  /* Default styles for images */\n  .side-by-side img {\n\t  display: block;\n\t  margin: 0 auto;\n\t  max-width: 100%;\n\tposition: absolute;\n  }\n\n  /* Toggle visibility */\n  .side-by-side:has(label:first-of-type input:checked) .small {\n\topacity: 1;\n\tposition: relative;\n\tvisibility: visible;\n  }\n\n  .side-by-side:has(label:first-of-type input:checked) .large {\n\topacity: 0;\n\tvisibility: hidden;\n  }\n\n  .side-by-side:has(label:last-of-type input:checked) .large {\n\topacity: 1;\n\tposition: relative;\n\tvisibility: visible;\n  }\n\n  /* Segmented control styles */\n  .side-by-side .segmented-control {\n\tdisplay: flex;\n\tjustify-content: center;\n\t/* margin-top: 1rem; */\n  }\n\n  .side-by-side .segmented-control input {\n\tdisplay: none;\n  }\n\n  .side-by-side .segmented-control label {\n\tborder: 1px solid #ccc;\n\tcursor: pointer;\n\tpadding: 0.5rem 1rem;\n  }\n\n  .side-by-side .segmented-control label:first-of-type {\n\tborder-radius: 0.25rem 0 0 0.25rem;\n\tborder-right: none;\n  }\n\n  .side-by-side .segmented-control label:last-of-type {\n\tborder-radius: 0 0.25rem 0.25rem 0;\n  }\n\n  .side-by-side .segmented-control label:has(input:checked) {\n\tbackground: #ddd;\n\tfont-weight: bold;\n  }\n\n  /* Focus styles for accessibility */\n  .side-by-side .segmented-control label:has(input:focus) {\n\toutline: 0.25rem solid #005fcc;\n\toutline-offset: 0.25rem;\n  }\n</style>\n\nAs the year comes to a close, I want to take a quick snapshot of what my home screens look like now so I can compare them in a year from now.\n\nI say home _screens_ because I use [focus modes](https://support.apple.com/guide/iphone/set-up-a-focus-iphd6288a67f/ios) extensively to change my home screens (depending on my current focus):\n\n<table>\n  <thead>\n    <tr>\n      <th>Focus Mode</th>\n      <th>Triggered</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Morning</td>\n      <td>Automatically at 4:00 AM and off either at 9:00 AM (workdays) or 12:00 PM (weekends)</td>\n    </tr>\n    <tr>\n      <td>Fitness</td>\n      <td>Automatically when I start/stop a workout</td>\n    </tr>\n    <tr>\n      <td>Work</td>\n      <td>Automatically at 9:00 AM on weekdays</td>\n    </tr>\n    <tr>\n      <td>Driving</td>\n      <td>Automatically when I start/stop driving</td>\n    </tr>\n    <tr>\n      <td>Personal</td>\n      <td>Manually when I want to be in a Focus mode</td>\n    </tr>\n    <tr>\n      <td>Do Not Disturb</td>\n      <td>Manually whenever I need to be completely offline</td>\n    </tr>\n    <tr>\n      <td>Evening</td>\n      <td>Automatically by 8:30 PM</td>\n    </tr>\n    <tr>\n      <td>Sleep</td>\n      <td>Automatically when my <a href=\"https://support.apple.com/guide/iphone/iph7d4d2b690/ios\">Wind Down</a> schedule starts</td>\n    </tr>\n  </tbody>\n</table>\n\nLet’s go through them _roughly_ by time of day:\n\n## Morning\n\nHere’s what my Morning home screen looks like (in Small icon mode so it’s easier to understand with labels; I actually use Large icon mode everywhere):\n\n<div class=\"side-by-side\">\n  <div>\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/morning-small.png\" class=\"small\" alt=\"An iOS home screen (in Small icon mode with labels under the icons) showing a blurred gray background, indicating an overcast day. The first row has a Health widget and Camera. The second row has Start Morning, Start Dishes, Self Care, and InBody. The third row has Take Vitamins, Brush Teeth, Face Routine, and Balance Health. The fourth row has Start Jackson, Start Stretching, Start Exercise, and Start Shower. The fifth row has Start Coffee, Start Food, Drink Water, and Start Work. The dock at the bottom has Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/morning-large.png\" class=\"large\" alt=\"An iOS home screen (in Large icon mode without labels under the icons) showing a blurred gray background, indicating an overcast day. The first row has a Health widget and Camera. The second row has Start Morning, Start Dishes, Self Care, and InBody. The third row has Take Vitamins, Brush Teeth, Face Routine, and Balance Health. The fourth row has Start Jackson, Start Stretching, Start Exercise, and Start Shower. The fifth row has Start Coffee, Start Food, Drink Water, and Start Work. The dock at the bottom has Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n  </div>\n\n  <div class=\"segmented-control\">\n\t<label>\n\t\t<input type=\"radio\" name=\"morning-size\" checked>\n\t\tSmall\n\t</label>\n\t<label>\n\t\t<input type=\"radio\" name=\"morning-size\">\n\t\tLarge\n\t</label>\n  </div>\n</div>\n\n\n\n## Fitness\n\nHere’s what my Fitness home screen looks like:\n\n<div class=\"side-by-side\">\n  <div>\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/fitness-small.png\" class=\"small\" alt=\"An iOS home screen (in Small icon mode with labels under the icons) showing a blurred outdoor background. The first row has a Fitness widget and Camera. The second row has Voice Memos, Drink Water, Start Food, and Start Shower. The dock at the bottom has Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/fitness-large.png\" class=\"large\" alt=\"An iOS home screen (in Large icon mode without labels under the icons) showing a blurred outdoor background. The first row has a Fitness widget and Camera. The second row has Voice Memos, Drink Water, Start Food, and Start Shower. The dock at the bottom has Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n  </div>\n\n  <div class=\"segmented-control\">\n\t<label>\n\t\t<input type=\"radio\" name=\"fitness-size\" checked>\n\t\tSmall\n\t</label>\n\t<label>\n\t\t<input type=\"radio\" name=\"fitness-size\">\n\t\tLarge\n\t</label>\n  </div>\n</div>\n\n## Work\n\nHere’s what my Work home screen looks like:\n\n<div class=\"side-by-side\">\n  <div>\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/work-small.png\" class=\"small\" alt=\"An iOS home screen (in Small icon mode with labels under the icons) showing a blurred red background. The first row has a Mail widget and a Work widget. The second row has Slack, OmniFocus, Start Laundry, and Start Shower. The third row has Camera, Start Coffee, Start Food, and Drink Water. The fourth row has Start Dishes, Start Jackson, and the dock at the bottom with Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/work-large.png\" class=\"large\" alt=\"An iOS home screen (in Large icon mode without labels under the icons) showing a blurred red background. The first row has a Mail widget and a Work widget. The second row has Slack, OmniFocus, Start Laundry, and Start Shower. The third row has Camera, Start Coffee, Start Food, and Drink Water. The fourth row has Start Dishes, Start Jackson, and the dock at the bottom with Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n  </div>\n\n  <div class=\"segmented-control\">\n\t<label>\n\t\t<input type=\"radio\" name=\"work-size\" checked>\n\t\tSmall\n\t</label>\n\t<label>\n\t\t<input type=\"radio\" name=\"work-size\">\n\t\tLarge\n\t</label>\n  </div>\n</div>\n\n## Driving\n\nHere’s what my Driving home screen looks like:\n\n<div class=\"side-by-side\">\n  <div>\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/driving-small.png\" class=\"small\" alt=\"An iOS home screen (in Small icon mode with labels under the icons) showing a blurred outdoor background. The first row has a Fitness widget and a Personal widget. The second row has Timery, Ivory, Pokémon GO, and Notes. The third row has Maps, Swarm, Mail, and Sleep++. The fourth row has Start Laundry, Start Stretching, Start Exercise, and Start Shower. The fifth row has Start Dishes, Start Food, Drink Water, and Start Jackson. The dock at the bottom has Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/driving-large.png\" class=\"large\" alt=\"An iOS home screen (in Large icon mode without labels under the icons) showing a blurred outdoor background. The first row has a Fitness widget and a Personal widget. The second row has Timery, Ivory, Pokémon GO, and Notes. The third row has Maps, Swarm, Mail, and Sleep++. The fourth row has Start Laundry, Start Stretching, Start Exercise, and Start Shower. The fifth row has Start Dishes, Start Food, Drink Water, and Start Jackson. The dock at the bottom has Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n  </div>\n\n  <div class=\"segmented-control\">\n\t<label>\n\t\t<input type=\"radio\" name=\"driving-size\" checked>\n\t\tSmall\n\t</label>\n\t<label>\n\t\t<input type=\"radio\" name=\"driving-size\">\n\t\tLarge\n\t</label>\n  </div>\n</div>\n\n## Personal\n\nHere’s what my Personal home screen looks like:\n\n<div class=\"side-by-side\">\n  <div>\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/personal-small.png\" class=\"small\" alt=\"An iOS home screen (in Small icon mode with labels under the icons) showing a blurred dark background. The first row has a Timery widget, HealthView widget, and Fitness widget. The second row has Camera, Balance Health, Inverter, and Sleep++. The third row has Photos. The dock at the bottom has Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/personal-large.png\" class=\"large\" alt=\"An iOS home screen (in Large icon mode without labels under the icons) showing a blurred dark background. The first row has a Timery widget, HealthView widget, and Fitness widget. The second row has Camera, Balance Health, Inverter, and Sleep++. The third row has Photos. The dock at the bottom has Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n  </div>\n\n  <div class=\"segmented-control\">\n\t<label>\n\t\t<input type=\"radio\" name=\"personal-size\" checked>\n\t\tSmall\n\t</label>\n\t<label>\n\t\t<input type=\"radio\" name=\"personal-size\">\n\t\tLarge\n\t</label>\n  </div>\n</div>\n\n## Do Not Disturb\n\nHere’s what my Do Not Disturb home screen looks like:\n\n<div class=\"side-by-side\">\n  <div>\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/do-not-disturb-small.png\" class=\"small\" alt=\"An iOS home screen (in Small icon mode with labels under the icons) showing a blurred purple background. The first row has a Fitness widget and a Personal widget. The second row has Timery, Ivory, Pokémon GO, and Notes. The third row has Maps, Swarm, Mail, and Sleep++. The fourth row has Start Laundry, Start Stretching, Start Exercise, and Start Shower. The fifth row has Start Dishes, Start Food, Drink Water, and Start Jackson. The dock at the bottom has Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/do-not-disturb-large.png\" class=\"large\" alt=\"An iOS home screen (in Large icon mode without labels under the icons) showing a blurred purple background. The first row has a Fitness widget and a Personal widget. The second row has Timery, Ivory, Pokémon GO, and Notes. The third row has Maps, Swarm, Mail, and Sleep++. The fourth row has Start Laundry, Start Stretching, Start Exercise, and Start Shower. The fifth row has Start Dishes, Start Food, Drink Water, and Start Jackson. The dock at the bottom has Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n  </div>\n\n  <div class=\"segmented-control\">\n\t<label>\n\t\t<input type=\"radio\" name=\"do-not-disturb-size\" checked>\n\t\tSmall\n\t</label>\n\t<label>\n\t\t<input type=\"radio\" name=\"do-not-disturb-size\">\n\t\tLarge\n\t</label>\n  </div>\n</div>\n\n## Evening\n\nHere’s what my Evening home screen looks like:\n\n<div class=\"side-by-side\">\n  <div>\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/evening-small.png\" class=\"small\" alt=\"An iOS home screen (in Small icon mode with labels under the icons) showing a blurred view of Earth from space. The first row has a Streaks widget, Start Medical, Camera, and Start Dishes. The second row has Start Jackson, Start Mastodon, Open RSS, and Open YouTube. The third row has Start Food, Start Stretching, Self Care, and Start Shutdown. The fourth row has Balance Health, Take Vitamins, Brush Teeth, and Drink Water. The fifth row has Play Wordle, Bedtime, and Clock. The dock at the bottom has Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/evening-large.png\" class=\"large\" alt=\"An iOS home screen (in Large icon mode without labels under the icons) showing a blurred view of Earth from space. The first row has a Streaks widget, Start Medical, Camera, and Start Dishes. The second row has Start Jackson, Start Mastodon, Open RSS, and Open YouTube. The third row has Start Food, Start Stretching, Self Care, and Start Shutdown. The fourth row has Balance Health, Take Vitamins, Brush Teeth, and Drink Water. The fifth row has Play Wordle, Bedtime, and Clock. The dock at the bottom has Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n  </div>\n\n  <div class=\"segmented-control\">\n\t<label>\n\t\t<input type=\"radio\" name=\"evening-size\" checked>\n\t\tSmall\n\t</label>\n\t<label>\n\t\t<input type=\"radio\" name=\"evening-size\">\n\t\tLarge\n\t</label>\n  </div>\n</div>\n\n## Sleep\n\nHere’s what my Sleep home screen looks like:\n\n<div class=\"side-by-side\">\n  <div>\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/sleep-small.png\" class=\"small\" alt=\"An iOS home screen (in Small icon mode with labels under the icons) showing a blurred Mars-like space background. The first row has a Streaks widget, Start Medical, Camera, and Start Dishes. The second row has Start Jackson, Start Mastodon, Open RSS, and Open YouTube. The third row has Start Food, Start Stretching, Self Care, and Start Shutdown. The fourth row has Balance Health, Take Vitamins, Brush Teeth, and Drink Water. The fifth row has Play Wordle, Bedtime, Clock, and the dock at the bottom with Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n\t  <img src=\"https://cdn.uploads.micro.blog/177243/2025/sleep-large.png\" class=\"large\" alt=\"An iOS home screen (in Large icon mode without labels under the icons) showing a blurred Mars-like space background. The first row has a Streaks widget, Start Medical, Camera, and Start Dishes. The second row has Start Jackson, Start Mastodon, Open RSS, and Open YouTube. The third row has Start Food, Start Stretching, Self Care, and Start Shutdown. The fourth row has Balance Health, Take Vitamins, Brush Teeth, and Drink Water. The fifth row has Play Wordle, Bedtime, Clock, and the dock at the bottom with Messages, Music, Overcast, and Safari.\" height=\"852\" width=\"393\" />\n  </div>\n\n  <div class=\"segmented-control\">\n\t<label>\n\t\t<input type=\"radio\" name=\"sleep-size\" checked>\n\t\tSmall\n\t</label>\n\t<label>\n\t\t<input type=\"radio\" name=\"sleep-size\">\n\t\tLarge\n\t</label>\n  </div>\n</div>\n",
-				"date_published": "2024-12-31T23:36:22-07:00",
+				"date_published": "2024-12-31T22:36:22-08:00",
 				"url": "https://swift.chasen.dev/2024/12/31/iphone-home-screens.html"
 			},
 			{
@@ -166,7 +174,7 @@
 				
 				"content_html": "<p>I’m so bummed that the macOS “widgets on your desktop” feature is so unreliable for me. I go to the trouble of setting up a bunch of widgets on my second display, only for them to disappear after some random number of restarts. Seems like a great feature but I can’t trust it. 😞</p>\n",
 				"content_text": "I’m so bummed that the macOS “widgets on your desktop” feature is so unreliable for me. I go to the trouble of setting up a bunch of widgets on my second display, only for them to disappear after some random number of restarts. Seems like a great feature but I can’t trust it. 😞\n",
-				"date_published": "2024-12-29T11:32:17-07:00",
+				"date_published": "2024-12-29T10:32:17-08:00",
 				"url": "https://swift.chasen.dev/2024/12/29/im-so-bummed-that-the.html"
 			},
 			{
@@ -174,7 +182,7 @@
 				
 				"content_html": "<p>For Day 89, we learned how to detect when our app moves to the background or foreground so we could pause and restart our timer at the right moment. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 89, we learned how to detect when our app moves to the background or foreground so we could pause and restart our timer at the right moment. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/3334c80645.png\" width=\"600\" height=\"362\" alt=\"The iOS Simulator displays a trivia app with a question card reading, “Who played the 13th Doctor in Doctor Who” and a timer showing 89 seconds remaining. On the right is a “check” button and on the left is a “cancel” button. The background is a scratched metal texture.\">\n",
-				"date_published": "2024-12-27T20:31:27-07:00",
+				"date_published": "2024-12-27T19:31:27-08:00",
 				"url": "https://swift.chasen.dev/2024/12/27/for-day-we-learned-how.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -183,7 +191,7 @@
 				
 				"content_html": "<p>For Day 88, we built a brand new part of the app with a stack of cards and gestures for swiping them left and right to move to the next card. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 88, we built a brand new part of the app with a stack of cards and gestures for swiping them left and right to move to the next card. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/a21a98cf15.png\" width=\"600\" height=\"362\" alt=\"The iOS Simulator displays a flashcard with the question, “Who played the 13th Doctor in Doctor Who,” against a gray, scratched metal background.\">\n",
-				"date_published": "2024-12-26T22:46:04-07:00",
+				"date_published": "2024-12-26T21:46:04-08:00",
 				"url": "https://swift.chasen.dev/2024/12/26/for-day-we-built-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -192,7 +200,7 @@
 				
 				"content_html": "<p>For Day 87, we learned a little bit about the Combine framework, <code>Timer</code>, and three accessibility settings: Differentiate Without Color, Reduce Motion, and Reduce Transparency. #100DaysOfSwiftUI</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
 				"content_text": "For Day 87, we learned a little bit about the Combine framework, `Timer`, and three accessibility settings: Differentiate Without Color, Reduce Motion, and Reduce Transparency. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/a5e7cc7c69.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a white screen with the text Timer and ScenePhaseView near the top. A green “Success” button appears in the center, followed by blue text “ReduceMotionView!” and a gray button labeled “ReduceTransparencyView!” The bottom tab bar includes a Day 87 tab (selected) and a Day 86 tab.\"><img src=\"https://cdn.uploads.micro.blog/177243/2024/599f72048a.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator shows the same screen as the previous image with a couple differences. The “Success” button is now black with white text and a checkmark icon. The “ReduceTransparencyView!” button is also black with white text. Other elements remain the same.\">\n",
-				"date_published": "2024-12-24T08:42:26-07:00",
+				"date_published": "2024-12-24T07:42:26-08:00",
 				"url": "https://swift.chasen.dev/2024/12/24/for-day-we-learned-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -201,7 +209,7 @@
 				
 				"content_html": "<p>For Day 86, we started a brand new project and started playing with all the gesture APIs and hit testing. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 86, we started a brand new project and started playing with all the gesture APIs and hit testing. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/876171edfc.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a white screen with text prompts including double tap me, long press me, magnify me, rotate me, and tap on me at the top. Below, a small red circle is positioned above a larger red circle that partially overlaps a blue square. The text Hello is centered beneath the shapes, and World is spaced further down near the bottom of the screen. At the very bottom is a tab bar with Day 86 selected.\">\n",
-				"date_published": "2024-12-22T19:04:29-07:00",
+				"date_published": "2024-12-22T18:04:29-08:00",
 				"url": "https://swift.chasen.dev/2024/12/22/for-day-we-started-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -210,7 +218,7 @@
 				
 				"content_html": "<p>Day 85 is a challenge day! The quiz was easy but the challenge took me about an hour to complete. The “contacted” icon, link to an edit screen, and sort options are all new. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 85 is a challenge day! The quiz was easy but the challenge took me about an hour to complete. The “contacted” icon, link to an edit screen, and sort options are all new. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/c8a50604b4.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app with the title Everyone at the top . A sorting menu is open, offering options to sort by name or date added. Sort by Name is selected, shown with a checkmark. Below the menu, two contacts are listed: Ada with the email ada@example.com and Paul Hudson with the email paul@hackingwithswift.com. The bottom navigation bar includes five tabs: Everyone, Contacted, Uncontacted, Me, and More, with Everyone currently selected.\">\n",
-				"date_published": "2024-12-22T10:11:50-07:00",
+				"date_published": "2024-12-22T09:11:50-08:00",
 				"url": "https://swift.chasen.dev/2024/12/22/day-is-a-challenge-day.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -219,7 +227,7 @@
 				
 				"content_html": "<p>For Day 84, we learned how to add swipe actions to list items and show local notifications using the <code>UserNotifications</code> framework! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 84, we learned how to add swipe actions to list items and show local notifications using the `UserNotifications` framework! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/b84ea89520.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a lock screen with the date Friday, December 20, the time 6:42, and a notification labeled Contact Paul Hudson with an email address. The background shows a gradient of soft pink and blue hues.\">\n",
-				"date_published": "2024-12-20T20:03:44-07:00",
+				"date_published": "2024-12-20T19:03:44-08:00",
 				"url": "https://swift.chasen.dev/2024/12/20/for-day-we.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -228,7 +236,7 @@
 				
 				"content_html": "<p>Day 83 has this tidbit:</p>\n<blockquote>\n<p>The CPU running our code doesn’t care about data types, comments, access control, and more, but if you want to write great software that is scalable, testable, and maintainable, you need to add some rules.</p>\n</blockquote>\n<p>There’s a little piece of me that wishes we talked more about testing and maintainability. I know they’re more advanced topics that I’ll learn on my own, but a man can still wish.</p>\n<p>Today we added UI to scan QR codes and multi-item editing. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 83 has this tidbit:\n\n> The CPU running our code doesn’t care about data types, comments, access control, and more, but if you want to write great software that is scalable, testable, and maintainable, you need to add some rules.\n\nThere’s a little piece of me that wishes we talked more about testing and maintainability. I know they’re more advanced topics that I’ll learn on my own, but a man can still wish.\n\nToday we added UI to scan QR codes and multi-item editing. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/b892cd6a6a.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a contact list titled Everyone, showing one contact: Paul Hudson with the email paul@hackingwithswift.com. A blue checkmark indicates the contact is selected and a blue “Delete Selected” button appears at the bottom of the view. Below that, a tab bar highlights the Everyone tab and includes options like Contacted, Uncontacted, Me, and More.\">\n",
-				"date_published": "2024-12-17T19:52:31-07:00",
+				"date_published": "2024-12-17T18:52:31-08:00",
 				"url": "https://swift.chasen.dev/2024/12/17/day-has-this.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -237,7 +245,7 @@
 				
 				"content_html": "<p>Day 82 was much easier—I don’t think there was anything new, we “just” laid the groundwork for the new tabs and added the SwiftData pieces to store the contact info. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 82 was much easier—I don’t think there was anything new, we “just” laid the groundwork for the new tabs and added the SwiftData pieces to store the contact info. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/a84a31b3e9.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a contact list under the heading “Everyone” with one contact named Paul Hudson and the email paul@hackingwithswift.com. The bottom tab bar shows icons for Everyone, Contacted, Uncontacted, Me, and More.\">\n",
-				"date_published": "2024-12-17T08:45:34-07:00",
+				"date_published": "2024-12-17T07:45:34-08:00",
 				"url": "https://swift.chasen.dev/2024/12/17/day-was-much.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -246,7 +254,7 @@
 				
 				"content_html": "<p>Today was <em>almost</em> smooth sailing, learning about list row swipe actions and local/scheduled notifications, but I ran into issues with the directions for <a href=\"https://www.hackingwithswift.com/books/ios-swiftui/adding-swift-package-dependencies-in-xcode\">adding Swift package dependencies in Xcode</a>.</p>\n<p>I wrote up the issue and my fix in this issue: <a href=\"https://github.com/twostraws/SamplePackage/issues/3\">Day 81: <code>No such module 'SamplePackage'</code></a> #100DaysOfSwiftUI</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
 				"content_text": "Today was _almost_ smooth sailing, learning about list row swipe actions and local/scheduled notifications, but I ran into issues with the directions for [adding Swift package dependencies in Xcode](https://www.hackingwithswift.com/books/ios-swiftui/adding-swift-package-dependencies-in-xcode).\n\nI wrote up the issue and my fix in this issue: [Day 81: `No such module 'SamplePackage'`](https://github.com/twostraws/SamplePackage/issues/3) #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/5f49055017.png\" width=\"600\" height=\"322\" alt=\"Xcode error panel shows five issues in the HotProspects project. A red error states, “No such module SamplePackage” in Day81.swift. Four gray errors indicate missing files like HotProspects.abi.json, swiftmodule, and related outputs in the derived data folder.\"><img src=\"https://cdn.uploads.micro.blog/177243/2024/997d912e18.png\" width=\"600\" height=\"358\" alt=\"The Xcode Build Phases screen is open for the HotProspects project. It lists project phases like Target Dependencies, Compile Sources with five items, and Link Binary With Libraries, which includes a single required package named SamplePackage.\">\n",
-				"date_published": "2024-12-16T19:50:39-07:00",
+				"date_published": "2024-12-16T18:50:39-08:00",
 				"url": "https://swift.chasen.dev/2024/12/16/today-was-almost.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -255,7 +263,7 @@
 				
 				"content_html": "<p>Day 80 and we’re learning about Result, image interpolation, and context menus.</p>\n<p>This stood out to me:</p>\n<blockquote>\n<p>Remember, context menus are by their nature hidden, so please think twice before hiding important actions in a context menu.</p>\n</blockquote>\n<p>Undiscoverable UI might as well be no UI at all. I value explicit UI that’s easy to discover and understand. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 80 and we’re learning about Result, image interpolation, and context menus.\n\nThis stood out to me:\n\n> Remember, context menus are by their nature hidden, so please think twice before hiding important actions in a context menu.\n\nUndiscoverable UI might as well be no UI at all. I value explicit UI that’s easy to discover and understand. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/1f1c12a7c9.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator shows a color selection menu with Red, Green, and Blue options. Red is highlighted and checked. The context menu comes from a Change Color button. Blurred out in the background is a tab view and a cartoon alien image from the Kenney Platform Art Deluxe bundle.\">\n",
-				"date_published": "2024-12-16T08:18:30-07:00",
+				"date_published": "2024-12-16T07:18:30-08:00",
 				"url": "https://swift.chasen.dev/2024/12/16/day-and-were.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -264,7 +272,7 @@
 				
 				"content_html": "<p>Day 79 and we’re (finally) learning about TabView, my favorite way to keep our example code around!</p>\n<p>One actual takeaway from today: impressive that an EditButton can affect the state of a List in the same view without any explicit bindings; I’m usually cautious of “magical” APIs. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 79 and we’re (finally) learning about TabView, my favorite way to keep our example code around!\n\nOne actual takeaway from today: impressive that an EditButton can affect the state of a List in the same view without any explicit bindings; I’m usually cautious of “magical” APIs. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/0e729fb178.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a white screen with a blue button labeled Show Tab 2 in the center. A tab bar at the bottom has two tabs, One with a blue star icon and Two with a gray circle icon.\">\n",
-				"date_published": "2024-12-15T21:42:50-07:00",
+				"date_published": "2024-12-15T20:42:50-08:00",
 				"url": "https://swift.chasen.dev/2024/12/15/day-and-were.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -273,7 +281,7 @@
 				
 				"content_html": "<p>For Day 78, we started saving the user’s current location when they save one of the photos to the app. Easy peasy! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 78, we started saving the user’s current location when they save one of the photos to the app. Easy peasy! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/0d35b130bb.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a detail view with a photo of a field with green plants, one yellow flower, and a sandy background, paired with a map showing the location saved with a red pin near Anza Boulevard and the Interstate 280.\">\n",
-				"date_published": "2024-12-15T09:42:02-07:00",
+				"date_published": "2024-12-15T08:42:02-08:00",
 				"url": "https://swift.chasen.dev/2024/12/15/for-day-we.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -282,7 +290,7 @@
 				
 				"content_html": "<p><a href=\"https://www.hackingwithswift.com/100/swiftui/77\">Day 77</a> was a doozy of a challenge: build an entire app from scratch that imported a photo, prompted for a name, stored both somehow (I chose SwiftData), display it in a list, and show a detail view.</p>\n<p>It was a lot of work but took me about an hour from start to finish. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "[Day 77](https://www.hackingwithswift.com/100/swiftui/77) was a doozy of a challenge: build an entire app from scratch that imported a photo, prompted for a name, stored both somehow (I chose SwiftData), display it in a list, and show a detail view.\n\nIt was a lot of work but took me about an hour from start to finish. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/f6ac38db4c.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a “Photos” app with two pictures: Flowers, with a thumbnail of pink flowers, and Waterfall, with a thumbnail of a waterfall surrounded by greenery. You can tap on a row to go to the detail view. There are edit and add buttons in the top navigation.\">\n",
-				"date_published": "2024-12-14T20:50:04-07:00",
+				"date_published": "2024-12-14T19:50:04-08:00",
 				"url": "https://swift.chasen.dev/2024/12/14/day-was-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -291,7 +299,7 @@
 				
 				"content_html": "<p>For Day 76, we had a quiz and challenge: fix accessibility issues in three of our past apps.</p>\n<p>For <a href=\"https://swift.chasen.dev/2024/11/13/day-is-a.html\">Cupcake Corner</a>, I couldn’t reproduce the issue.</p>\n<p>For <a href=\"https://swift.chasen.dev/2024/11/02/day-included-a.html\">iExpense</a>, the fix was easy.</p>\n<p>For <a href=\"https://swift.chasen.dev/2024/11/04/day-was-our.html\">Moonshot</a>, there were a couple images that needed labels, but I couldn’t find any other issues. #100DaysOfSwiftUI</p>\n",
 				"content_text": "For Day 76, we had a quiz and challenge: fix accessibility issues in three of our past apps.\n\nFor [Cupcake Corner](https://swift.chasen.dev/2024/11/13/day-is-a.html), I couldn’t reproduce the issue.\n\nFor [iExpense](https://swift.chasen.dev/2024/11/02/day-included-a.html), the fix was easy.\n\nFor [Moonshot](https://swift.chasen.dev/2024/11/04/day-was-our.html), there were a couple images that needed labels, but I couldn’t find any other issues. #100DaysOfSwiftUI\n",
-				"date_published": "2024-12-13T09:19:18-07:00",
+				"date_published": "2024-12-13T08:19:18-08:00",
 				"url": "https://swift.chasen.dev/2024/12/13/for-day-we.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -300,7 +308,7 @@
 				
 				"content_html": "<p>I liked Paul’s message on <a href=\"https://www.hackingwithswift.com/100/swiftui/75\">Day 75</a> of #100DaysOfSwiftUI much better:</p>\n<blockquote>\n<p>There’s a New York lawyer called Gregory Mansfield who fights for disability rights, and he once wrote this: “Accessibility is not charity. Accessibility is not generosity. Accessibility is not an amenity. Accessibility is not a gratuity. You don’t bestow access – <em>you ensure it</em>.”</p>\n</blockquote>\n<p>👏</p>\n",
 				"content_text": "I liked Paul’s message on [Day 75](https://www.hackingwithswift.com/100/swiftui/75) of #100DaysOfSwiftUI much better:\n\n> There’s a New York lawyer called Gregory Mansfield who fights for disability rights, and he once wrote this: “Accessibility is not charity. Accessibility is not generosity. Accessibility is not an amenity. Accessibility is not a gratuity. You don’t bestow access – _you ensure it_.”\n\n👏\n",
-				"date_published": "2024-12-12T19:14:46-07:00",
+				"date_published": "2024-12-12T18:14:46-08:00",
 				"url": "https://swift.chasen.dev/2024/12/12/i-liked-pauls.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -309,7 +317,7 @@
 				
 				"content_html": "<p>On <a href=\"https://www.hackingwithswift.com/100/swiftui/74\">Day 74</a> we’ve started learning about accessibility.</p>\n<p>I‘m not a fan of how this is framed:</p>\n<blockquote>\n<p>Tony Fadell – the creator of the iPod at Apple – had this to say: “you are defined by what you do and also by what you don’t do.”</p>\n<p>Sure, you can skip accessibility and 90% of people won’t notice, but do you want to be defined by that? I’d wager that the answer is <em>no</em>.</p>\n</blockquote>\n<p>I wish this focused on accessibility as a fundamental human right that’s needed by <em>all</em> of us at one point or another… not just an arbitrary percentage (that is really low as well). #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "On [Day 74](https://www.hackingwithswift.com/100/swiftui/74) we’ve started learning about accessibility.\n\nI‘m not a fan of how this is framed:\n\n> Tony Fadell – the creator of the iPod at Apple – had this to say: “you are defined by what you do and also by what you don’t do.”\n> \n> Sure, you can skip accessibility and 90% of people won’t notice, but do you want to be defined by that? I’d wager that the answer is _no_.\n\nI wish this focused on accessibility as a fundamental human right that’s needed by *all* of us at one point or another… not just an arbitrary percentage (that is really low as well). #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/45094fb672.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a screen with a photo of a yellow flower field under a blue sky. Below, text shows “Your score is 1000.” Further down, “Value 10” appears with “Increment” and “Decrement” buttons in blue.\">\n",
-				"date_published": "2024-12-12T09:36:28-07:00",
+				"date_published": "2024-12-12T08:36:28-08:00",
 				"url": "https://swift.chasen.dev/2024/12/12/on-day-weve.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -318,7 +326,7 @@
 				
 				"content_html": "<p>Day 73 was a challenge day, so I had fun refactoring some of the code from the main View into a ViewModel and adding error handling. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 73 was a challenge day, so I had fun refactoring some of the code from the main View into a ViewModel and adding error handling. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/5701f7afcd.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a view with a blue button labeled “Unlock Places” and an alert is above the view with an error message stating “Biometry is not enrolled,” with an OK button to dismiss. The bottom tab bar shows tabs for Day 70, Day 69, and Day 68.\">\n",
-				"date_published": "2024-12-11T19:31:25-07:00",
+				"date_published": "2024-12-11T18:31:25-08:00",
 				"url": "https://swift.chasen.dev/2024/12/11/day-was-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -327,7 +335,7 @@
 				
 				"content_html": "<p>Today we refactored our code to use MVVM and added “unlock with FaceID” to this part of the app.</p>\n<p>From <a href=\"https://www.hackingwithswift.com/books/ios-swiftui/introducing-mvvm-into-your-swiftui-project\">Day 72</a>:</p>\n<blockquote>\n<p>Tip: I get lots of questions about why I place my view models into view extensions, […]. This is a small app, but think about how this would look when you have 10 views, or 50 views, or even 500 views. If you use extensions like this, the view model for your current view is always just called ViewModel, and not EditMapLocationViewModel or similar – it&rsquo;s much shorter, and avoids cluttering up your code with lots of different class names!</p>\n</blockquote>\n<p>Hm, I’m not 100% convinced… #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Today we refactored our code to use MVVM and added “unlock with FaceID” to this part of the app.\n\nFrom [Day 72](https://www.hackingwithswift.com/books/ios-swiftui/introducing-mvvm-into-your-swiftui-project):\n\n> Tip: I get lots of questions about why I place my view models into view extensions, […]. This is a small app, but think about how this would look when you have 10 views, or 50 views, or even 500 views. If you use extensions like this, the view model for your current view is always just called ViewModel, and not EditMapLocationViewModel or similar – it's much shorter, and avoids cluttering up your code with lots of different class names!\n\nHm, I’m not 100% convinced… #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/2eefe5bcde.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a view with a blue button labeled “Unlock Places” and the FaceID interface is shown above the view, indicating it’s being used to unlock the view. The bottom tab bar shows “Day 70” selected in blue and “Day 69” and “Day 68” inactive in gray.\">\n",
-				"date_published": "2024-12-08T09:27:01-07:00",
+				"date_published": "2024-12-08T08:27:01-08:00",
 				"url": "https://swift.chasen.dev/2024/12/08/082701.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -336,7 +344,7 @@
 				
 				"content_html": "<p>For Day 71, we used Wikipedia’s API to fetch places near a set of coordinates. I had no idea this was a thing, and I already have an existing app idea that I think could leverage this. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 71, we used Wikipedia’s API to fetch places near a set of coordinates. I had no idea this was a thing, and I already have an existing app idea that I think could leverage this. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/9c4207a70d.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a “Place details” screen with a title field reading “Windermere Peaks” and a note field with “Take me to the lakes.” Below, a list of nearby locations includes lakes, towns, and landmarks in Cumbria, England.\">\n",
-				"date_published": "2024-12-07T20:54:14-07:00",
+				"date_published": "2024-12-07T19:54:14-08:00",
 				"url": "https://swift.chasen.dev/2024/12/07/195414.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -345,7 +353,7 @@
 				
 				"content_html": "<p>For Day 70 we added the ability to pin locations on a map and edit them.</p>\n<p>We were supposed to use <code>.onLongPressGesture</code>, but I couldn’t get it to work in the previews or simulator, so I just used another <code>.onTapGesture</code>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 70 we added the ability to pin locations on a map and edit them.\n\nWe were supposed to use `.onLongPressGesture`, but I couldn’t get it to work in the previews or simulator, so I just used another `.onTapGesture`. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/59829b40af.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an Apple Maps view highlighting Windermere Peaks with a red star icon. Nearby locations include Lake District National Park, Windermere, and Kendal. A tab bar at the bottom includes tabs for Day 70 (currently selected), Day 69, and Day 68.\">\n",
-				"date_published": "2024-12-07T08:21:54-07:00",
+				"date_published": "2024-12-07T07:21:54-08:00",
 				"url": "https://swift.chasen.dev/2024/12/07/for-day-we.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -354,7 +362,7 @@
 				
 				"content_html": "<p>Day 69 was short: we learned how to 1) add different types of maps and 2) use Face ID to unlock the app. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 69 was short: we learned how to 1) add different types of maps and 2) use Face ID to unlock the app. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/ac4332e510.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app with three maps of London: one satellite, one with red pins for Buckingham Palace and the Tower of London, and another with blue text labels for those two landmarks. Buttons for Paris and Tokyo are visible between the first and second map. A Face ID prompt overlays the screen and a button indicates the biometrics are currently Locked. A tab bar at the bottom includes tabs for Day 69 and Day 68.\">\n",
-				"date_published": "2024-12-06T21:58:21-07:00",
+				"date_published": "2024-12-06T20:58:21-08:00",
 				"url": "https://swift.chasen.dev/2024/12/06/day-was-short.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -363,7 +371,7 @@
 				
 				"content_html": "<p>Day 68 has been some of the most interesting content (from a language-learning perspective) in a while.</p>\n<blockquote>\n<p>First, yes the method is just called <code>&lt;</code>, which is the “less than” operator. It’s the job of the method to decide whether one user is “less than” (in a sorting sense) another, so we’re adding functionality to an existing operator. This is called <em>operator overloading</em>, and it can be both a blessing and a curse.</p>\n</blockquote>\n<p>I don’t think I’ve ever worked in a language with operator overloading and it definitely makes me nervous about maintainability. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 68 has been some of the most interesting content (from a language-learning perspective) in a while.\n\n> First, yes the method is just called `<`, which is the “less than” operator. It’s the job of the method to decide whether one user is “less than” (in a sorting sense) another, so we’re adding functionality to an existing operator. This is called _operator overloading_, and it can be both a blessing and a curse.\n\nI don’t think I’ve ever worked in a language with operator overloading and it definitely makes me nervous about maintainability. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/88bb8df642.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a screen with a list of names in alphabetical order: Kochanski Kristine, Lister David, and Rimmer Arnold. Below the list, a button labeled “Read and Write” is shown, with the word “Loading…” below it.\">\n",
-				"date_published": "2024-12-06T08:06:29-07:00",
+				"date_published": "2024-12-06T07:06:29-08:00",
 				"url": "https://swift.chasen.dev/2024/12/06/day-has-been.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -372,7 +380,7 @@
 				
 				"content_html": "<p>Day 67 is the last day for this particular project, so we had a review quiz (got 12/12) and added some features to the app without any code prompts, just requirements.</p>\n<p>I’m always a little nervous when the challenges are easy… what did I miss? 😅 #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 67 is the last day for this particular project, so we had a review quiz (got 12/12) and added some features to the app without any code prompts, just requirements.\n\nI’m always a little nervous when the challenges are easy… what did I miss? 😅 #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/40ac318727.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app titled Instafilter. A confirmation dialog shows a list of filter options under the heading Instafilter, including Bump Distortion, Crystallize, Droste Effect, Edges, Gaussian Blur, Pixelate, Sepia Tone, Twirl Distortion, Unsharp Mask, and Vignette, with a Cancel button at the bottom.\">\n",
-				"date_published": "2024-12-05T19:29:09-07:00",
+				"date_published": "2024-12-05T18:29:09-08:00",
 				"url": "https://swift.chasen.dev/2024/12/05/day-is-the.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -381,7 +389,7 @@
 				
 				"content_html": "<p>Back at it after a little Thanksgiving break and we’ve run into our first (I think) need to use <code>@MainActor</code>.</p>\n<p>Today we added the ability to change image filters and share the resulting image. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Back at it after a little Thanksgiving break and we’ve run into our first (I think) need to use `@MainActor`.\n\nToday we added the ability to change image filters and share the resulting image. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/ddde2d632d.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app titled Instafilter. The image of flowers from Day 65 is shown, but this time through a “crystallize” filter. The “Intensity” slider is set to 75% with “Change Filter” and “Share…” buttons below. Underneath is a bottom tab bar with four tabs labeled Day 65–66, Day 64, Day 63, and Day 62, with Day 65 selected.\">\n",
-				"date_published": "2024-12-03T19:37:38-07:00",
+				"date_published": "2024-12-03T18:37:38-08:00",
 				"url": "https://swift.chasen.dev/2024/12/03/back-at-it.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -390,7 +398,7 @@
 				
 				"content_html": "<p>Day 65 and this sort of thing still gets me:</p>\n<blockquote>\n<p>We can then call that whenever our <code>selectedItem</code> property changes, by attaching an <code>onChange()</code> modifier somewhere in <code>ContentView</code> – it really doesn’t matter where, but attaching it to the <code>PhotosPicker</code> would seem sensible.</p>\n</blockquote>\n<p>We covered modifiers and building our own much earlier in the course, but I still don’t have a good mental model for how/why you can put some of them anywhere and they’ll work. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 65 and this sort of thing still gets me:\n\n> We can then call that whenever our `selectedItem` property changes, by attaching an `onChange()` modifier somewhere in `ContentView` – it really doesn’t matter where, but attaching it to the `PhotosPicker` would seem sensible.\n\nWe covered modifiers and building our own much earlier in the course, but I still don’t have a good mental model for how/why you can put some of them anywhere and they’ll work. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/0f4ecd377f.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app titled Instafilter. A sepia-toned image of flowers is shown, with a slider labeled “Intensity” set to 75% with a “Change Filter” button below. Underneath is a bottom tab bar with four tabs labeled Day 65, Day 64, Day 63, and Day 62, with Day 65 selected.\">\n",
-				"date_published": "2024-11-27T22:58:47-07:00",
+				"date_published": "2024-11-27T21:58:47-08:00",
 				"url": "https://swift.chasen.dev/2024/11/27/day-and-this.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -399,7 +407,7 @@
 				
 				"content_html": "<p>For Day 64 we learned how to use <code>PhotosPicker</code> to… let the user pick photos, use <code>ShareLink</code> to… create share links, and call <code>requestReview()</code> to… request the user leave a review of our app! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 64 we learned how to use `PhotosPicker` to… let the user pick photos, use `ShareLink` to… create share links, and call `requestReview()` to… request the user leave a review of our app! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/9465a23ca4.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a screen with links/options in blue text, including “Select a picture,” two “Share…” buttons, “Spread the word about Swift,” “Click to share,” and “Leave a review.” A bottom tab bar shows three tabs labeled Day 64, Day 63, and Day 62, with Day 64 selected.\">\n",
-				"date_published": "2024-11-27T09:09:31-07:00",
+				"date_published": "2024-11-27T08:09:31-08:00",
 				"url": "https://swift.chasen.dev/2024/11/27/for-day-we.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -408,7 +416,7 @@
 				
 				"content_html": "<p>For Day 63, we learned about the different Image APIs available: <code>Image</code>, <code>UIImage</code>, <code>CGImage</code>, and <code>CIImage</code>. We also tried out <code>ContentUnavailableView</code>!</p>\n<p>I continued my normal practice of keeping <em>all</em> the sample code in the project and building UI to see it all. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 63, we learned about the different Image APIs available: `Image`, `UIImage`, `CGImage`, and `CIImage`. We also tried out `ContentUnavailableView`!\n\nI continued my normal practice of keeping *all* the sample code in the project and building UI to see it all. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/97650162b6.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a segmented control with options including sepia, pixellation, crystal, twirl, and dynamic. Below, a “Bro, do you even Swift?” meme (with a picture of Taylor Swift) is displayed with a sepia filter applied. Below the image is a placeholder view with the Swift logo, text that says “No snippets,” a “Create Snippet” button, and a tab bar with Day 63 selected.\">\n",
-				"date_published": "2024-11-26T21:07:57-07:00",
+				"date_published": "2024-11-26T20:07:57-08:00",
 				"url": "https://swift.chasen.dev/2024/11/26/for-day-we.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -417,7 +425,7 @@
 				
 				"content_html": "<p>For Day 62, I liked that we were shown “Open Quickly” in Xcode and told how to find the definition of a generated interface. I don’t fully understand it now, but I know I will in a couple years.</p>\n<p>Oh, and for the start of a new project, we played around with <code>confirmationDialog()</code>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 62, I liked that we were shown “Open Quickly” in Xcode and told how to find the definition of a generated interface. I don’t fully understand it now, but I know I will in a couple years.\n\nOh, and for the start of a new project, we played around with `confirmationDialog()`. #100DaysOfSwiftUI\n\n<img src=\"uploads/2024/b6b88f7419.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an app with “Hello World” text that is blurred out based on the value of a slider below the text. A red square labeled “Hello, World!” is in the center of the view. A confirmation dialog overlays the screen at the bottom with a prompt to select a color. Options are “Red,” “Green,” “Blue,” and “Cancel.”\">\n",
-				"date_published": "2024-11-24T08:52:48-07:00",
+				"date_published": "2024-11-24T07:52:48-08:00",
 				"url": "https://swift.chasen.dev/2024/11/24/for-day-i.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -426,7 +434,7 @@
 				
 				"content_html": "<p>Nope, <em>today</em> was the hardest challenge.</p>\n<p>I thought it was weird that yesterday’s challenge didn’t require us to use SwiftData (when we had just spent a bunch of days working with it).</p>\n<p><a href=\"https://www.hackingwithswift.com/100/swiftui/61\">Day 61</a>, the other shoe drops—we need to rewrite yesterday’s app to use SwiftData. #100DaysOfSwiftUI</p>\n",
 				"content_text": "Nope, *today* was the hardest challenge.\n\nI thought it was weird that yesterday’s challenge didn’t require us to use SwiftData (when we had just spent a bunch of days working with it).\n\n[Day 61](https://www.hackingwithswift.com/100/swiftui/61), the other shoe drops—we need to rewrite yesterday’s app to use SwiftData. #100DaysOfSwiftUI\n",
-				"date_published": "2024-11-23T21:15:14-07:00",
+				"date_published": "2024-11-23T20:15:14-08:00",
 				"url": "https://swift.chasen.dev/2024/11/23/nope-today-was.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -435,7 +443,7 @@
 				
 				"content_html": "<p>I thought yesterday was our most difficult day so far… now Day 60 has surpassed it.</p>\n<p>Today we built an app from scratch with just <a href=\"https://www.hackingwithswift.com/guide/ios-swiftui/5/3/challenge\">some requirements</a> to fetch data and build a couple views. Straightforward but a lot of work! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "I thought yesterday was our most difficult day so far… now Day 60 has surpassed it.\n\nToday we built an app from scratch with just [some requirements](https://www.hackingwithswift.com/guide/ios-swiftui/5/3/challenge) to fetch data and build a couple views. Straightforward but a lot of work! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/d02272589c.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a “Friendface” app with the current screen on a user profile view for one of the contacts. The “general info” section includes the contact’s name, age, company, email, and address. Below, an about section contains placeholder text, and a tags section lists terms separated by commas.\">\n",
-				"date_published": "2024-11-23T09:36:28-07:00",
+				"date_published": "2024-11-23T08:36:28-08:00",
 				"url": "https://swift.chasen.dev/2024/11/23/i-thought-yesterday.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -444,7 +452,7 @@
 				
 				"content_html": "<p>Wow, I’m impressed with myself for learning and SwiftData/SwiftUI for being easy.</p>\n<p>For Day 59, we had to go back to an old app and upgrade it to use SwiftData, add sorting, and add filtering. It took me about an hour to do everything, which is a lot faster than I expected. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Wow, I’m impressed with myself for learning and SwiftData/SwiftUI for being easy.\n\nFor Day 59, we had to go back to an old app and upgrade it to use SwiftData, add sorting, and add filtering. It took me about an hour to do everything, which is a lot faster than I expected. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/06ed281c5d.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an “iExpense” app. The toolbar includes buttons to add new expenses and sort. A segmented control allows the main list of expenses to be sorted by “All,” “Business,” or “Personal” (with Business currently selected). The two listed expenses include “Phone, $34.35” and “Travel, $123.45.”\">\n",
-				"date_published": "2024-11-22T21:25:00-07:00",
+				"date_published": "2024-11-22T20:25:00-08:00",
 				"url": "https://swift.chasen.dev/2024/11/22/wow-im-impressed.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -453,7 +461,7 @@
 				
 				"content_html": "<p>Day 58: Continuing yesterday’s project and learning about NSPredicate, changing fetch requests dynamically, and creating relationships. One of today’s sections is about <a href=\"https://www.hackingwithswift.com/books/ios-swiftui/syncing-swiftdata-with-cloudkit\">syncing SwiftData with CloudKit</a>, but I skipped it because I don’t have a paid developer account (yet)! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 58: Continuing yesterday’s project and learning about NSPredicate, changing fetch requests dynamically, and creating relationships. One of today’s sections is about [syncing SwiftData with CloudKit](https://www.hackingwithswift.com/books/ios-swiftui/syncing-swiftdata-with-cloudkit), but I skipped it because I don’t have a paid developer account (yet)! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/8a7e2aa803.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator shows a Users screen with a sortable list. Names include Ed Sheeran, Johnny English, Piper Chapman, Rosa Diaz, and Roy Kent. Each name has a blue badge (indicating job counts) showing the number zero except Piper Chapman, which shows two.\">\n",
-				"date_published": "2024-11-19T09:02:17-07:00",
+				"date_published": "2024-11-19T08:02:17-08:00",
 				"url": "https://swift.chasen.dev/2024/11/19/day-continuing-yesterdays.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -462,7 +470,7 @@
 				
 				"content_html": "<p>Starting a new project for Day 57, so don’t have much to show so far. We’re learning how to edit SwiftData objects with SwiftUI and filter data using <code>#Predicate</code>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Starting a new project for Day 57, so don’t have much to show so far. We’re learning how to edit SwiftData objects with SwiftUI and filter data using `#Predicate`. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/3890021f61.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a list titled Users, showing names Ed Sheeran, Johnny English, Rosa Diaz, and Roy Kent. Each name is in a row with a right-facing arrow, and a plus icon is at the top right for adding users.\">\n",
-				"date_published": "2024-11-18T19:34:54-07:00",
+				"date_published": "2024-11-18T18:34:54-08:00",
 				"url": "https://swift.chasen.dev/2024/11/18/starting-a-new.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -471,7 +479,7 @@
 				
 				"content_html": "<p>Day 56 was a review and challenge (on our own) day, so I updated the detail view to handle missing data more gracefully. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 56 was a review and challenge (on our own) day, so I updated the detail view to handle missing data more gracefully. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/a33997cf8b.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a Bookworm app screen showing a book with a forest-themed cover labeled Fantasy. The text says No author. Below is a rating of three out of five stars and a note saved on Nov 16, 2024, at 8:01 PM.\">\n",
-				"date_published": "2024-11-16T22:03:05-07:00",
+				"date_published": "2024-11-16T21:03:05-08:00",
 				"url": "https://swift.chasen.dev/2024/11/16/day-was-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -480,7 +488,7 @@
 				
 				"content_html": "<p>For Day 55 we learned how to delete SwiftData objects, sort queries using <code>SortDescriptor</code>, and add custom buttons to alerts. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 55 we learned how to delete SwiftData objects, sort queries using `SortDescriptor`, and add custom buttons to alerts. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/c32eff1352.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a confirmation dialog asking, “Delete book. Are you sure?” with options to “Cancel” or “Delete.” The app shows “The Little Prince” by Antoine de Saint-Exupéry, with a fantasy-themed cover image and navigation tabs at the bottom.\">\n",
-				"date_published": "2024-11-16T08:41:00-07:00",
+				"date_published": "2024-11-16T07:41:00-08:00",
 				"url": "https://swift.chasen.dev/2024/11/16/for-day-we.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -489,7 +497,7 @@
 				
 				"content_html": "<p>For Day 54, we earnestly started the implementation of a “Bookworm” app and created new SwiftData models and SwiftUI components.</p>\n<p>I think the only new APIs were <a href=\"https://developer.apple.com/documentation/swiftui/binding/constant(_:)\"><code>.constant()</code></a> and using <code>.buttonStyle(.plain)</code> to disable the whole “tap the row to trigger its buttons” behavior. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 54, we earnestly started the implementation of a “Bookworm” app and created new SwiftData models and SwiftUI components.\n\nI think the only new APIs were [`.constant()`](https://developer.apple.com/documentation/swiftui/binding/constant(_:)) and using `.buttonStyle(.plain)` to disable the whole “tap the row to trigger its buttons” behavior. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/f9b8099697.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays an “Add Book” screen with fields for the title “The Little Prince,” author “Antoine de Saint-Exupéry,” genre set to “Fantasy,” a review input containing “Fantastic,” a five-star rating, and a “Save” button.\">\n",
-				"date_published": "2024-11-15T21:15:15-07:00",
+				"date_published": "2024-11-15T20:15:15-08:00",
 				"url": "https://swift.chasen.dev/2024/11/15/for-day-we.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -498,7 +506,7 @@
 				
 				"content_html": "<p>Day 53 is the start of our first project with SwiftData. So far all the terminology reminds me of my Core Data days. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 53 is the start of our first project with SwiftData. So far all the terminology reminds me of my Core Data days. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/368683ff27.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a Classroom app with a list of student names: Ginny Weasley, Ron Lovegood, and Hermione Potter. A header reads “Classroom” with an “Add” button in the top-right. The bottom navigation shows icons labeled Students and Notes.\">\n",
-				"date_published": "2024-11-14T23:00:25-07:00",
+				"date_published": "2024-11-14T22:00:25-08:00",
 				"url": "https://swift.chasen.dev/2024/11/14/day-is-the.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -507,7 +515,7 @@
 				
 				"content_html": "<p>Day 52 is a review quiz and challenge day. I found the challenges pretty easy this time around! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 52 is a review quiz and challenge day. I found the challenges pretty easy this time around! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/8c17e39046.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator shows a checkout screen featuring cupcakes and a total of $37.50. A pop-up alert error message says, “Checkout failed. Received error: resource exceeds maximum size.” App navigation icons appear along the bottom of the screen.\">\n",
-				"date_published": "2024-11-13T21:11:50-07:00",
+				"date_published": "2024-11-13T20:11:50-08:00",
 				"url": "https://swift.chasen.dev/2024/11/13/day-is-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -516,7 +524,7 @@
 				
 				"content_html": "<p>It’s our first day using the debugger! I love debuggers so much. I feel like teaching how to use real debuggers is undervalued by the developer community.</p>\n<p>Day 51, officially over half-way done with #100DaysOfSwiftUI!</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "It’s our first day using the debugger! I love debuggers so much. I feel like teaching how to use real debuggers is undervalued by the developer community.\n\nDay 51, officially over half-way done with #100DaysOfSwiftUI!\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/7c9d68ceab.png\" width=\"600\" height=\"384\" alt=\"Xcode displays three panels: the first with a breakpoint paused on a line of code in a `placeOrder` function, the second with the running app’s preview paused (showing a “Place Order” screen), and the third with a JSON object as a string.\">\n",
-				"date_published": "2024-11-12T22:46:33-07:00",
+				"date_published": "2024-11-12T21:46:33-08:00",
 				"url": "https://swift.chasen.dev/2024/11/12/its-our-first.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -525,7 +533,7 @@
 				
 				"content_html": "<p>Continuing our new project in Day 50 by using <code>CodingKeys</code> to make <code>@Observable</code> get along with <code>JSONEncoder().encode()</code>, and learning about haptics with the <code>.sensoryFeedback()</code> modifier and <code>CHHapticEngine</code>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Continuing our new project in Day 50 by using `CodingKeys` to make `@Observable` get along with `JSONEncoder().encode()`, and learning about haptics with the `.sensoryFeedback()` modifier and `CHHapticEngine`. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/8578bca71a.png\" width=\"303\" height=\"600\" alt=\"The iOS Simulator displays a “Cupcake Corner” app with a form to select the cake type (set to “Rainbow”), adjust the quantity (set to “18”), add extra frosting or sprinkles, and enter delivery details. Toggle switches for frosting and sprinkles are on and off, respectively. A navigation bar at the bottom has tabs for Order (currently selected), List, Image, Form, and More.\">\n",
-				"date_published": "2024-11-12T09:15:58-07:00",
+				"date_published": "2024-11-12T08:15:58-08:00",
 				"url": "https://swift.chasen.dev/2024/11/12/continuing-our-new.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -534,7 +542,7 @@
 				
 				"content_html": "<p>New project day! Day 49 was focused on <code>async</code>/<code>await</code>, <code>URLSession.shared.data()</code>, <code>AsyncImage</code>, and the <code>.disabled()</code> modifier. I’m continuing to use <code>TabView</code> so I can keep all the sample code around in a project. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "New project day! Day 49 was focused on `async`/`await`, `URLSession.shared.data()`, `AsyncImage`, and the `.disabled()` modifier. I’m continuing to use `TabView` so I can keep all the sample code around in a project. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/a843e3c950.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays an app with three tabs at the bottom: List, Image, and Form. The current tab is “List” and the view shows a long list of Taylor Swift songs. Titles include “Our Song,” “Tim McGraw,” and more. \">\n",
-				"date_published": "2024-11-11T21:34:00-07:00",
+				"date_published": "2024-11-11T20:34:00-08:00",
 				"url": "https://swift.chasen.dev/2024/11/11/new-project-day.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -543,7 +551,7 @@
 				
 				"content_html": "<p><a href=\"https://www.hackingwithswift.com/100/swiftui/48\">Day 48</a> included watching two videos. Paul’s had a fun premise (“What Star Wars Can Teach Us About Swift”) and Woz’s video seemed aimed at high-schoolers, but had some good takeaways: “make your studies… a fun part of life” and “always try to be creative and think different.” #100DaysOfSwiftUI</p>\n",
 				"content_text": "[Day 48](https://www.hackingwithswift.com/100/swiftui/48) included watching two videos. Paul’s had a fun premise (“What Star Wars Can Teach Us About Swift”) and Woz’s video seemed aimed at high-schoolers, but had some good takeaways: “make your studies… a fun part of life” and “always try to be creative and think different.” #100DaysOfSwiftUI\n",
-				"date_published": "2024-11-11T09:24:56-07:00",
+				"date_published": "2024-11-11T08:24:56-08:00",
 				"url": "https://swift.chasen.dev/2024/11/11/day-included-watching.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -552,7 +560,7 @@
 				
 				"content_html": "<p>Day 47 was a review and challenge day, with an entire app we had to build from scratch on our own. I’m stoked it only took me 30 minutes to put together this app! #100DaysOfSwiftUI</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
 				"content_text": "Day 47 was a review and challenge day, with an entire app we had to build from scratch on our own. I’m stoked it only took me 30 minutes to put together this app! #100DaysOfSwiftUI\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://cdn.uploads.micro.blog/177243/2024/video.mov\" width=\"302\" height=\"640\" poster=\"https://swift.chasen.dev/uploads/2024/poster.png\" preload=\"none\"></video>\n",
-				"date_published": "2024-11-09T10:05:03-07:00",
+				"date_published": "2024-11-09T09:05:03-08:00",
 				"url": "https://swift.chasen.dev/2024/11/09/day-was-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -561,7 +569,7 @@
 				
 				"content_html": "<p>Day 46 was a review quiz and a challenge!</p>\n<p>Today is the first day I’ve run into this error (that I’ve seen so many SwiftUI developers complain about):</p>\n<blockquote>\n<p>The compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions</p>\n</blockquote>\n<p>Does that make me a real SwiftUI dev now? #100DaysOfSwiftUI</p>\n",
 				"content_text": "Day 46 was a review quiz and a challenge!\n\nToday is the first day I’ve run into this error (that I’ve seen so many SwiftUI developers complain about):\n\n> The compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions\n\nDoes that make me a real SwiftUI dev now? #100DaysOfSwiftUI\n",
-				"date_published": "2024-11-08T20:12:41-07:00",
+				"date_published": "2024-11-08T19:12:41-08:00",
 				"url": "https://swift.chasen.dev/2024/11/08/day-was-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -570,7 +578,7 @@
 				
 				"content_html": "<p>Adding a tab bar wasn’t part of Day 45, but I wanted to keep my other view and start “fresh” with today’s code. We actually went through <code>navigationBarTitleDisplayMode()</code>, <code>toolbarBackground()</code>, <code>toolbarColorScheme()</code>, <code>toolbar()</code>, <code>ToolbarItem</code>, and passing bindings to <code>navigationTitle()</code>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Adding a tab bar wasn’t part of Day 45, but I wanted to keep my other view and start “fresh” with today’s code. We actually went through `navigationBarTitleDisplayMode()`, `toolbarBackground()`, `toolbarColorScheme()`, `toolbar()`, `ToolbarItem`, and passing bindings to `navigationTitle()`. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/2f3016bc68.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays a list interface with rows labeled from Row 0 to Row 14. The top navigation bar shows an editable title “SwiftUI” with Cancel, Confirm, and Destroy buttons. The bottom tab bar shows the current view and one other tab.\">\n",
-				"date_published": "2024-11-08T09:07:59-07:00",
+				"date_published": "2024-11-08T08:07:59-08:00",
 				"url": "https://swift.chasen.dev/2024/11/08/adding-a-tab.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -579,7 +587,7 @@
 				
 				"content_html": "<p>For Day 44 I made this abomination while learning the ins and outs of <a href=\"https://developer.apple.com/documentation/swiftui/navigationpath\">NavigationPath</a>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 44 I made this abomination while learning the ins and outs of [NavigationPath](https://developer.apple.com/documentation/swiftui/navigationpath). #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/63bd35cf86.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays the text “Number: 0” at the top. Below are three clickable links labeled “Go to Random Number,” “Push 556,” and “Push Hello.” A list follows with options labeled Select Number and Select String, each paired with a value from 0 to 4.\">\n",
-				"date_published": "2024-11-07T21:42:17-07:00",
+				"date_published": "2024-11-07T20:42:17-08:00",
 				"url": "https://swift.chasen.dev/2024/11/07/today-i-made.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -588,7 +596,7 @@
 				
 				"content_html": "<p>I had been wondering about how to only load detail views when they’re navigated to, and in Day 43 I got my answer! Hello <a href=\"https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)\"><code>navigationDestination(for:destination:)</code></a> 👋 #100DaysOfSwiftUI</p>\n",
 				"content_text": "I had been wondering about how to only load detail views when they’re navigated to, and in Day 43 I got my answer! Hello [`navigationDestination(for:destination:)`](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) 👋 #100DaysOfSwiftUI\n",
-				"date_published": "2024-11-07T09:25:48-07:00",
+				"date_published": "2024-11-07T08:25:48-08:00",
 				"url": "https://swift.chasen.dev/2024/11/07/i-had-been.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -597,7 +605,7 @@
 				
 				"content_html": "<p>Day 42 (hey!) is a challenge day and I am taking it easy with just a refactoring of some views and not adding a brand new list view (with a toggle between it and the grid view). 🇺🇸 #100DaysOfSwiftUI</p>\n",
 				"content_text": "Day 42 (hey!) is a challenge day and I am taking it easy with just a refactoring of some views and not adding a brand new list view (with a toggle between it and the grid view). 🇺🇸 #100DaysOfSwiftUI\n",
-				"date_published": "2024-11-05T20:37:12-07:00",
+				"date_published": "2024-11-05T19:37:12-08:00",
 				"url": "https://swift.chasen.dev/2024/11/05/day-hey-is.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -606,7 +614,7 @@
 				
 				"content_html": "<p>Day 41 was our last day of adding pre-made #100DaysOfSwiftUI code to this Moonshot project. Tomorrow, challenge!</p>\n<p>I really appreciate Xcode’s previews. It reminds me of the love I professed for demo files in my <a href=\"https://css-tricks.com/key-building-large-javascript-apps-modlet-workflow/\">CSS-Tricks “modlets” article</a> years ago.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 41 was our last day of adding pre-made #100DaysOfSwiftUI code to this Moonshot project. Tomorrow, challenge!\n\nI really appreciate Xcode’s previews. It reminds me of the love I professed for demo files in my [CSS-Tricks “modlets” article](https://css-tricks.com/key-building-large-javascript-apps-modlet-workflow/) years ago.\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/a4c0a77adf.png\" width=\"300\" height=\"600\" alt=\"An iOS simulator displays the Moonshot app with a biography of astronaut James A. Lovell Jr. at the top. Lovell, wearing a spacesuit with a U.S. flag patch, smiles beside a model of the Moon. Text below details his NASA missions, including Apollo 13 and two Gemini flights.\">\n",
-				"date_published": "2024-11-04T20:46:24-07:00",
+				"date_published": "2024-11-04T19:46:24-08:00",
 				"url": "https://swift.chasen.dev/2024/11/04/day-was-our.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -615,7 +623,7 @@
 				
 				"content_html": "<p>For Day 40 we put into practice what we learned yesterday by starting the implementation of the Moonshot app. Pretty cool that #100DaysOfSwiftUI provides sample data and images to build more interesting-looking apps like this one.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "For Day 40 we put into practice what we learned yesterday by starting the implementation of the Moonshot app. Pretty cool that #100DaysOfSwiftUI provides sample data and images to build more interesting-looking apps like this one.\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/c34b9d2391.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays the Moonshot app with mission patches and dates for Apollo missions. Each mission is in a card format, with the patch at the top, mission name below, and launch date at the bottom. The visible missions include Apollo 1 through Apollo 11 with more displayed offscreen.\">\n",
-				"date_published": "2024-11-03T09:30:57-07:00",
+				"date_published": "2024-11-03T08:30:57-08:00",
 				"url": "https://swift.chasen.dev/2024/11/03/for-day-we.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -624,7 +632,7 @@
 				
 				"content_html": "<p>We’re starting a new “Moonshot” project for Day 39 and learning about <code>Image</code> resizing, <code>LazyVStack</code>, <code>LazyHStack</code>, <code>LazyVGrid</code>, <code>LazyHGrid</code>, <code>NavigationLink</code>, and decoding hierarchical data with <code>Codable</code>.</p>\n<p>I wonder about learning optimizations like the Lazy versions of Stack/Grid so early on. #100DaysOfSwiftUI</p>\n",
 				"content_text": "We’re starting a new “Moonshot” project for Day 39 and learning about `Image` resizing, `LazyVStack`, `LazyHStack`, `LazyVGrid`, `LazyHGrid`, `NavigationLink`, and decoding hierarchical data with `Codable`.\n\nI wonder about learning optimizations like the Lazy versions of Stack/Grid so early on. #100DaysOfSwiftUI\n",
-				"date_published": "2024-11-02T19:48:37-07:00",
+				"date_published": "2024-11-02T18:48:37-08:00",
 				"url": "https://swift.chasen.dev/2024/11/02/were-starting-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -633,7 +641,7 @@
 				
 				"content_html": "<p>Day 38 included a quiz and some prompts for us to add features on our own to the app, which included coloring the expense amounts and adding the separate Business/Personal sections (while still keeping support for deleting expenses in those new sections)! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 38 included a quiz and some prompts for us to add features on our own to the app, which included coloring the expense amounts and adding the separate Business/Personal sections (while still keeping support for deleting expenses in those new sections)! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/269d082d95.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays the iExpense app, listing expenses under “Business” and “Personal” categories. Business items include “Phone” and “Travel” with costs in blue and purple. Personal items are “Haircut” and “Parking” with costs in blue and orange.\">\n",
-				"date_published": "2024-11-02T12:14:55-07:00",
+				"date_published": "2024-11-02T11:14:55-08:00",
 				"url": "https://swift.chasen.dev/2024/11/02/day-included-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -642,7 +650,7 @@
 				
 				"content_html": "<p>I got my flu shot and COVID booster yesterday morning and paid for it with fever dreams last night. I have always had a strong reaction to the COVID vaccine.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
 				"content_text": "I got my flu shot and COVID booster yesterday morning and paid for it with fever dreams last night. I have always had a strong reaction to the COVID vaccine.\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/bc039c4b75.jpg\" width=\"499\" height=\"600\" alt=\"The iOS Health app showing a Vitals graph with three high outliers in pink (Heart Rate, Respiratory Rate, and Wrist Temperature) and one typical value in blue (Sleep Duration) on November 2, 2024.\"><img src=\"https://cdn.uploads.micro.blog/177243/2024/149999122e.jpg\" width=\"600\" height=\"519\" alt=\"The iOS Sleep++ tracking app displays showing an 8-hour, 58-minute sleep period from 10:52 p.m. to 7:50 a.m. with stages divided as awake for 2 hours 31 minutes, REM for 0 minutes, core sleep for 6 hours 11 minutes, and deep sleep for 17 minutes. Most of the “awake” graph shows sleep interruptions every 10-20 minutes, with a large block awake for almost an hour at 1:50 a.m.\">\n",
-				"date_published": "2024-11-02T08:44:28-07:00",
+				"date_published": "2024-11-02T07:44:28-08:00",
 				"url": "https://swift.chasen.dev/2024/11/02/i-got-my.html"
 			},
 			{
@@ -650,7 +658,7 @@
 				
 				"content_html": "<p>Day 37, using the APIs we learned yesterday in a new app, but this stood out to me (emphasis mine):</p>\n<blockquote>\n<p>First, we need to decide what an expense is – what do we want it to store? In this instance it will be three things: the name of the item, whether it’s business or personal, and its <em>cost as a <code>Double</code>.</em></p>\n</blockquote>\n<p>In a real app, you should almost always keep prices as integers so math with them is accurate.</p>\n<p>As a training creator, I know there’s a trade-off between having “production-ready” code vs. simplifying it for learning.</p>\n<p>This is a case where I would have made a different decision. #100DaysOfSwiftUI</p>\n",
 				"content_text": "Day 37, using the APIs we learned yesterday in a new app, but this stood out to me (emphasis mine):\n\n> First, we need to decide what an expense is – what do we want it to store? In this instance it will be three things: the name of the item, whether it’s business or personal, and its _cost as a `Double`._\n\nIn a real app, you should almost always keep prices as integers so math with them is accurate.\n\nAs a training creator, I know there’s a trade-off between having “production-ready” code vs. simplifying it for learning.\n\nThis is a case where I would have made a different decision. #100DaysOfSwiftUI\n",
-				"date_published": "2024-11-01T20:28:47-07:00",
+				"date_published": "2024-11-01T19:28:47-08:00",
 				"url": "https://swift.chasen.dev/2024/11/01/day-using-the.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -659,7 +667,7 @@
 				
 				"content_html": "<p>Day 36 is the start of a new project, and thus a day of learning new APIs: <code>@Observable</code> with <code>class</code>, <code>.sheet()</code>, <code>@Environment</code>, <code>.onDelete()</code>, <code>UserDefaults</code> / <code>@AppStorage</code>, <code>Codable</code>, and <code>JSONEncoder</code>.</p>\n<p>I would’ve liked more info about <code>@Environment</code> but I’m sure we’ll get into it more soon. #100DaysOfSwiftUI</p>\n",
 				"content_text": "Day 36 is the start of a new project, and thus a day of learning new APIs: `@Observable` with `class`, `.sheet()`, `@Environment`, `.onDelete()`, `UserDefaults` / `@AppStorage`, `Codable`, and `JSONEncoder`.\n\nI would’ve liked more info about `@Environment` but I’m sure we’ll get into it more soon. #100DaysOfSwiftUI\n",
-				"date_published": "2024-10-31T08:52:37-07:00",
+				"date_published": "2024-10-31T07:52:37-08:00",
 				"url": "https://swift.chasen.dev/2024/10/31/day-is-the.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -668,7 +676,7 @@
 				
 				"content_html": "<p>I finished the Day 35 challenge today. It’s been a while since I’ve been “challenged” when programming, so this was a great reminder to stay humble while learning something new. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "I finished the Day 35 challenge today. It’s been a while since I’ve been “challenged” when programming, so this was a great reminder to stay humble while learning something new. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/09d6197b2a.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays a question asking “What is 4 times 2” with the answer “8” typed below. A blue “Submit” button is under the text field. The bottom shows “5 / 5” in small text.\">\n",
-				"date_published": "2024-10-30T19:17:13-07:00",
+				"date_published": "2024-10-30T18:17:13-08:00",
 				"url": "https://swift.chasen.dev/2024/10/30/i-finished-the.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -677,7 +685,7 @@
 				
 				"content_html": "<p>Yesterday I looked at the Day 35 challenge (build a new app from just a description, no code) and I was like “nope, don’t have the energy today.”</p>\n<p>I worked on it for ~45 minutes tonight and started off strong, but I’ve run into some errors that I’ll have to come back to tomorrow. #100DaysOfSwiftUI</p>\n",
 				"content_text": "Yesterday I looked at the Day 35 challenge (build a new app from just a description, no code) and I was like “nope, don’t have the energy today.”\n\nI worked on it for ~45 minutes tonight and started off strong, but I’ve run into some errors that I’ll have to come back to tomorrow. #100DaysOfSwiftUI\n",
-				"date_published": "2024-10-29T21:06:00-07:00",
+				"date_published": "2024-10-29T20:06:00-08:00",
 				"url": "https://swift.chasen.dev/2024/10/29/yesterday-i-looked.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -686,7 +694,7 @@
 				
 				"content_html": "<p>Day 34 was a quiz and challenge day where we went back to one of our previous projects and added animations on our own. I really liked the challenge because I wasn’t expecting to go back to a previous project! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 34 was a quiz and challenge day where we went back to one of our previous projects and added animations on our own. I really liked the challenge because I wasn’t expecting to go back to a previous project! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/1f05463a22.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays the “Guess the Flag” app from Day 22. The prompt reads “Tap the flag of US” with the United States flag selected. A pop-up says “Correct” with “Your score is 1” and a “Continue” button below. Current score displays as 1.\">\n",
-				"date_published": "2024-10-27T20:33:18-07:00",
+				"date_published": "2024-10-27T19:33:18-08:00",
 				"url": "https://swift.chasen.dev/2024/10/27/day-was-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -695,7 +703,7 @@
 				
 				"content_html": "<p>Day 33… continuing with animations and I swear this is more fun than it looks from a single screenshot. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 33… continuing with animations and I swear this is more fun than it looks from a single screenshot. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/4db46b5e54.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays an app with a large orange gradient rectangle at the top, a red banner saying “Hello SwiftUI” below it, a blue “Tap Me” link, and two stacked squares beneath, one red and one orange.\">\n",
-				"date_published": "2024-10-25T18:52:03-07:00",
+				"date_published": "2024-10-25T17:52:03-08:00",
 				"url": "https://swift.chasen.dev/2024/10/25/day-continuing-with.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -704,7 +712,7 @@
 				
 				"content_html": "<p>Yes, I do embrace absolute chaos when I’m first trying the provided sample code so I can keep playing with older examples as I’m learning more intricate modifiers. Day 32 in the books! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Yes, I do embrace absolute chaos when I’m first trying the provided sample code so I can keep playing with older examples as I’m learning more intricate modifiers. Day 32 in the books! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/4702c049eb.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays a simple app interface with the text “Hello, world” below a globe icon. Three red buttons labeled “Tap Me” are stacked vertically. A “Scale amount” stepper control (with minus and plus buttons) is shown near the second button to adjust the size. The second button has a ring around it from animating in size.\">\n",
-				"date_published": "2024-10-24T22:46:20-07:00",
+				"date_published": "2024-10-24T21:46:20-08:00",
 				"url": "https://swift.chasen.dev/2024/10/24/yes-i-do.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -713,7 +721,7 @@
 				
 				"content_html": "<p>Day 31 was a challenge day where we took a test and had to update our app with only some requirements and no code hints. I extended mine to show a score based on the number of letters in each correct guess. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 31 was a challenge day where we took a test and had to update our app with only some requirements and no code hints. I extended mine to show a score based on the number of letters in each correct guess. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/079a0d1291.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays a word game interface. The word “bedrooms” is displayed at the top, with a text field prompting the user to “Enter your word.” Below is a list of valid words with their character counts. The total score is 51.\">\n",
-				"date_published": "2024-10-24T22:13:21-07:00",
+				"date_published": "2024-10-24T21:13:21-08:00",
 				"url": "https://swift.chasen.dev/2024/10/24/day-was-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -722,7 +730,7 @@
 				
 				"content_html": "<p>Back on it after being sick the last couple days… for day 30, we mostly copied code from the tutorial, but I find it very useful to type everything out to get that muscle memory built up.</p>\n<p>Here’s a little game where you have to type words that are a subset of a random word. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Back on it after being sick the last couple days… for day 30, we mostly copied code from the tutorial, but I find it very useful to type everything out to get that muscle memory built up.\n\nHere’s a little game where you have to type words that are a subset of a random word. #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/b24ed28ea8.png\" width=\"303\" height=\"600\" alt=\"An iOS simulator displays a word puzzle game with the word “cherries” at the top. Below is a text box labeled “Enter your word” followed by a list of correct guesses that the player has made: “sire,” “cher,” “chris,” “sir,” “rice,” and “her.” Each word has the number of characters in the word next to it.\">\n",
-				"date_published": "2024-10-23T20:24:24-07:00",
+				"date_published": "2024-10-23T19:24:24-08:00",
 				"url": "https://swift.chasen.dev/2024/10/23/back-on-it.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -731,7 +739,7 @@
 				
 				"content_html": "<p>Day 29 is bringing me back to my Objective-C days:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"display:flex;\"><span><span style=\"color:#66d9ef\">let</span> range = checker.rangeOfMisspelledWord(<span style=\"color:#66d9ef\">in</span>: word, range: range, startingAt: <span style=\"color:#ae81ff\">0</span>, wrap: <span style=\"color:#66d9ef\">false</span>, language: <span style=\"color:#e6db74\">&#34;en&#34;</span>)\n</span></span></code></pre></div><p>The full <a href=\"https://developer.apple.com/documentation/uikit/uitextchecker/1621029-rangeofmisspelledwordinstring?language=objc\"><code>rangeOfMisspelledWordInString:range:startingAt:wrap:language:</code></a> API signature is too long for this post. #100DaysOfSwiftUI</p>\n",
 				"content_text": "Day 29 is bringing me back to my Objective-C days:\n\n```swift\nlet range = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: \"en\")\n```\n\nThe full [`rangeOfMisspelledWordInString:range:startingAt:wrap:language:`](https://developer.apple.com/documentation/uikit/uitextchecker/1621029-rangeofmisspelledwordinstring?language=objc) API signature is too long for this post. #100DaysOfSwiftUI\n",
-				"date_published": "2024-10-20T20:17:28-07:00",
+				"date_published": "2024-10-20T19:17:28-08:00",
 				"url": "https://swift.chasen.dev/2024/10/20/day-is-bringing.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -740,7 +748,7 @@
 				
 				"content_html": "<p>Day 28 was straightforward—a review quiz and some challenges for us to modify our most recent app. Onward! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 28 was straightforward—a review quiz and some challenges for us to modify our most recent app. Onward! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/8560d9f5a3.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays an app called BetterRest. The user has set a wake-up time of 7:15 AM, a desired sleep duration of 7.5 hours, and a daily coffee intake of 3 cups. The calculated ideal bedtime is 10:55 PM. There is no pop-up or OK button visible.\">\n",
-				"date_published": "2024-10-19T21:30:09-07:00",
+				"date_published": "2024-10-19T20:30:09-08:00",
 				"url": "https://swift.chasen.dev/2024/10/19/day-was-straightforwarda.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -749,7 +757,7 @@
 				
 				"content_html": "<blockquote>\n<p>I realize that you might have thought “wow, we’re looking at machine learning already?” After all, this is only day 27 of a 100-day course. But, as Andre Gide said, “you cannot discover new oceans unless you have the courage to lose sight of the shore.”</p>\n</blockquote>\n<p>Heh, #100DaysOfSwiftUI <a href=\"https://www.hackingwithswift.com/100/swiftui/27\">read my mind</a>!</p>\n<p>Today we built a UI on top of the Core ML model we trained yesterday. Straightforward but fun!</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "> I realize that you might have thought “wow, we’re looking at machine learning already?” After all, this is only day 27 of a 100-day course. But, as Andre Gide said, “you cannot discover new oceans unless you have the courage to lose sight of the shore.”\n\nHeh, #100DaysOfSwiftUI [read my mind](https://www.hackingwithswift.com/100/swiftui/27)!\n\nToday we built a UI on top of the Core ML model we trained yesterday. Straightforward but fun!\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/1547919dcc.png\" width=\"302\" height=\"600\" alt=\"An iOS simulator displays an app called BetterRest. The user has set a wake-up time of 7:15 AM, a desired sleep duration of 7.5 hours, and a daily coffee intake of 3 cups. A pop-up message shows the calculated ideal bedtime as 10:55 PM, with an OK button below.\">\n",
-				"date_published": "2024-10-18T19:21:36-07:00",
+				"date_published": "2024-10-18T18:21:36-08:00",
 				"url": "https://swift.chasen.dev/2024/10/18/i-realize-that.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -758,7 +766,7 @@
 				
 				"content_html": "<p>I was not expecting “Training a model with Create ML” to be a part of the Day 26 content!</p>\n<p>As someone who has built a lot of training content this past year for work, I know how valuable it is to create fun/engaging exercises, so it impresses me to see Machine Learning (ML) in #100DaysOfSwiftUI</p>\n",
 				"content_text": "I was not expecting “Training a model with Create ML” to be a part of the Day 26 content!\n\nAs someone who has built a lot of training content this past year for work, I know how valuable it is to create fun/engaging exercises, so it impresses me to see Machine Learning (ML) in #100DaysOfSwiftUI\n",
-				"date_published": "2024-10-17T21:40:25-07:00",
+				"date_published": "2024-10-17T20:40:25-08:00",
 				"url": "https://swift.chasen.dev/2024/10/17/i-was-not.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -767,7 +775,7 @@
 				
 				"content_html": "<p>Haha this looks so awful, but day 25’s challenge was fun: to build a rock/paper/scissors game from scratch! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Haha this looks so awful, but day 25’s challenge was fun: to build a rock/paper/scissors game from scratch! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/f169363b12.png\" width=\"303\" height=\"600\" alt=\"The iOS simulator shows a game with a score of zero. The game is that, given the game’s choice of rock/paper/scissors and text indicating whether the player should pick a winning or losing move, the player then has to select Rock, Paper, or Scissors. The game currently shows “current choice: rock” and “should win” to indicate the player should choose Paper from the buttons below. Icons at the top represent rock, paper, and scissors.\">\n",
-				"date_published": "2024-10-16T19:56:38-07:00",
+				"date_published": "2024-10-16T18:56:38-08:00",
 				"url": "https://swift.chasen.dev/2024/10/16/haha-this-looks.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -776,7 +784,7 @@
 				
 				"content_html": "<p>Day 24 was straightforward—a test and a few little changes to make on our own to our recent projects. I had to go back to remember the syntax for <a href=\"https://www.hackingwithswift.com/books/ios-swiftui/custom-modifiers\">custom modifiers</a>. Onward! #100DaysOfSwiftUI</p>\n",
 				"content_text": "Day 24 was straightforward—a test and a few little changes to make on our own to our recent projects. I had to go back to remember the syntax for [custom modifiers](https://www.hackingwithswift.com/books/ios-swiftui/custom-modifiers). Onward! #100DaysOfSwiftUI\n",
-				"date_published": "2024-10-14T22:33:29-07:00",
+				"date_published": "2024-10-14T21:33:29-08:00",
 				"url": "https://swift.chasen.dev/2024/10/14/day-was-straightforwarda.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -785,7 +793,7 @@
 				
 				"content_html": "<p>Today I learned that the order of modifiers does matter:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"display:flex;\"><span>Text(<span style=\"color:#e6db74\">&#34;Hello, world!&#34;</span>)\n</span></span><span style=\"display:flex;\"><span>    .padding()\n</span></span><span style=\"display:flex;\"><span>    .background(.red)\n</span></span><span style=\"display:flex;\"><span>    .padding()\n</span></span><span style=\"display:flex;\"><span>    .background(.blue)\n</span></span><span style=\"display:flex;\"><span>    .padding()\n</span></span><span style=\"display:flex;\"><span>    .background(.green)\n</span></span><span style=\"display:flex;\"><span>    .padding()\n</span></span><span style=\"display:flex;\"><span>    .background(.yellow)\n</span></span></code></pre></div><p>Day 23 in the books! #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Today I learned that the order of modifiers does matter:\n\n```swift\nText(\"Hello, world!\")\n    .padding()\n    .background(.red)\n    .padding()\n    .background(.blue)\n    .padding()\n    .background(.green)\n    .padding()\n    .background(.yellow)\n```\nDay 23 in the books! #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/3566bdbd4a.png\" width=\"303\" height=\"600\" alt=\"The iOS simulator displays a centered message that says “Hello, world” in white text on a pink rectangle. The pink rectangle is surrounded by a purple border, which is itself surrounded by a blue border.\">\n",
-				"date_published": "2024-10-14T19:12:22-07:00",
+				"date_published": "2024-10-14T18:12:22-08:00",
 				"url": "https://swift.chasen.dev/2024/10/14/today-i-learned.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -794,7 +802,7 @@
 				
 				"content_html": "<p>Day 22 was really easy—added the score counter and a different alert for when the game is “over.” #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 22 was really easy—added the score counter and a different alert for when the game is “over.” #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/98afe8fdd8.png\" width=\"302\" height=\"600\" alt=\"The iOS simulator displays a flag quiz game with the title “Guess the Flag.” The prompt says “Tap the flag of Spain.” Three flag options are shown: the Ukrainian flag on top, the Spanish flag in the middle, and the U.S. flag on the bottom. An alert over the flags reads “Correct” with a final score of 8. A “Restart” button is visible.\">\n",
-				"date_published": "2024-10-13T08:33:51-07:00",
+				"date_published": "2024-10-13T07:33:51-08:00",
 				"url": "https://swift.chasen.dev/2024/10/13/day-was-really.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -803,7 +811,7 @@
 				
 				"content_html": "<p>Day 21 had us building a mini flag-guessing game, but without the score implemented. I will be absolutely shocked, shocked I say when we implement the score as the next day’s challenge. 🇺🇸 🇺🇦 🇪🇸 #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 21 had us building a mini flag-guessing game, but without the score implemented. I will be absolutely shocked, shocked I say when we implement the score as the next day’s challenge. 🇺🇸 🇺🇦 🇪🇸 #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/4103e52f0e.png\" width=\"302\" height=\"600\" alt=\"The iOS simulator shows a game titled Guess the Flag. The user is prompted to tap the flag of Spain. Three flags are displayed in a vertical list: the United States flag, the Ukraine flag, and the Spain flag at the bottom. Below the flags, the score reads Score: ???\">\n",
-				"date_published": "2024-10-11T20:59:59-07:00",
+				"date_published": "2024-10-11T19:59:59-08:00",
 				"url": "https://swift.chasen.dev/2024/10/11/day-had-us.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -812,7 +820,7 @@
 				
 				"content_html": "<p>Day 20 is all about stacks, gradients, buttons, and images. I find it more fun to keep <em>all</em> the sample code in one project and let it pile up. 🤪 #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 20 is all about stacks, gradients, buttons, and images. I find it more fun to keep *all* the sample code in one project and let it pile up. 🤪 #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/35cfe2c333.png\" width=\"302\" height=\"600\" alt=\"A screenshot from the iPhone simulator that displays a UI with various buttons and text elements.The screen is absolute chaos. The top shows repeated labels for “First,” “Second,” and “Third.” There are many different linear, radial, and angular gradient backgrounds. Below are colorful buttons labeled “Button 1” through “Button 4,” a red “Tap me” button, and “Edit” buttons. Two “Show Alert” links are at the bottom.\">\n",
-				"date_published": "2024-10-11T08:25:53-07:00",
+				"date_published": "2024-10-11T07:25:53-08:00",
 				"url": "https://swift.chasen.dev/2024/10/11/day-is-all.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -821,7 +829,7 @@
 				
 				"content_html": "<p>Uh oh… <a href=\"https://lbpost.com/news/boil-water-long-beach-notice-water-main-break/\">lbpost.com/news/boil&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Uh oh… [lbpost.com/news/boil...](https://lbpost.com/news/boil-water-long-beach-notice-water-main-break/)\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/49b1539ab9.jpg\" width=\"600\" height=\"448\" alt=\"Emergency Alert&10;LB Utilities: A Boil Water Notice is in effect for the following Long Beach zip codes - 90805, 90807, and part of 90806. Residents are advised to use boiled or bottled water for drinking and food preparation until further notice. LB Utilities will inform residents when water testing confirms it is safe to drink. For more information call 562-570-2390\">\n",
-				"date_published": "2024-10-10T22:57:14-07:00",
+				"date_published": "2024-10-10T21:57:14-08:00",
 				"url": "https://swift.chasen.dev/2024/10/10/225714.html"
 			},
 			{
@@ -829,7 +837,7 @@
 				
 				"content_html": "<p>Oh macOS Preview’s signature feature, I love you but this is not acceptable. 😅</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Oh macOS Preview’s signature feature, I love you but this is not acceptable. 😅\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/008b5e4c32.png\" width=\"546\" height=\"600\" alt=\"The macOS signature capture screen with the “Camera” tab selected. A series of completely erratic squiggly lines is visible above a blue line.\">\n",
-				"date_published": "2024-10-10T07:43:18-07:00",
+				"date_published": "2024-10-10T06:43:18-08:00",
 				"url": "https://swift.chasen.dev/2024/10/10/oh-macos-previews.html"
 			},
 			{
@@ -837,7 +845,7 @@
 				
 				"content_html": "<p>What does the Swift community use for code formatting/linting?</p>\n<p>Ideally I’d like to have something that only runs when I invoke it with a keyboard shortcut or maybe on every save.</p>\n",
 				"content_text": "What does the Swift community use for code formatting/linting?\n\nIdeally I’d like to have something that only runs when I invoke it with a keyboard shortcut or maybe on every save.\n",
-				"date_published": "2024-10-09T19:51:18-07:00",
+				"date_published": "2024-10-09T18:51:18-08:00",
 				"url": "https://swift.chasen.dev/2024/10/09/what-does-the.html"
 			},
 			{
@@ -845,7 +853,7 @@
 				
 				"content_html": "<p>Day 19, very fun to have a day focused on building a new app from scratch! This was my take on <a href=\"https://www.hackingwithswift.com/100/swiftui/19\">the challenge</a>. #100DaysOfSwiftUI</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Day 19, very fun to have a day focused on building a new app from scratch! This was my take on [the challenge](https://www.hackingwithswift.com/100/swiftui/19). #100DaysOfSwiftUI\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/image.png\" width=\"303\" height=\"600\" alt=\"A unit conversion app running in the iPhone 16 simulator. The screen displays options to convert between Celsius, Fahrenheit, and Kelvin. The conversion is set to convert from Celsius to Fahrenheit, with an input value of 28, resulting in 82.4 displayed as the output. The design is minimal, with a clean white background and simple buttons.\">\n",
-				"date_published": "2024-10-09T19:50:47-07:00",
+				"date_published": "2024-10-09T18:50:47-08:00",
 				"url": "https://swift.chasen.dev/2024/10/09/day-very-fun.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -854,7 +862,7 @@
 				
 				"content_html": "<p>Day 18 is a short quiz and adding some new code on our own without any guidance—it took so little time (9 minutes 😝) that I’m tempted to just start on the next day, but I will resist! #100DaysOfSwiftUI</p>\n",
 				"content_text": "Day 18 is a short quiz and adding some new code on our own without any guidance—it took so little time (9 minutes 😝) that I’m tempted to just start on the next day, but I will resist! #100DaysOfSwiftUI\n",
-				"date_published": "2024-10-08T21:00:45-07:00",
+				"date_published": "2024-10-08T20:00:45-08:00",
 				"url": "https://swift.chasen.dev/2024/10/08/day-is-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -863,7 +871,7 @@
 				
 				"content_html": "<p>This definitely trips me up:</p>\n<blockquote>\n<p>Tip: It’s tempting to think that modifier should be attached to the end of the <code>NavigationStack</code>, but it needs to be attached to the end of the <code>Form</code> instead. The reason is that navigation stacks are capable of showing many views as your program runs, so by attaching the title to the thing inside the navigation stack we’re allowing iOS to change titles freely.</p>\n</blockquote>\n<p>I’m not sure I 100% understand the reasoning here… excited to learn more. It’s still only day 17! #100DaysOfSwiftUI</p>\n",
 				"content_text": "This definitely trips me up:\n\n> Tip: It’s tempting to think that modifier should be attached to the end of the `NavigationStack`, but it needs to be attached to the end of the `Form` instead. The reason is that navigation stacks are capable of showing many views as your program runs, so by attaching the title to the thing inside the navigation stack we’re allowing iOS to change titles freely.\n\nI’m not sure I 100% understand the reasoning here… excited to learn more. It’s still only day 17! #100DaysOfSwiftUI\n",
-				"date_published": "2024-10-07T21:36:39-07:00",
+				"date_published": "2024-10-07T20:36:39-08:00",
 				"url": "https://swift.chasen.dev/2024/10/07/this-definitely-trips.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -872,7 +880,7 @@
 				
 				"content_html": "<p>I have a lot to learn about what enables this syntax for two-way binding (note the <code>$</code>):</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"display:flex;\"><span><span style=\"color:#66d9ef\">struct</span> <span style=\"color:#a6e22e\">ContentView</span>: View {\n</span></span><span style=\"display:flex;\"><span>    @State <span style=\"color:#66d9ef\">private</span> <span style=\"color:#66d9ef\">var</span> name = <span style=\"color:#e6db74\">&#34;&#34;</span>\n</span></span><span style=\"display:flex;\"><span>\n</span></span><span style=\"display:flex;\"><span>    <span style=\"color:#66d9ef\">var</span> body: some View {\n</span></span><span style=\"display:flex;\"><span>        Form {\n</span></span><span style=\"display:flex;\"><span>            TextField(<span style=\"color:#e6db74\">&#34;Enter your name&#34;</span>, text: <span style=\"color:#960050;background-color:#1e0010\">$</span>name)\n</span></span><span style=\"display:flex;\"><span>            Text(<span style=\"color:#e6db74\">&#34;Hello, world!&#34;</span>)\n</span></span><span style=\"display:flex;\"><span>        }\n</span></span><span style=\"display:flex;\"><span>    }\n</span></span><span style=\"display:flex;\"><span>}\n</span></span></code></pre></div>",
 				"content_text": "I have a lot to learn about what enables this syntax for two-way binding (note the `$`):\n\n```swift\nstruct ContentView: View {\n    @State private var name = \"\"\n\n    var body: some View {\n        Form {\n            TextField(\"Enter your name\", text: $name)\n            Text(\"Hello, world!\")\n        }\n    }\n}\n```\n",
-				"date_published": "2024-10-06T20:49:00-07:00",
+				"date_published": "2024-10-06T19:49:00-08:00",
 				"url": "https://swift.chasen.dev/2024/10/06/i-have-a.html"
 			},
 			{
@@ -880,7 +888,7 @@
 				
 				"content_html": "<p>Day 16, starting off with creating a new iOS app in Xcode and seeing everything that’s changed since I last used it almost 12 years ago. Hitting Run for the first time… ah it’s so exciting! #100DaysOfSwiftUI</p>\n",
 				"content_text": "Day 16, starting off with creating a new iOS app in Xcode and seeing everything that’s changed since I last used it almost 12 years ago. Hitting Run for the first time… ah it’s so exciting! #100DaysOfSwiftUI\n",
-				"date_published": "2024-10-06T20:47:26-07:00",
+				"date_published": "2024-10-06T19:47:26-08:00",
 				"url": "https://swift.chasen.dev/2024/10/06/day-starting-off.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -889,7 +897,7 @@
 				
 				"content_html": "<p>I might not do day 16 tomorrow, we’ll see… running the Long Beach half-marathon in the morning. 😃</p>\n",
 				"content_text": "I might not do day 16 tomorrow, we’ll see… running the Long Beach half-marathon in the morning. 😃\n",
-				"date_published": "2024-10-05T20:45:56-07:00",
+				"date_published": "2024-10-05T19:45:56-08:00",
 				"url": "https://swift.chasen.dev/2024/10/05/i-might-not.html"
 			},
 			{
@@ -897,7 +905,7 @@
 				
 				"content_html": "<p>Day 15 is a review of the last two weeks of material! #100DaysOfSwiftUI</p>\n<p>I kept on going back to the individual pages to find the syntax I needed while working on the tests, so I’m happy to have it all on one page: <a href=\"https://www.hackingwithswift.com/articles/242/learn-essential-swift-in-one-hour\">www.hackingwithswift.com/articles/&hellip;</a></p>\n",
 				"content_text": "Day 15 is a review of the last two weeks of material! #100DaysOfSwiftUI\n\nI kept on going back to the individual pages to find the syntax I needed while working on the tests, so I’m happy to have it all on one page: [www.hackingwithswift.com/articles/...](https://www.hackingwithswift.com/articles/242/learn-essential-swift-in-one-hour)\n",
-				"date_published": "2024-10-05T20:45:04-07:00",
+				"date_published": "2024-10-05T19:45:04-08:00",
 				"url": "https://swift.chasen.dev/2024/10/05/day-is-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -906,7 +914,7 @@
 				
 				"content_html": "<p>Day 14 is optionals, guards, nil coalescing, optional chaining, and optional try.</p>\n<p>Guards are new to me but I like them:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"display:flex;\"><span><span style=\"color:#66d9ef\">func</span> <span style=\"color:#a6e22e\">double</span>(number: Int?) -&gt; Int? {\n</span></span><span style=\"display:flex;\"><span>\t<span style=\"color:#66d9ef\">guard</span> <span style=\"color:#66d9ef\">let</span> number = number <span style=\"color:#66d9ef\">else</span> {\n</span></span><span style=\"display:flex;\"><span>\t\t<span style=\"color:#66d9ef\">return</span> <span style=\"color:#66d9ef\">nil</span>\n</span></span><span style=\"display:flex;\"><span>\t}\n</span></span><span style=\"display:flex;\"><span>\t<span style=\"color:#66d9ef\">return</span> number <span style=\"color:#f92672\">*</span> <span style=\"color:#ae81ff\">2</span>\n</span></span><span style=\"display:flex;\"><span>}\n</span></span></code></pre></div><p>Two weeks in the books! #100DaysOfSwiftUI</p>\n",
 				"content_text": "Day 14 is optionals, guards, nil coalescing, optional chaining, and optional try. \n\nGuards are new to me but I like them:\n\n```swift\nfunc double(number: Int?) -> Int? {\n\tguard let number = number else {\n\t\treturn nil\n\t}\n\treturn number * 2\n}\n```\n\nTwo weeks in the books! #100DaysOfSwiftUI\n",
-				"date_published": "2024-10-04T20:35:17-07:00",
+				"date_published": "2024-10-04T19:35:17-08:00",
 				"url": "https://swift.chasen.dev/2024/10/04/day-is-optionals.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -915,7 +923,7 @@
 				
 				"content_html": "<p>My Series 10 has had really inconsistent battery life (it died on me 8 miles into a run last week 🙃) so I’m happy to see potential fixes in this watchOS update.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "My Series 10 has had really inconsistent battery life (it died on me 8 miles into a run last week 🙃) so I’m happy to see potential fixes in this watchOS update.\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/5d3413e8d5.jpg\" width=\"533\" height=\"600\" alt=\"\">\n",
-				"date_published": "2024-10-03T20:46:14-07:00",
+				"date_published": "2024-10-03T19:46:14-08:00",
 				"url": "https://swift.chasen.dev/2024/10/03/my-series-has.html"
 			},
 			{
@@ -923,7 +931,7 @@
 				
 				"content_html": "<p>Prototypes, opaque return types, extensions, and protocol extensions don’t have equivalents in JavaScript (and my TypeScript isn’t good enough to compare Swift to TS), but these concepts were straightforward enough that I breezed through day 13. #100DaysOfSwiftUI</p>\n",
 				"content_text": "Prototypes, opaque return types, extensions, and protocol extensions don’t have equivalents in JavaScript (and my TypeScript isn’t good enough to compare Swift to TS), but these concepts were straightforward enough that I breezed through day 13. #100DaysOfSwiftUI\n",
-				"date_published": "2024-10-03T20:41:16-07:00",
+				"date_published": "2024-10-03T19:41:16-08:00",
 				"url": "https://swift.chasen.dev/2024/10/03/prototypes-opaque-return.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -932,7 +940,7 @@
 				
 				"content_html": "<blockquote>\n<p>copies of the same class share their underlying data, meaning that changing one changes them all, whereas structs always have their own unique data, and changing a copy does not affect the others.</p>\n</blockquote>\n<p>I found this explanation confusing until I took the test and realized the difference.</p>\n<p>In JS, creating an object or class instance and assigning it to two different variables matches the “copy” semantics above (the variable is a reference to the object).</p>\n<p>The “struct” behavior (by value) is how primitives work in JS (string, bool, etc.). Objects never work this way.</p>\n<p>Day 12 over! #100DaysOfSwiftUI</p>\n",
 				"content_text": "> copies of the same class share their underlying data, meaning that changing one changes them all, whereas structs always have their own unique data, and changing a copy does not affect the others.\n\nI found this explanation confusing until I took the test and realized the difference.\n\nIn JS, creating an object or class instance and assigning it to two different variables matches the “copy” semantics above (the variable is a reference to the object).\n\nThe “struct” behavior (by value) is how primitives work in JS (string, bool, etc.). Objects never work this way.\n\nDay 12 over! #100DaysOfSwiftUI\n",
-				"date_published": "2024-10-02T19:11:29-07:00",
+				"date_published": "2024-10-02T18:11:29-08:00",
 				"url": "https://swift.chasen.dev/2024/10/02/copies-of-the.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -941,7 +949,7 @@
 				
 				"content_html": "<p>Structs (part two) with a checkpoint… day 11 was pretty straightforward! #100DaysOfSwiftUI</p>\n",
 				"content_text": "Structs (part two) with a checkpoint… day 11 was pretty straightforward! #100DaysOfSwiftUI\n",
-				"date_published": "2024-10-01T21:38:29-07:00",
+				"date_published": "2024-10-01T20:38:29-08:00",
 				"url": "https://swift.chasen.dev/2024/10/01/structs-part-two.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -950,7 +958,7 @@
 				
 				"content_html": "<p>Structs, <code>mutating</code> on methods, computed properties, property observers, custom initializers… it’s a lot but it was pretty easy to get through.</p>\n<p>I think the only “new” concept (coming from JavaScript) was marking methods as <code>mutating</code>.</p>\n<p>Day 10 done so 10% of the way there! #100DaysOfSwiftUI</p>\n",
 				"content_text": "Structs, `mutating` on methods, computed properties, property observers, custom initializers… it’s a lot but it was pretty easy to get through.\n\nI think the only “new” concept (coming from JavaScript) was marking methods as `mutating`.\n\nDay 10 done so 10% of the way there! #100DaysOfSwiftUI\n",
-				"date_published": "2024-09-30T20:10:17-07:00",
+				"date_published": "2024-09-30T19:10:17-08:00",
 				"url": "https://swift.chasen.dev/2024/09/30/structs-mutating-on.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -959,7 +967,7 @@
 				
 				"content_html": "<p>Dropping the parenthesis when calling functions with a closure blows my mind:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"display:flex;\"><span>team.filter { $0.hasPrefix(<span style=\"color:#e6db74\">&#34;T&#34;</span>) }\n</span></span></code></pre></div><p>The equivalent in JS:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-js\" data-lang=\"js\"><span style=\"display:flex;\"><span><span style=\"color:#a6e22e\">team</span>.<span style=\"color:#a6e22e\">filter</span>(<span style=\"color:#a6e22e\">$0</span> =&gt; <span style=\"color:#a6e22e\">$0</span>.<span style=\"color:#a6e22e\">startsWith</span>(<span style=\"color:#e6db74\">&#34;T&#34;</span>))\n</span></span></code></pre></div><p>Woo! The checkpoint test actually didn’t take me very long to complete.</p>\n<p>Day 9 in the books! #100DaysOfSwiftUI</p>\n",
 				"content_text": "Dropping the parenthesis when calling functions with a closure blows my mind:\n\n```swift\nteam.filter { $0.hasPrefix(\"T\") }\n```\n\nThe equivalent in JS:\n\n```js\nteam.filter($0 => $0.startsWith(\"T\"))\n```\n\nWoo! The checkpoint test actually didn’t take me very long to complete.\n\nDay 9 in the books! #100DaysOfSwiftUI\n",
-				"date_published": "2024-09-29T22:33:23-07:00",
+				"date_published": "2024-09-29T21:33:23-08:00",
 				"url": "https://swift.chasen.dev/2024/09/29/dropping-the-parenthesis.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -968,7 +976,7 @@
 				
 				"content_html": "<p>Really interesting that Swift has <code>do</code>, <em>but it’s not what you think!</em></p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"display:flex;\"><span><span style=\"color:#66d9ef\">do</span> {\n</span></span><span style=\"display:flex;\"><span>    <span style=\"color:#66d9ef\">try</span> throwingFunction1()\n</span></span><span style=\"display:flex;\"><span>    nonThrowingFunction1()\n</span></span><span style=\"display:flex;\"><span>} <span style=\"color:#66d9ef\">catch</span> {\n</span></span><span style=\"display:flex;\"><span>    print(<span style=\"color:#e6db74\">&#34;Handle errors here&#34;</span>)\n</span></span><span style=\"display:flex;\"><span>}\n</span></span></code></pre></div><p>In JS, that <code>do</code> would be <code>try</code> and no “try” is required before a throwing function.</p>\n<p>Day 8 in the books! #100DaysOfSwiftUI</p>\n",
 				"content_text": "Really interesting that Swift has `do`, _but it’s not what you think!_\n\n```swift\ndo {\n    try throwingFunction1()\n    nonThrowingFunction1()\n} catch {\n    print(\"Handle errors here\")\n}\n```\n\nIn JS, that `do` would be `try` and no “try” is required before a throwing function.\n\nDay 8 in the books! #100DaysOfSwiftUI\n",
-				"date_published": "2024-09-28T21:31:33-07:00",
+				"date_published": "2024-09-28T20:31:33-08:00",
 				"url": "https://swift.chasen.dev/2024/09/28/really-interesting-that.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -977,7 +985,7 @@
 				
 				"content_html": "<p>Awesome to me that this is valid:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"display:flex;\"><span><span style=\"color:#66d9ef\">func</span> <span style=\"color:#a6e22e\">record</span>(age: Int) { }\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#66d9ef\">func</span> <span style=\"color:#a6e22e\">record</span>(year: Int) { }\n</span></span></code></pre></div><p>Naming internal and external parameters separately is interesting too:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"display:flex;\"><span><span style=\"color:#66d9ef\">func</span> <span style=\"color:#a6e22e\">square</span>(of num: Int) -&gt; Int {\n</span></span><span style=\"display:flex;\"><span>    <span style=\"color:#66d9ef\">return</span> num <span style=\"color:#f92672\">*</span> num\n</span></span><span style=\"display:flex;\"><span>}\n</span></span><span style=\"display:flex;\"><span>\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#66d9ef\">let</span> result = square(of: <span style=\"color:#ae81ff\">4</span>)\n</span></span></code></pre></div><p>Day 7 in the books! #100DaysOfSwiftUI</p>\n",
 				"content_text": "Awesome to me that this is valid:\n\n```swift\nfunc record(age: Int) { }\nfunc record(year: Int) { }\n```\n\nNaming internal and external parameters separately is interesting too:\n\n```swift\nfunc square(of num: Int) -> Int {\n    return num * num\n}\n\nlet result = square(of: 4)\n```\n\nDay 7 in the books! #100DaysOfSwiftUI\n",
-				"date_published": "2024-09-27T20:46:38-07:00",
+				"date_published": "2024-09-27T19:46:38-08:00",
 				"url": "https://swift.chasen.dev/2024/09/27/awesome-to-me.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -986,7 +994,7 @@
 				
 				"content_html": "<p>Day 6 is all about <code>for</code> and <code>while</code> loops.</p>\n<p>I’ll be excited to learn the <code>.map</code> and <code>.filter</code> equivalents. I rarely use <code>for</code> loops in JS and have only used <code>while</code> a couple times in my career. 🫢</p>\n<p>I wasn’t expecting to do FizzBuzz for the checkpoint test. There’s a first time for everything! #100DaysOfSwiftUI</p>\n",
 				"content_text": "Day 6 is all about `for` and `while` loops.\n\nI’ll be excited to learn the `.map` and `.filter` equivalents. I rarely use `for` loops in JS and have only used `while` a couple times in my career. 🫢\n\nI wasn’t expecting to do FizzBuzz for the checkpoint test. There’s a first time for everything! #100DaysOfSwiftUI\n",
-				"date_published": "2024-09-26T22:09:12-07:00",
+				"date_published": "2024-09-26T21:09:12-08:00",
 				"url": "https://swift.chasen.dev/2024/09/26/day-is-all.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -995,7 +1003,7 @@
 				
 				"content_html": "<p>My comment about no <code>===</code> in Swift was incorrect, thanks Matt!</p>\n<p>I should know that a beginner course isn’t going to immediately explain referential equality, that won’t make sense yet.</p>\n<p><a href=\"https://mastodon.social/@mattiem/113203444245305184\">https://mastodon.social/@mattiem/113203444245305184</a></p>\n",
 				"content_text": "My comment about no `===` in Swift was incorrect, thanks Matt!\n\nI should know that a beginner course isn’t going to immediately explain referential equality, that won’t make sense yet.\n\nhttps://mastodon.social/@mattiem/113203444245305184\n",
-				"date_published": "2024-09-26T21:59:43-07:00",
+				"date_published": "2024-09-26T20:59:43-08:00",
 				"url": "https://swift.chasen.dev/2024/09/26/my-comment-about.html"
 			},
 			{
@@ -1003,7 +1011,7 @@
 				
 				"content_html": "<p>No <code>===</code> in Swift (just <code>==</code>) is nice!</p>\n<p>Enums being comparable is pretty cool too.</p>\n<p>And <code>switch</code> statements… is this the day I confess that I tend not to use them in JavaScript? Swift’s <code>fallthrough</code> syntax seems much safer than JS needing a <code>break</code> for each <code>case</code>.</p>\n<p>Day 5 done! #100DaysOfSwiftUI</p>\n",
 				"content_text": "No `===` in Swift (just `==`) is nice!\n\nEnums being comparable is pretty cool too.\n\nAnd `switch` statements… is this the day I confess that I tend not to use them in JavaScript? Swift’s `fallthrough` syntax seems much safer than JS needing a `break` for each `case`.\n\nDay 5 done! #100DaysOfSwiftUI\n",
-				"date_published": "2024-09-25T19:57:05-07:00",
+				"date_published": "2024-09-25T18:57:05-08:00",
 				"url": "https://swift.chasen.dev/2024/09/25/no-in-swift.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -1012,7 +1020,7 @@
 				
 				"content_html": "<p>This is really interesting:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"display:flex;\"><span><span style=\"color:#66d9ef\">let</span> name: String\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#75715e\">// …</span>\n</span></span><span style=\"display:flex;\"><span>name = <span style=\"color:#e6db74\">&#34;Chasen&#34;</span>\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#75715e\">// Allowed once</span>\n</span></span></code></pre></div><p>In JavaScript, the “equivalent” (using <code>const</code>) <em>requires</em> an initial value and doesn’t let you reassign it later. I like that Swift allows it be undefined and assigned just once.</p>\n<p>Day 4 done! #100DaysOfSwiftUI</p>\n",
 				"content_text": "This is really interesting:\n\n```swift\nlet name: String\n// …\nname = \"Chasen\"\n// Allowed once\n```\n\nIn JavaScript, the “equivalent” (using `const`) _requires_ an initial value and doesn’t let you reassign it later. I like that Swift allows it be undefined and assigned just once.\n\nDay 4 done! #100DaysOfSwiftUI\n",
-				"date_published": "2024-09-24T18:31:20-07:00",
+				"date_published": "2024-09-24T17:31:20-08:00",
 				"url": "https://swift.chasen.dev/2024/09/24/this-is-really.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -1021,7 +1029,7 @@
 				
 				"content_html": "<p>Coming from JS, there are some small differences in array and dictionary syntax. This really stood out to me (as nice and explicit):</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"display:flex;\"><span><span style=\"color:#66d9ef\">let</span> olympics = [\n</span></span><span style=\"display:flex;\"><span>    <span style=\"color:#ae81ff\">2016</span>: <span style=\"color:#e6db74\">&#34;Rio de Janeiro&#34;</span>,\n</span></span><span style=\"display:flex;\"><span>    <span style=\"color:#ae81ff\">2021</span>: <span style=\"color:#e6db74\">&#34;Tokyo&#34;</span>,\n</span></span><span style=\"display:flex;\"><span>    <span style=\"color:#ae81ff\">2024</span>: <span style=\"color:#e6db74\">&#34;Paris&#34;</span>\n</span></span><span style=\"display:flex;\"><span>]\n</span></span><span style=\"display:flex;\"><span>\n</span></span><span style=\"display:flex;\"><span>print(olympics[<span style=\"color:#ae81ff\">2020</span>, <span style=\"color:#66d9ef\">default</span>: <span style=\"color:#e6db74\">&#34;Unknown&#34;</span>])\n</span></span></code></pre></div><p>Day 3 in the books! #100DaysOfSwiftUI</p>\n",
 				"content_text": "Coming from JS, there are some small differences in array and dictionary syntax. This really stood out to me (as nice and explicit):\n\n```swift\nlet olympics = [\n    2016: \"Rio de Janeiro\",\n    2021: \"Tokyo\",\n    2024: \"Paris\"\n]\n\nprint(olympics[2020, default: \"Unknown\"])\n```\n\nDay 3 in the books! #100DaysOfSwiftUI\n",
-				"date_published": "2024-09-23T19:00:39-07:00",
+				"date_published": "2024-09-23T18:00:39-08:00",
 				"url": "https://swift.chasen.dev/2024/09/23/coming-from-js.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -1030,7 +1038,7 @@
 				
 				"content_html": "<p>This has a bug… can you spot it?</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"display:flex;\"><span><span style=\"color:#66d9ef\">let</span> temperature = <span style=\"color:#ae81ff\">29</span>\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#66d9ef\">let</span> converted = (temperature <span style=\"color:#f92672\">*</span> <span style=\"color:#ae81ff\">9</span> <span style=\"color:#f92672\">/</span> <span style=\"color:#ae81ff\">5</span>) <span style=\"color:#f92672\">+</span> <span style=\"color:#ae81ff\">32</span>\n</span></span><span style=\"display:flex;\"><span>print(<span style=\"color:#e6db74\">&#34;Celsius: </span><span style=\"color:#e6db74\">\\(</span>temperature<span style=\"color:#e6db74\">)</span><span style=\"color:#e6db74\">&#34;</span>)\n</span></span><span style=\"display:flex;\"><span>print(<span style=\"color:#e6db74\">&#34;Fahrenheit: </span><span style=\"color:#e6db74\">\\(</span>converted<span style=\"color:#e6db74\">)</span><span style=\"color:#e6db74\">&#34;</span>)\n</span></span></code></pre></div><p>I thought the compiler might warn when losing precision like this, but I guess not!</p>\n<p>Day 2 in the books! #100DaysOfSwiftUI</p>\n",
 				"content_text": "This has a bug… can you spot it?\n\n```swift\nlet temperature = 29\nlet converted = (temperature * 9 / 5) + 32\nprint(\"Celsius: \\(temperature)\")\nprint(\"Fahrenheit: \\(converted)\")\n```\n\nI thought the compiler might warn when losing precision like this, but I guess not!\n\nDay 2 in the books! #100DaysOfSwiftUI\n",
-				"date_published": "2024-09-22T20:32:56-07:00",
+				"date_published": "2024-09-22T19:32:56-08:00",
 				"url": "https://swift.chasen.dev/2024/09/22/this-has-a.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -1039,7 +1047,7 @@
 				
 				"content_html": "<p>The Verge’s article on the iPhone 16 Pro made me realize that the “rich contrast” photographic style is where it’s at on my 15 Pro. <a href=\"https://www.theverge.com/24247538/apple-iphone-16-pro-review\">www.theverge.com/24247538/&hellip;</a></p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
 				"content_text": "The Verge’s article on the iPhone 16 Pro made me realize that the “rich contrast” photographic style is where it’s at on my 15 Pro. [www.theverge.com/24247538/...](https://www.theverge.com/24247538/apple-iphone-16-pro-review)\n\n<img src=\"https://cdn.uploads.micro.blog/177243/2024/image.jpg\" width=\"499\" height=\"600\" alt=\"\"><img src=\"https://cdn.uploads.micro.blog/177243/2024/269a779080.jpg\" width=\"431\" height=\"600\" alt=\"\">\n",
-				"date_published": "2024-09-22T11:34:16-07:00",
+				"date_published": "2024-09-22T10:34:16-08:00",
 				"url": "https://swift.chasen.dev/2024/09/22/the-verges-article.html"
 			},
 			{
@@ -1047,7 +1055,7 @@
 				
 				"content_html": "<p>It feels like some apps (like Passwords) get a lot of love and attention at Apple, while others languish. I wonder if the difference is in management, developer care, director priorities, or something else. <a href=\"https://hachyderm.io/@rmondello/113181667296070884\">hachyderm.io/@rmondell&hellip;</a></p>\n",
 				"content_text": "It feels like some apps (like Passwords) get a lot of love and attention at Apple, while others languish. I wonder if the difference is in management, developer care, director priorities, or something else. [hachyderm.io/@rmondell...](https://hachyderm.io/@rmondello/113181667296070884)\n",
-				"date_published": "2024-09-22T10:31:49-07:00",
+				"date_published": "2024-09-22T09:31:49-08:00",
 				"url": "https://swift.chasen.dev/2024/09/22/it-feels-like.html"
 			},
 			{
@@ -1055,7 +1063,7 @@
 				
 				"content_html": "<p>I’m going to compare Swift to JavaScript <em>a lot</em> as I get up to speed.</p>\n<p>Seems like Swift’s var == let (in JS) and let == const. I’m sure that won’t trip me up…</p>\n<p>Interesting that <code>1_00__00___00____00</code> is valid in Swift (JS only allows one separator per digit, not multiple).</p>\n",
 				"content_text": "I’m going to compare Swift to JavaScript *a lot* as I get up to speed.\n\nSeems like Swift’s var == let (in JS) and let == const. I’m sure that won’t trip me up…\n\nInteresting that `1_00__00___00____00` is valid in Swift (JS only allows one separator per digit, not multiple).\n",
-				"date_published": "2024-09-21T21:30:48-07:00",
+				"date_published": "2024-09-21T20:30:48-08:00",
 				"url": "https://swift.chasen.dev/2024/09/21/im-going-to.html"
 			},
 			{
@@ -1063,7 +1071,7 @@
 				
 				"content_html": "<p>Is it cheating to do Day 1 on the same day as Day 0? 🙈 #100DaysOfSwiftUI</p>\n",
 				"content_text": "Is it cheating to do Day 1 on the same day as Day 0? 🙈 #100DaysOfSwiftUI\n",
-				"date_published": "2024-09-21T21:30:10-07:00",
+				"date_published": "2024-09-21T20:30:10-08:00",
 				"url": "https://swift.chasen.dev/2024/09/21/is-it-cheating.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -1072,7 +1080,7 @@
 				
 				"content_html": "<p>Cute that there’s a Day 0 to kick things off, with this as reading material: <a href=\"https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer\">www.hackingwithswift.com/articles/&hellip;</a></p>\n<p>I’m not trying to get a job as an iOS dev and I have a ton of dev experience; learning SwiftUI is a little hobby for me.</p>\n<p>#100DaysOfSwiftUI</p>\n",
 				"content_text": "Cute that there’s a Day 0 to kick things off, with this as reading material: [www.hackingwithswift.com/articles/...](https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer)\n\nI’m not trying to get a job as an iOS dev and I have a ton of dev experience; learning SwiftUI is a little hobby for me.\n\n#100DaysOfSwiftUI\n",
-				"date_published": "2024-09-21T20:44:31-07:00",
+				"date_published": "2024-09-21T19:44:31-08:00",
 				"url": "https://swift.chasen.dev/2024/09/21/cute-that-theres.html",
 				"tags": ["100 Days of SwiftUI"]
 			},
@@ -1081,7 +1089,7 @@
 				
 				"content_html": "<p>I’m stoked to start my Swift journey by following the 100 Days of Swift UI course: <a href=\"https://www.hackingwithswift.com/100/swiftui\">www.hackingwithswift.com/100/swift&hellip;</a> #100DaysOfSwiftUI</p>\n",
 				"content_text": "I’m stoked to start my Swift journey by following the 100 Days of Swift UI course: [www.hackingwithswift.com/100/swift...](https://www.hackingwithswift.com/100/swiftui) #100DaysOfSwiftUI\n",
-				"date_published": "2024-09-21T20:33:40-07:00",
+				"date_published": "2024-09-21T19:33:40-08:00",
 				"url": "https://swift.chasen.dev/2024/09/21/im-stoked-to.html",
 				"tags": ["100 Days of SwiftUI"]
 			}
